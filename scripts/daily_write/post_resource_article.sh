@@ -73,8 +73,59 @@ while [ $elapsed -lt $WAIT_SECONDS ]; do
 done
 
 if [ ! -f "$RESOURCES_JSON" ] || [ ! -s "$RESOURCES_JSON" ]; then
-  echo "[WARN] resources.json not available after wait, will use placeholder." | tee -a "$LOG_FILE"
-  ARTICLE_CONTENT+="- **资源名称：** 待填充\n- **资源简介：** 这是一段自动生成的文章，你可以替换为真实内容。\n- **获取：** https://example.com\n\n"
+  echo "[WARN] resources.json not available after wait, will try fallback." | tee -a "$LOG_FILE"
+  # fallback path inside repo (you said you placed a backup here)
+  FALLBACK_JSON="$SCRIPT_DIR/fallback_resources.json"
+  if [ -f "$FALLBACK_JSON" ] && [ -s "$FALLBACK_JSON" ]; then
+    echo "[INFO] Using fallback resources from $FALLBACK_JSON" | tee -a "$LOG_FILE"
+    # select 3-5 items from fallback, respecting scp 0-2 rule
+    mapfile -t picks < <(python3 - "$FALLBACK_JSON" <<'PY'
+import json,sys,random
+path=sys.argv[1]
+with open(path,'r',encoding='utf-8') as f:
+    items=json.load(f)
+scp=[i for i in items if ('tags' in i and 'scp' in i.get('tags',[])) or ('scp' in (i.get('source') or ''))]
+other=[i for i in items if i not in scp]
+total=random.randint(3,5)
+scp_count=min(len(scp), random.randint(0,2))
+scp_selected=random.sample(scp, scp_count) if scp_count>0 else []
+other_count=total - len(scp_selected)
+other_selected=random.sample(other, min(other_count, len(other))) if other_count>0 and other else []
+selected = scp_selected + other_selected
+remaining=[i for i in items if i not in selected]
+# write remaining back atomically
+import os,io
+tmp=path+'.tmp'
+with open(tmp,'w',encoding='utf-8') as f:
+    json.dump(remaining,f,ensure_ascii=False,indent=2)
+os.replace(tmp,path)
+for it in selected:
+    title=it.get('title','')
+    desc=it.get('description','')
+    url=it.get('url','')
+    tags=','.join(it.get('tags',[])) if it.get('tags') else ''
+    print('@@'.join([title.replace('@@',' '), desc.replace('@@',' '), url, tags]))
+PY
+)
+    if [ ${#picks[@]} -eq 0 ]; then
+      echo "[WARN] fallback resources.json 没有可用条目，使用占位内容。" | tee -a "$LOG_FILE"
+      ARTICLE_CONTENT+="- **资源名称：** 待填充\n- **资源简介：** 这是一段自动生成的文章，你可以替换为真实内容。\n- **获取：** https://example.com\n\n"
+    else
+      echo "[INFO] 从 fallback 选中 ${#picks[@]} 条资源发布：" | tee -a "$LOG_FILE"
+      for line in "${picks[@]}"; do
+        IFS='@@' read -r title desc url tags <<< "$line"
+        ARTICLE_CONTENT+="- **资源名称：** ${title:-未命名资源}\n"
+        ARTICLE_CONTENT+="  - 简介： ${desc:-无简介}\n"
+        ARTICLE_CONTENT+="  - 获取： ${url:-#}\n\n"
+        if [ -n "$tags" ] && echo "$tags" | grep -q "scp"; then
+          ARTICLE_CONTENT+="  - 标签：SCP 基金会  \n\n"
+        fi
+      done
+    fi
+  else
+    echo "[WARN] no fallback present, using placeholder." | tee -a "$LOG_FILE"
+    ARTICLE_CONTENT+="- **资源名称：** 待填充\n- **资源简介：** 这是一段自动生成的文章，你可以替换为真实内容。\n- **获取：** https://example.com\n\n"
+  fi
 else
   if ! command -v python3 >/dev/null 2>&1; then
     echo "[ERROR] 需要 python3 来选择资源，请安装后重试。" | tee -a "$LOG_FILE"
