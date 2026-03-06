@@ -1,0 +1,69 @@
+name: Daily Fetch & Post Resources
+
+on:
+  schedule:
+    # Runs daily at 08:00 Asia/Shanghai (00:00 UTC)
+    - cron: '0 0 * * *'
+  workflow_dispatch: {}
+
+concurrency:
+  group: daily-post-resource
+  cancel-in-progress: true
+
+jobs:
+  fetch-and-post:
+    runs-on: ubuntu-latest
+    env:
+      # Use repository secret TOKEN_PUBLISH (set this in repo Settings → Secrets)
+      GITHUB_TOKEN: ${{ secrets.TOKEN_PUBLISH }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install system deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests feedparser
+
+      - name: Ensure scripts are executable
+        run: |
+          chmod +x ./scripts/daily_write/helper_fetch.py || true
+          chmod +x ./scripts/daily_write/post_resource_article.sh || true
+
+      - name: Run helper fetch (build resources.json)
+        working-directory: ./scripts/daily_write
+        run: |
+          python helper_fetch.py
+
+      - name: Run poster (publish to GitHub Issues)
+        working-directory: ./scripts/daily_write
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN_PUBLISH }}
+        run: |
+          # IMMEDIATE=1 makes the script skip random wait (useful in CI)
+          export IMMEDIATE=1
+          # FORCE_PUBLISH=1 allows publishing in CI
+          export FORCE_PUBLISH=1
+          ./post_resource_article.sh
+
+      - name: Upload resources.json as artifact (for audit)
+        uses: actions/upload-artifact@v4
+        with:
+          name: resources-json
+          path: ./scripts/daily_write/resources.json
+
+      - name: Upload article_post_log.txt (optional)
+        uses: actions/upload-artifact@v4
+        with:
+          name: article-post-log
+          path: ./scripts/daily_write/article_post_log.txt
