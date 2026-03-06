@@ -59,8 +59,21 @@ fi
 ARTICLE_TITLE="[Update] 今日免费资源推荐 - $current_date"
 ARTICLE_CONTENT="#### 资源推荐\n\n"
 
-# 使用 python 选择 3-5 条资源，scp 项目 0-2 条；选择后从 resources.json 中删除已选条目以避免重复
-if [ ! -f "$RESOURCES_JSON" ]; then
+# 使用 python 选择 3-5 条资源，scp 项目 0-2 条；等待 resources.json 可用（最多 60s）
+WAIT_SECONDS=60
+SLEEPT=5
+elapsed=0
+while [ $elapsed -lt $WAIT_SECONDS ]; do
+  if [ -f "$RESOURCES_JSON" ] && [ -s "$RESOURCES_JSON" ]; then
+    break
+  fi
+  echo "[INFO] waiting for resources.json to be written... ($elapsed/$WAIT_SECONDS)" | tee -a "$LOG_FILE"
+  sleep $SLEEPT
+  elapsed=$((elapsed+SLEEPT))
+done
+
+if [ ! -f "$RESOURCES_JSON" ] || [ ! -s "$RESOURCES_JSON" ]; then
+  echo "[WARN] resources.json not available after wait, will use placeholder." | tee -a "$LOG_FILE"
   ARTICLE_CONTENT+="- **资源名称：** 待填充\n- **资源简介：** 这是一段自动生成的文章，你可以替换为真实内容。\n- **获取：** https://example.com\n\n"
 else
   if ! command -v python3 >/dev/null 2>&1; then

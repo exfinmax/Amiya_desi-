@@ -162,8 +162,16 @@ def main():
     all_items.extend(gh_items)
 
     merged = merge_items(all_items)
-    with open(RESOURCES_PATH, 'w', encoding='utf-8') as f:
+    # Write atomically to avoid race conditions (write temp then rename)
+    tmp_path = RESOURCES_PATH + '.tmp'
+    with open(tmp_path, 'w', encoding='utf-8') as f:
         json.dump(merged, f, ensure_ascii=False, indent=2)
+    try:
+        os.replace(tmp_path, RESOURCES_PATH)
+    except Exception:
+        # fallback to rename
+        os.remove(RESOURCES_PATH) if os.path.exists(RESOURCES_PATH) else None
+        os.rename(tmp_path, RESOURCES_PATH)
     log(f"[DONE] Wrote {len(merged)} items to {RESOURCES_PATH}")
 
 
