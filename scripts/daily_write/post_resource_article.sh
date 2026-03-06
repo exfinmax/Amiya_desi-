@@ -6,17 +6,22 @@ set -euo pipefail
 # 资源文件(可选): /mnt/d/scripts/daily_write/resources.json
 # 日志文件: /mnt/d/scripts/daily_write/article_post_log.txt
 
+# Determine script directory (works in CI and local)
+SCRIPT_DIR="${SCRIPT_DIR:-$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)}"
+LOG_FILE="$SCRIPT_DIR/article_post_log.txt"
+RESOURCES_JSON="$SCRIPT_DIR/resources.json"
+
+# Ensure script directory and log file exist
+mkdir -p "$SCRIPT_DIR"
+: > "$LOG_FILE"
+
 # 支持通过环境变量覆盖锁文件（便于测试）
 LOCKFILE="${LOCKFILE_OVERRIDE:-/tmp/post_resource_article.lock}"
 exec 200>"$LOCKFILE"
 flock -n 200 || {
-  echo "[ERROR] 另一个实例正在运行，退出。" | tee -a "/mnt/d/scripts/daily_write/article_post_log.txt"
+  echo "[ERROR] 另一个实例正在运行，退出。" | tee -a "$LOG_FILE"
   exit 1
 }
-
-SCRIPT_DIR="/mnt/d/scripts/daily_write"
-LOG_FILE="$SCRIPT_DIR/article_post_log.txt"
-RESOURCES_JSON="$SCRIPT_DIR/resources.json"
 
 # 触发时间范围（9:00-18:00）
 random_hour=$(shuf -i 9-18 -n 1)
