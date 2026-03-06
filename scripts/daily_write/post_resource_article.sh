@@ -30,21 +30,21 @@ trigger_time=$(printf "%02d:%02d" "$random_hour" "$random_minute")
 
 current_date=$(date +"%Y-%m-%d")
 
-# 检查当天是否已发布（可通过环境变量 FORCE_PUBLISH=1 强制跳过）
+# 检查当天是否已发布（默认会阻止重复发布；可通过环境变量 FORCE_PUBLISH=1 强制跳过，仅用于测试）
 if [ -z "${FORCE_PUBLISH-}" ]; then
   if [ -f "$LOG_FILE" ] && grep -q "$current_date" "$LOG_FILE"; then
     echo "[INFO] $current_date 已发布，退出。" | tee -a "$LOG_FILE"
     exit 0
   fi
 else
-  echo "[INFO] FORCE_PUBLISH=1，跳过当天已发布检查。" | tee -a "$LOG_FILE"
+  echo "[INFO] TEST MODE: FORCE_PUBLISH=1，跳过当天已发布检查（仅测试模式）。" | tee -a "$LOG_FILE"
 fi
 
 echo "[INFO] 脚本启动：$(date '+%Y-%m-%d %H:%M:%S')，计划触发时间：$trigger_time" | tee -a "$LOG_FILE"
 
-# 等待触发时间（可通过环境变量 IMMEDIATE=1 跳过，用于测试）
+# 等待触发时间（默认按随机时间等待；仅在显式设置 IMMEDIATE=1 时跳过等待，用于手动测试）
 if [ "${IMMEDIATE-0}" = "1" ]; then
-  echo "[INFO] IMMEDIATE=1，跳过等待，立即执行。" | tee -a "$LOG_FILE"
+  echo "[INFO] TEST MODE: IMMEDIATE=1，跳过等待，立即执行。" | tee -a "$LOG_FILE"
 else
   while true; do
     now=$(date +"%H:%M")
