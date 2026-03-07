@@ -47,13 +47,6 @@ jobs:
           # helper_fetch.py writes resources.json in the same dir
           python helper_fetch.py
 
-      - name: Debug: inspect fetched data
-        working-directory: ./scripts/daily_write
-        run: |
-          echo "--- resources.json head ---"
-          head -n 20 resources.json || true
-          echo "--- history log ---"
-          cat posted_urls.txt || true
 
       - name: Run poster (publish to GitHub Issues)
         working-directory: ./scripts/daily_write
