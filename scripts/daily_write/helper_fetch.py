@@ -25,15 +25,20 @@ except Exception:
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 RESOURCES_PATH = os.path.join(SCRIPT_DIR, 'resources.json')
 LOG_PATH = os.path.join(SCRIPT_DIR, 'helper_fetch.log')
+HISTORY_PATH = os.path.join(SCRIPT_DIR, 'posted_urls.txt')
 
+# feeding a wider variety of feeds reduces repetition
 RSS_FEEDS = [
     'https://hnrss.org/frontpage',
     'https://dev.to/feed/tag/ai',
     'https://lobste.rs/rss',
     'https://www.producthunt.com/feed',
-    # Additional sources
+    # Additional technology sources
     'https://techcrunch.com/feed/',
     'https://www.reddit.com/r/technology/.rss',
+    'https://www.reddit.com/r/programming/.rss',
+    'https://www.reddit.com/r/python/.rss',
+    'https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml',
     # SCP Foundation feeds (community stories)
     'https://scp-wiki.wikidot.com/rss',
     'https://www.scp-wiki.net/rss.php',
@@ -41,11 +46,23 @@ RSS_FEEDS = [
     'https://scp-wiki-cn.wikidot.mer.run/most-recently-created',
 ]
 
+# queries broadened to include other popular open source projects
 GITHUB_SEARCH_QUERIES = [
-    # Focus on high-star AI / ML related repos
+    # AI / ML oriented
     'topic:ai stars:>50000',
     'stars:>50000 machine learning',
     'stars:>30000 artificial intelligence',
+    # general high-star projects across languages and domains
+    'stars:>50000',
+    'stars:>50000 topic:javascript',
+    'stars:>50000 topic:web',
+    'stars:>40000 topic:cli',
+    'stars:>40000 topic:devops',
+    'stars:>30000 topic:python',
+    'stars:>30000 topic:go',
+    'stars:>20000 topic:open-source',
+    'stars:>20000 topic:rust',
+    'stars:>15000 data science',
 ]
 
 MAX_RESULTS = 50
@@ -65,6 +82,14 @@ def log(msg):
     with open(LOG_PATH, 'a', encoding='utf-8') as f:
         f.write(f"{ts} {msg}\n")
     print(msg)
+
+
+def load_history():
+    """Return a set of URLs that have already been posted."""
+    if os.path.exists(HISTORY_PATH):
+        with open(HISTORY_PATH, 'r', encoding='utf-8') as f:
+            return {line.strip() for line in f if line.strip()}
+    return set()
 
 
 def hash_url(u):
@@ -156,12 +181,26 @@ def merge_items(list_of_items):
 def main():
     all_items = []
     log('[START] helper_fetch running')
+    history = load_history()
+
     rss_items = fetch_rss()
+    # drop anything that has already been posted
+    rss_items = [i for i in rss_items if i.get('url') not in history]
     all_items.extend(rss_items)
+
     gh_items = fetch_github()
+    gh_items = [i for i in gh_items if i.get('url') not in history]
     all_items.extend(gh_items)
 
     merged = merge_items(all_items)
+    # if we fetched nothing, don't overwrite an existing file – leave
+    # previous results in place so the poster still has something to work
+    # with.  this prevents the workflow from generating a template article
+    # every time the network or APIs are temporarily unavailable.
+    if not merged:
+        log("[WARN] fetched 0 items; keeping existing resources.json if present")
+        if os.path.exists(RESOURCES_PATH) and os.path.getsize(RESOURCES_PATH) > 0:
+            return
     # Write atomically to avoid race conditions (write temp then rename)
     tmp_path = RESOURCES_PATH + '.tmp'
     with open(tmp_path, 'w', encoding='utf-8') as f:
