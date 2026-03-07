@@ -81,14 +81,15 @@ fi
 ARTICLE_CONTENT+="> 更多实用资源，敬请关注！\n\n---\n\nTrigger: 自动构建"
 TAG_LABEL="免费资源"
 
-# prepare GitHub API URL
-if [ -z "${GITHUB_API_URL-}" ]; then
-  if [ -n "${GITHUB_REPOSITORY-}" ]; then
-    GITHUB_API_URL="https://api.github.com/repos/${GITHUB_REPOSITORY}/issues"
-  else
-    GITHUB_API_URL="https://api.github.com/repos/exfinmax/Amiya_desi-/issues"
-  fi
+# determine issue-posting URL (avoid using GITHUB_API_URL which is just the base)
+if [ -n "${GITHUB_REPOSITORY-}" ]; then
+  POST_URL="https://api.github.com/repos/${GITHUB_REPOSITORY}/issues"
+else
+  # fallback hardcoded repo
+  POST_URL="https://api.github.com/repos/exfinmax/Amiya_desi-/issues"
 fi
+
+echo "[DEBUG] POST_URL=$POST_URL" | tee -a "$LOG_FILE"
 
 DRY_RUN=0
 [ "${1-}" = "--dry-run" ] && DRY_RUN=1
@@ -97,12 +98,7 @@ DRY_RUN=0
 if command -v jq >/dev/null 2>&1; then
   payload=$(jq -n --arg t "$ARTICLE_TITLE" --arg b "$ARTICLE_CONTENT" --arg tag "$TAG_LABEL" '{title: $t, body: $b, labels: [$tag, "构建成功", "made by ai"]}')
 elif command -v python3 >/dev/null 2>&1; then
-  payload=$(python3 - <<'PY'
-import json,sys
-obj={'title':sys.argv[1],'body':sys.argv[2],'labels':[sys.argv[3],'构建成功','made by ai']}
-print(json.dumps(obj))
-PY
-  "$ARTICLE_TITLE" "$ARTICLE_CONTENT" "$TAG_LABEL")
+  payload=$(python3 -c "import json,sys; obj={'title':sys.argv[1],'body':sys.argv[2],'labels':[sys.argv[3],'构建成功','made by ai']}; print(json.dumps(obj))" "$ARTICLE_TITLE" "$ARTICLE_CONTENT" "$TAG_LABEL")
 else
   echo "[ERROR] Need jq or python3" | tee -a "$LOG_FILE"
   exit 1
@@ -111,7 +107,7 @@ fi
 printf '%s' "$payload" > "$SCRIPT_DIR/dry_run_payload.json" || true
 
 echo "[DEBUG] GITHUB_REPOSITORY=$GITHUB_REPOSITORY" | tee -a "$LOG_FILE"
-echo "[DEBUG] Will post to: $GITHUB_API_URL" | tee -a "$LOG_FILE"
+echo "[DEBUG] POST_URL=$POST_URL" | tee -a "$LOG_FILE"
 echo "[DEBUG] payload preview:" | tee -a "$LOG_FILE"
 echo "$payload" | head -c 4000 | tee -a "$LOG_FILE"
 
@@ -119,7 +115,7 @@ if [ "$DRY_RUN" -eq 1 ]; then
   echo "[DRY RUN]" | tee -a "$LOG_FILE"
   echo "$current_date - DRYRUN" >> "$LOG_FILE"
 else
-  http_status=$(curl -s -o /tmp/gh_response.txt -w "%{http_code}" -X POST -H "Authorization: token ${GITHUB_TOKEN}" -H "Content-Type: application/json" -d "$payload" "$GITHUB_API_URL" || true)
+  http_status=$(curl -s -o /tmp/gh_response.txt -w "%{http_code}" -X POST -H "Authorization: token ${GITHUB_TOKEN}" -H "Content-Type: application/json" -d "$payload" "$POST_URL" || true)
   if [ -f /tmp/gh_response.txt ]; then
     head -c 4000 /tmp/gh_response.txt >> "$LOG_FILE"
   fi

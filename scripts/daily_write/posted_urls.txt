@@ -14,3 +14,10 @@ https://github.com/josephmisiti/awesome-machine-learning
 https://github.com/trekhleb/javascript-algorithms
 https://github.com/bregman-arie/devops-exercises
 https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools
+https://github.com/tensorflow/tensorflow
+https://github.com/scikit-learn/scikit-learn
+https://github.com/sharkdp/bat
+https://github.com/webpack/webpack
+https://github.com/BurntSushi/ripgrep
+https://github.com/kamranahmedse/developer-roadmap
+https://github.com/AMAI-GmbH/AI-Expert-Roadmap
