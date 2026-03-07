@@ -88,7 +88,7 @@ def pick_items(items: list, history: set) -> (list, list):
 
     total = random.randint(3, 5)
     # determine how many SCP items to include based on probability
-    # 60% → 0, 30% → 1, 10% → 2. 0.001% chance of "easter egg" all-SCP.
+    # 60% → 0, 30% → 1, 10% → 2. ~0.1% chance of "easter egg" all-SCP.
     easter = random.random() < 0.001
     if easter:
         scp_selected = random.sample(scp, min(len(scp), total)) if scp else []

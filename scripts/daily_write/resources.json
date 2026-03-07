@@ -172,15 +172,6 @@
     "score": 30.0
   },
   {
-    "title": "scikit-learn/scikit-learn",
-    "description": "scikit-learn: machine learning in Python",
-    "url": "https://github.com/scikit-learn/scikit-learn",
-    "source": "github:search",
-    "fetched_at": "2026-03-07T07:52:18.632261+00:00",
-    "stars": 65318,
-    "score": 30.0
-  },
-  {
     "title": "AMAI-GmbH/AI-Expert-Roadmap",
     "description": "Roadmap to becoming an Artificial Intelligence Expert in 2022",
     "url": "https://github.com/AMAI-GmbH/AI-Expert-Roadmap",
@@ -289,15 +280,6 @@
     "score": 30.0
   },
   {
-    "title": "twbs/bootstrap",
-    "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
-    "url": "https://github.com/twbs/bootstrap",
-    "source": "github:search",
-    "fetched_at": "2026-03-07T07:52:23.983279+00:00",
-    "stars": 174027,
-    "score": 30.0
-  },
-  {
     "title": "electron/electron",
     "description": ":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS",
     "url": "https://github.com/electron/electron",
@@ -358,15 +340,6 @@
     "source": "github:search",
     "fetched_at": "2026-03-07T07:52:25.869574+00:00",
     "stars": 55039,
-    "score": 30.0
-  },
-  {
-    "title": "ohmyzsh/ohmyzsh",
-    "description": "🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
-    "url": "https://github.com/ohmyzsh/ohmyzsh",
-    "source": "github:search",
-    "fetched_at": "2026-03-07T07:52:27.795437+00:00",
-    "stars": 185156,
     "score": 30.0
   }
 ]
