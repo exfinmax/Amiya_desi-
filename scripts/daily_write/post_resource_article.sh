@@ -1,36 +1,41 @@
 #!/bin/bash
 set -euo pipefail
 
-# 文件位置说明
-# 脚本路径: /mnt/d/scripts/daily_write/post_resource_article.sh
-# 资源文件(可选): /mnt/d/scripts/daily_write/resources.json
-# 日志文件: /mnt/d/scripts/daily_write/article_post_log.txt
+# post_resource_article.sh - improved debug-friendly version
+# Location: scripts/daily_write/post_resource_article.sh
+# - Automatically infers GITHUB_API_URL from GITHUB_REPOSITORY if available
+# - Always writes dry run payload to dry_run_payload.json
+# - Prints debug previews to log (does not print the token)
+# - Ensures lock is released on exit
 
 # Determine script directory (works in CI and local)
-SCRIPT_DIR="${SCRIPT_DIR:-$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)}"
+SCRIPT_DIR="${SCRIPT_DIR:-$(cd "$(dirname "${BASH_SOURCE[0]}") >/dev/null 2>&1 && pwd)}"
 LOG_FILE="$SCRIPT_DIR/article_post_log.txt"
 RESOURCES_JSON="$SCRIPT_DIR/resources.json"
+FALLBACK_JSON="$SCRIPT_DIR/fallback_resources.json"
 
 # Ensure script directory and log file exist
 mkdir -p "$SCRIPT_DIR"
 : > "$LOG_FILE"
 
-# 支持通过环境变量覆盖锁文件（便于测试）
+# Support overriding lockfile (for tests)
 LOCKFILE="${LOCKFILE_OVERRIDE:-/tmp/post_resource_article.lock}"
 exec 200>"$LOCKFILE"
 flock -n 200 || {
   echo "[ERROR] 另一个实例正在运行，退出。" | tee -a "$LOG_FILE"
   exit 1
 }
+# Ensure lock released on any exit
+trap 'flock -u 200' EXIT
 
-# 触发时间范围（9:00-18:00）
+# Trigger window (9:00-18:00) - choose a random minute/hour
 random_hour=$(shuf -i 9-18 -n 1)
 random_minute=$(shuf -i 0-59 -n 1)
 trigger_time=$(printf "%02d:%02d" "$random_hour" "$random_minute")
 
 current_date=$(date +"%Y-%m-%d")
 
-# 检查当天是否已发布（默认会阻止重复发布；可通过环境变量 FORCE_PUBLISH=1 强制跳过，仅用于测试）
+# Skip if already posted today (unless FORCE_PUBLISH=1)
 if [ -z "${FORCE_PUBLISH-}" ]; then
   if [ -f "$LOG_FILE" ] && grep -q "$current_date" "$LOG_FILE"; then
     echo "[INFO] $current_date 已发布，退出。" | tee -a "$LOG_FILE"
@@ -42,7 +47,7 @@ fi
 
 echo "[INFO] 脚本启动：$(date '+%Y-%m-%d %H:%M:%S')，计划触发时间：$trigger_time" | tee -a "$LOG_FILE"
 
-# 等待触发时间（默认按随机时间等待；仅在显式设置 IMMEDIATE=1 时跳过等待，用于手动测试）
+# Wait until trigger time unless IMMEDIATE=1 (for CI/test)
 if [ "${IMMEDIATE-0}" = "1" ]; then
   echo "[INFO] TEST MODE: IMMEDIATE=1，跳过等待，立即执行。" | tee -a "$LOG_FILE"
 else
@@ -55,11 +60,11 @@ else
   done
 fi
 
-# 选择资源并生成文章内容
+# Prepare article skeleton
 ARTICLE_TITLE="[Update] 今日免费资源推荐 - $current_date"
 ARTICLE_CONTENT="#### 资源推荐\n\n"
 
-# 使用 python 选择 3-5 条资源，scp 项目 0-2 条；等待 resources.json 可用（最多 60s）
+# Wait for resources.json (up to WAIT_SECONDS)
 WAIT_SECONDS=60
 SLEEPT=5
 elapsed=0
@@ -74,11 +79,8 @@ done
 
 if [ ! -f "$RESOURCES_JSON" ] || [ ! -s "$RESOURCES_JSON" ]; then
   echo "[WARN] resources.json not available after wait, will try fallback." | tee -a "$LOG_FILE"
-  # fallback path inside repo (you said you placed a backup here)
-  FALLBACK_JSON="$SCRIPT_DIR/fallback_resources.json"
   if [ -f "$FALLBACK_JSON" ] && [ -s "$FALLBACK_JSON" ]; then
     echo "[INFO] Using fallback resources from $FALLBACK_JSON" | tee -a "$LOG_FILE"
-    # select 3-5 items from fallback, respecting scp 0-2 rule
     mapfile -t picks < <(python3 - "$FALLBACK_JSON" <<'PY'
 import json,sys,random
 path=sys.argv[1]
@@ -94,7 +96,7 @@ other_selected=random.sample(other, min(other_count, len(other))) if other_count
 selected = scp_selected + other_selected
 remaining=[i for i in items if i not in selected]
 # write remaining back atomically
-import os,io
+import os
 tmp=path+'.tmp'
 with open(tmp,'w',encoding='utf-8') as f:
     json.dump(remaining,f,ensure_ascii=False,indent=2)
@@ -115,10 +117,10 @@ PY
       for line in "${picks[@]}"; do
         IFS='@@' read -r title desc url tags <<< "$line"
         ARTICLE_CONTENT+="- **资源名称：** ${title:-未命名资源}\n"
-        ARTICLE_CONTENT+="  - 简介： ${desc:-无简介}\n"
-        ARTICLE_CONTENT+="  - 获取： ${url:-#}\n\n"
+        ARTICLE_CONTENT+=" - 简介： ${desc:-无简介}\n"
+        ARTICLE_CONTENT+=" - 获取： ${url:-#}\n\n"
         if [ -n "$tags" ] && echo "$tags" | grep -q "scp"; then
-          ARTICLE_CONTENT+="  - 标签：SCP 基金会  \n\n"
+          ARTICLE_CONTENT+=" - 标签：SCP 基金会 \n\n"
         fi
       done
     fi
@@ -167,10 +169,10 @@ PY
     for line in "${picks[@]}"; do
       IFS='@@' read -r title desc url tags <<< "$line"
       ARTICLE_CONTENT+="- **资源名称：** ${title:-未命名资源}\n"
-      ARTICLE_CONTENT+="  - 简介： ${desc:-无简介}\n"
-      ARTICLE_CONTENT+="  - 获取： ${url:-#}\n\n"
+      ARTICLE_CONTENT+=" - 简介： ${desc:-无简介}\n"
+      ARTICLE_CONTENT+=" - 获取： ${url:-#}\n\n"
       if [ -n "$tags" ] && echo "$tags" | grep -q "scp"; then
-        ARTICLE_CONTENT+="  - 标签：SCP 基金会  \n\n"
+        ARTICLE_CONTENT+=" - 标签：SCP 基金会 \n\n"
       fi
     done
   fi
@@ -179,25 +181,29 @@ fi
 ARTICLE_CONTENT+="> 更多实用资源，敬请关注！\n\n---\n\nTrigger: 自动构建"
 TAG_LABEL="免费资源"
 
-# 准备提交到 GitHub Issues
-GITHUB_API_URL="https://api.github.com/repos/exfinmax/Amiya_desi-/issues"
-if [ -z "${GITHUB_TOKEN-}" ]; then
-  echo "[ERROR] 环境变量 GITHUB_TOKEN 未设置，无法提交。" | tee -a "$LOG_FILE"
-  exit 1
+# Prepare GitHub Issues API URL
+# Prefer CI-provided GITHUB_REPOSITORY (owner/repo)
+: "${GITHUB_REPOSITORY:=${GITHUB_REPOSITORY:-}}"
+if [ -z "${GITHUB_API_URL-}" ]; then
+  if [ -n "$GITHUB_REPOSITORY" ]; then
+    GITHUB_API_URL="https://api.github.com/repos/${GITHUB_REPOSITORY}/issues"
+  else
+    # fallback to the original hardcoded value (keeps backwards compatibility)
+    GITHUB_API_URL="https://api.github.com/repos/exfinmax/Amiya_desi-/issues"
+  fi
 fi
 
-# 处理 dry-run 参数（或环境变量 DRY_RUN=1）
+# Process DRY_RUN flag (or --dry-run arg)
 if [ "${1-}" = "--dry-run" ]; then
   DRY_RUN=1
 else
   DRY_RUN=${DRY_RUN-0}
 fi
 
-# 执行提交
+# Build payload (jq preferred, else python fallback)
 if command -v jq >/dev/null 2>&1; then
   payload=$(jq -n --arg t "$ARTICLE_TITLE" --arg b "$ARTICLE_CONTENT" --argjson labels "[\"$TAG_LABEL\", \"构建成功\", \"made by ai\"]" '{title: $t, body: $b, labels: $labels}')
 else
-  # fallback to python to build JSON payload
   if command -v python3 >/dev/null 2>&1; then
     payload=$(python3 - <<PY
 import json,sys
@@ -211,33 +217,36 @@ PY
   fi
 fi
 
+# Always write a dry-run payload file for debugging/CI artifact
+echo "$payload" > "$SCRIPT_DIR/dry_run_payload.json" || true
+
+# Debug preview (safe: do not print token)
+echo "[DEBUG] Will post to: $GITHUB_API_URL" | tee -a "$LOG_FILE"
+echo "[DEBUG] DRY_RUN=${DRY_RUN}" | tee -a "$LOG_FILE"
+echo "[DEBUG] Payload preview (first 4000 chars):" | tee -a "$LOG_FILE"
+echo "$payload" | head -c 4000 | sed 's/'"$GITHUB_TOKEN"'/[REDACTED]/g' | tee -a "$LOG_FILE"
+
 if [ "$DRY_RUN" -eq 1 ] 2>/dev/null; then
-  echo "[DRY RUN] Payload to be submitted:" | tee -a "$LOG_FILE"
-  if command -v jq >/dev/null 2>&1; then
-    echo "$payload" | jq . | tee "$SCRIPT_DIR/dry_run_payload.json" | tee -a "$LOG_FILE"
-  else
-    # fallback: write raw payload
-    echo "$payload" > "$SCRIPT_DIR/dry_run_payload.json"
-    echo "[WARN] jq 未安装，已将原始 payload 写入 $SCRIPT_DIR/dry_run_payload.json" | tee -a "$LOG_FILE"
-  fi
-  echo "[DRY RUN] Skipping actual GitHub API call." | tee -a "$LOG_FILE"
+  echo "[DRY RUN] Payload written to: $SCRIPT_DIR/dry_run_payload.json" | tee -a "$LOG_FILE"
   echo "$current_date - DRYRUN" >> "$LOG_FILE"
 else
   echo "[INFO] 正在提交到 GitHub..." | tee -a "$LOG_FILE"
-  http_status=$(curl -s -o /tmp/gh_response.txt -w "%{http_code}" -X POST -H "Authorization: token ${GITHUB_TOKEN}" -H "Content-Type: application/json" -d "$payload" "$GITHUB_API_URL")
+  http_status=$(curl -s -o /tmp/gh_response.txt -w "%{http_code}" -X POST -H "Authorization: token ${GITHUB_TOKEN}" -H "Content-Type: application/json" -d "$payload" "$GITHUB_API_URL" || true)
 
-  if [ "$http_status" -ge 200 ] && [ "$http_status" -lt 300 ]; then
+  if [ -f /tmp/gh_response.txt ]; then
+    echo "Response body (first 4000 chars):" >> "$LOG_FILE"
+    head -c 4000 /tmp/gh_response.txt >> "$LOG_FILE"
+  fi
+
+  if [ -n "$http_status" ] && [ "$http_status" -ge 200 ] && [ "$http_status" -lt 300 ]; then
     echo "[INFO] 提交成功，HTTP $http_status" | tee -a "$LOG_FILE"
     echo "$current_date - SUCCESS - HTTP $http_status" >> "$LOG_FILE"
   else
-    echo "[ERROR] 提交失败，HTTP $http_status" | tee -a "$LOG_FILE"
-    echo "$current_date - FAIL - HTTP $http_status" >> "$LOG_FILE"
-    echo "Response:" >> "$LOG_FILE"
-    cat /tmp/gh_response.txt >> "$LOG_FILE"
+    echo "[ERROR] 提交失败，HTTP ${http_status:-unknown}" | tee -a "$LOG_FILE"
+    echo "$current_date - FAIL - HTTP ${http_status:-unknown}" >> "$LOG_FILE"
     exit 1
   fi
 fi
 
-# 释放锁并退出
-flock -u 200
+echo "[INFO] 完成。" | tee -a "$LOG_FILE"
 exit 0
