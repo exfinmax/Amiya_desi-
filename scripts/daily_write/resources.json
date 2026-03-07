@@ -64,24 +64,6 @@
     "score": 30.0
   },
   {
-    "title": "Significant-Gravitas/AutoGPT",
-    "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-    "url": "https://github.com/Significant-Gravitas/AutoGPT",
-    "source": "github:search",
-    "fetched_at": "2026-03-07T07:52:16.830419+00:00",
-    "stars": 182233,
-    "score": 30.0
-  },
-  {
-    "title": "n8n-io/n8n",
-    "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-    "url": "https://github.com/n8n-io/n8n",
-    "source": "github:search",
-    "fetched_at": "2026-03-07T07:52:16.830430+00:00",
-    "stars": 177955,
-    "score": 30.0
-  },
-  {
     "title": "f/prompts.chat",
     "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
     "url": "https://github.com/f/prompts.chat",
@@ -142,24 +124,6 @@
     "source": "github:search",
     "fetched_at": "2026-03-07T07:52:20.295862+00:00",
     "stars": 30778,
-    "score": 30.0
-  },
-  {
-    "title": "codecrafters-io/build-your-own-x",
-    "description": "Master programming by recreating your favorite technologies from scratch.",
-    "url": "https://github.com/codecrafters-io/build-your-own-x",
-    "source": "github:search",
-    "fetched_at": "2026-03-07T07:52:22.097201+00:00",
-    "stars": 472999,
-    "score": 30.0
-  },
-  {
-    "title": "sindresorhus/awesome",
-    "description": "😎 Awesome lists about all kinds of interesting topics",
-    "url": "https://github.com/sindresorhus/awesome",
-    "source": "github:search",
-    "fetched_at": "2026-03-07T07:52:22.097226+00:00",
-    "stars": 443234,
     "score": 30.0
   },
   {

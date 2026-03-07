@@ -151,9 +151,12 @@ def main():
     for it in selected:
         title = it.get('title', '')
         desc = translate_to_zh(it.get('description', ''))
+        # sanitize stray newline characters and @@ markers
+        title = title.replace('\n', ' ').replace('@@', ' ').strip()
+        desc = desc.replace('\n', ' ').replace('@@', ' ').strip()
         url = it.get('url', '')
         tags = ','.join(it.get('tags', [])) if it.get('tags') else ''
-        print('@@'.join([title.replace('@@', ' '), desc.replace('@@', ' '), url, tags]))
+        print('@@'.join([title, desc, url, tags]))
         urls_used.append(url)
 
     append_history(history_path, urls_used)
