@@ -60,8 +60,26 @@ HISTORY_FILE="$SCRIPT_DIR/posted_urls.txt"
 
 # select resources
 PICK_TEMP=$(mktemp)
-if command -v python3 >/dev/null 2>&1; then
-  python3 "$SCRIPT_DIR/select_resources.py" "$RESOURCES_JSON" "$HISTORY_FILE" "$FALLBACK_JSON" > "$PICK_TEMP" 2>/dev/null || true
+# TEST_PICKS=1 will use embedded test picks (owner/repo and SCP examples)
+if [ "${TEST_PICKS-0}" = "1" ]; then
+  # each line: title@@desc@@url@@tags
+  test_picks=(
+    "facebook/react@@无简介@@https://github.com/facebook/react@@"
+    "trekhleb/javascript-algorithms@@无简介@@https://github.com/trekhleb/javascript-algorithms@@"
+    "microsoft/generative-ai-for-beginners@@无简介@@https://github.com/microsoft/generative-ai-for-beginners@@"
+    "angular/angular@@无简介@@https://github.com/angular/angular@@"
+    "SCP-134 - SCP Foundation@@无简介@@@@scp"
+  )
+  for p in "${test_picks[@]}"; do
+    printf '%s\n' "$p"
+  done > "$PICK_TEMP"
+else
+  # prefer python3, but fall back to python on Windows where python3 may not exist
+  if command -v python3 >/dev/null 2>&1; then
+    python3 "$SCRIPT_DIR/select_resources.py" "$RESOURCES_JSON" "$HISTORY_FILE" "$FALLBACK_JSON" > "$PICK_TEMP" 2>/dev/null || true
+  elif command -v python >/dev/null 2>&1; then
+    python "$SCRIPT_DIR/select_resources.py" "$RESOURCES_JSON" "$HISTORY_FILE" "$FALLBACK_JSON" > "$PICK_TEMP" 2>/dev/null || true
+  fi
 fi
 mapfile -t picks < "$PICK_TEMP" || picks=()
 rm -f "$PICK_TEMP"
@@ -97,9 +115,21 @@ else
   if [ $easter_flag -eq 0 ]; then
     for entry in "${normal[@]}"; do
       IFS='@@' read -r title desc url tags <<< "$entry"
+      # determine link: prefer provided url; if missing, try to construct from title
+      link="${url:-}"
+      if [ -z "$link" ] || [ "$link" = "#" ]; then
+        if [[ "$title" == *"/"* ]]; then
+          # likely GitHub repo owner/repo
+          link="https://github.com/${title}"
+        elif [[ "$title" == SCP* ]]; then
+          # SCP title like "SCP-123 ..." → construct SCP wiki link
+          scp_id=$(echo "$title" | awk '{print $1}' | tr '[:upper:]' '[:lower:]')
+          link="https://scp-wiki.wikidot.com/${scp_id}"
+        fi
+      fi
       ARTICLE_CONTENT+=$"<br>- **资源名称：** ${title:-SCP}<br>"
       ARTICLE_CONTENT+=$"<br>  - 简介： ${desc:-无简介}<br>"
-      ARTICLE_CONTENT+=$"<br>  - 获取： <a href=\"${url:-#}\">${url:-#}</a><br><br>"
+      ARTICLE_CONTENT+=$"<br>  - 获取： <a href=\"${link:-#}\">${link:-#}</a><br><br>"
     done
   fi
   # output scp items with heading (or in easter section)
@@ -109,9 +139,15 @@ else
     fi
     for entry in "${scp[@]}"; do
       IFS='@@' read -r title desc url tags <<< "$entry"
+      # for SCP items prefer given URL, else construct scp-wiki link
+      link="${url:-}"
+      if [ -z "$link" ] || [ "$link" = "#" ]; then
+        scp_id=$(echo "$title" | awk '{print $1}' | tr '[:upper:]' '[:lower:]')
+        link="https://scp-wiki.wikidot.com/${scp_id}"
+      fi
       ARTICLE_CONTENT+=$"<br>- **资源名称：** ${title:-SCP}<br>"
       ARTICLE_CONTENT+=$"<br>  - 简介： ${desc:-无简介}<br>"
-      ARTICLE_CONTENT+=$"<br>  - 获取： <a href=\"${url:-#}\">${url:-#}</a><br><br>"
+      ARTICLE_CONTENT+=$"<br>  - 获取： <a href=\"${link:-#}\">${link:-#}</a><br><br>"
     done
   fi
 fi

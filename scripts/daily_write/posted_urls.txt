@@ -1,4 +1,2 @@
-https://github.com/codecrafters-io/build-your-own-x
 https://github.com/n8n-io/n8n
 https://github.com/Significant-Gravitas/AutoGPT
-https://github.com/sindresorhus/awesome

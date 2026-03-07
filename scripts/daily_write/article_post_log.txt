@@ -1,1 +1,5 @@
-[ERROR] Lock exists, exiting.
+[INFO] Started at Sat Mar  7 05:37:55 PM CST 2026, trigger time 10:10
+[INFO] IMMEDIATE mode, skipping wait
+[DRY RUN]
+2026-03-07 - DRYRUN
+[INFO] done

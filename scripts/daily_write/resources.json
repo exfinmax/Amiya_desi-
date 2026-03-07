@@ -51,30 +51,12 @@
     "score": 30.0
   },
   {
-    "title": "AMAI-GmbH/AI-Expert-Roadmap",
-    "description": "Roadmap to becoming an Artificial Intelligence Expert in 2022",
-    "url": "https://github.com/AMAI-GmbH/AI-Expert-Roadmap",
-    "source": "github:search",
-    "fetched_at": "2026-03-07T07:52:20.295862+00:00",
-    "stars": 30778,
-    "score": 30.0
-  },
-  {
     "title": "freeCodeCamp/freeCodeCamp",
     "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
     "url": "https://github.com/freeCodeCamp/freeCodeCamp",
     "source": "github:search",
     "fetched_at": "2026-03-07T07:52:22.097232+00:00",
     "stars": 437855,
-    "score": 30.0
-  },
-  {
-    "title": "jwasham/coding-interview-university",
-    "description": "A complete computer science study plan to become a software engineer.",
-    "url": "https://github.com/jwasham/coding-interview-university",
-    "source": "github:search",
-    "fetched_at": "2026-03-07T07:52:22.097250+00:00",
-    "stars": 337642,
     "score": 30.0
   },
   {
@@ -102,15 +84,6 @@
     "source": "github:search",
     "fetched_at": "2026-03-07T07:52:25.869557+00:00",
     "stars": 95964,
-    "score": 30.0
-  },
-  {
-    "title": "django/django",
-    "description": "The Web framework for perfectionists with deadlines.",
-    "url": "https://github.com/django/django",
-    "source": "github:search",
-    "fetched_at": "2026-03-07T07:52:25.869564+00:00",
-    "stars": 86995,
     "score": 30.0
   },
   {
