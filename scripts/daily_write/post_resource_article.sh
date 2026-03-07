@@ -42,7 +42,8 @@ else
 fi
 
 ARTICLE_TITLE="[Update] 今日免费资源推荐 - $current_date"
-ARTICLE_CONTENT="#### 资源推荐\n\n"
+# start with actual newlines via $'...'
+ARTICLE_CONTENT=$'#### 资源推荐\n\n'
 
 # wait for resources.json
 WAIT_SECONDS=60
@@ -66,15 +67,15 @@ mapfile -t picks < "$PICK_TEMP" || picks=()
 rm -f "$PICK_TEMP"
 
 if [ ${#picks[@]} -eq 0 ]; then
-  ARTICLE_CONTENT+="- **资源名称：** 待填充\n- **资源简介：** 占位内容\n- **获取：** https://example.com\n\n"
+  ARTICLE_CONTENT+=$'- **资源名称：** 待填充\n  - **资源简介：** 占位内容\n  - **获取：** https://example.com\n\n'
 else
   for line in "${picks[@]}"; do
     IFS='@@' read -r title desc url tags <<< "$line"
-    ARTICLE_CONTENT+="- **资源名称：** ${title:-未命名资源}\n"
-    ARTICLE_CONTENT+=" - 简介： ${desc:-无简介}\n"
-    ARTICLE_CONTENT+=" - 获取： ${url:-#}\n\n"
+    ARTICLE_CONTENT+=$"- **资源名称：** ${title:-未命名资源}\n"
+    ARTICLE_CONTENT+=$"  - 简介： ${desc:-无简介}\n"
+    ARTICLE_CONTENT+=$"  - 获取： ${url:-#}\n\n"
     if echo "$tags" | grep -q "scp"; then
-      ARTICLE_CONTENT+=" - 标签：SCP 基金会\n\n"
+      ARTICLE_CONTENT+=$"  - 标签：SCP 基金会\n\n"
     fi
   done
 fi
