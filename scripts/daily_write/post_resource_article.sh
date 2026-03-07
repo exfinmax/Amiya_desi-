@@ -110,6 +110,8 @@ fi
 
 printf '%s' "$payload" > "$SCRIPT_DIR/dry_run_payload.json" || true
 
+echo "[DEBUG] GITHUB_REPOSITORY=$GITHUB_REPOSITORY" | tee -a "$LOG_FILE"
+echo "[DEBUG] Will post to: $GITHUB_API_URL" | tee -a "$LOG_FILE"
 echo "[DEBUG] payload preview:" | tee -a "$LOG_FILE"
 echo "$payload" | head -c 4000 | tee -a "$LOG_FILE"
 

@@ -52,6 +52,8 @@ jobs:
         working-directory: ./scripts/daily_write
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN_PUBLISH }}
+          # ensure repo context is passed in case script falls back
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           # IMMEDIATE=1 makes the script skip random wait (useful in CI)
           export IMMEDIATE=1
