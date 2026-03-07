@@ -148,3 +148,134 @@
 2026-03-07T14:47:13.716422 [GITHUB] Query 'stars:>20000 topic:rust' fetched 10 items
 2026-03-07T14:47:15.389121 [GITHUB] Query 'stars:>15000 data science' fetched 8 items
 2026-03-07T14:47:16.395112 [DONE] Wrote 50 items to d:\scripts\daily_write\Amiya_desi-\scripts\daily_write\resources.json
+2026-03-07T15:26:46.482800 [START] helper_fetch running
+2026-03-07T15:26:47.666775 [RSS] Fetched 20 from https://hnrss.org/frontpage
+2026-03-07T15:26:48.314702 [RSS] Fetched 12 from https://dev.to/feed/tag/ai
+2026-03-07T15:26:49.127570 [RSS] Fetched 20 from https://lobste.rs/rss
+2026-03-07T15:26:49.496660 [RSS] Fetched 20 from https://www.producthunt.com/feed
+2026-03-07T15:26:49.756963 [RSS] Fetched 20 from https://techcrunch.com/feed/
+2026-03-07T15:26:49.985681 [RSS] Fetched 0 from https://www.reddit.com/r/technology/.rss
+2026-03-07T15:26:50.207332 [RSS] Fetched 0 from https://www.reddit.com/r/programming/.rss
+2026-03-07T15:26:50.462233 [RSS] Fetched 0 from https://www.reddit.com/r/python/.rss
+2026-03-07T15:26:50.717492 [RSS] Fetched 20 from https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
+2026-03-07T15:26:51.569175 [RSS] Fetched 0 from https://scp-wiki.wikidot.com/rss
+2026-03-07T15:26:52.099025 [RSS] Fetched 0 from https://www.scp-wiki.net/rss.php
+2026-03-07T15:26:53.974068 [RSS] Fetched 0 from https://scp-wiki-cn.wikidot.mer.run/most-recently-created
+2026-03-07T15:26:54.206320 [RSS] Fetched 0 from https://www.reddit.com/r/SCP/.rss
+2026-03-07T15:26:54.438225 [RSS] Fetched 0 from https://www.reddit.com/r/SCPChinese/.rss
+2026-03-07T15:26:55.917144 [RSS] Fetched 0 from https://scp-jp.wikidot.com/rss
+2026-03-07T15:26:56.749091 [RSS] Fetched 0 from https://scp-wiki-cn.wikidot.com/rss
+2026-03-07T15:26:57.083423 [RSS] Fetched 0 from https://scp.eldritch-horror.com/rss
+2026-03-07T15:26:58.214198 [GITHUB] Query 'topic:ai stars:>50000' fetched 10 items
+2026-03-07T15:26:59.989345 [GITHUB] Query 'stars:>50000 machine learning' fetched 6 items
+2026-03-07T15:27:01.628073 [GITHUB] Query 'stars:>30000 artificial intelligence' fetched 1 items
+2026-03-07T15:27:03.471369 [GITHUB] Query 'stars:>50000' fetched 10 items
+2026-03-07T15:27:05.317098 [GITHUB] Query 'stars:>50000 topic:javascript' fetched 10 items
+2026-03-07T15:27:07.166287 [GITHUB] Query 'stars:>50000 topic:web' fetched 10 items
+2026-03-07T15:27:09.023379 [GITHUB] Query 'stars:>40000 topic:cli' fetched 10 items
+2026-03-07T15:27:10.850184 [GITHUB] Query 'stars:>40000 topic:devops' fetched 8 items
+2026-03-07T15:27:12.611568 [GITHUB] Query 'stars:>30000 topic:python' fetched 10 items
+2026-03-07T15:27:14.506974 [GITHUB] Query 'stars:>30000 topic:go' fetched 10 items
+2026-03-07T15:27:16.380164 [GITHUB] Query 'stars:>20000 topic:open-source' fetched 10 items
+2026-03-07T15:27:18.288277 [GITHUB] Query 'stars:>20000 topic:rust' fetched 10 items
+2026-03-07T15:27:20.147699 [GITHUB] Query 'stars:>15000 data science' fetched 8 items
+2026-03-07T15:27:21.152858 [DONE] Wrote 50 items to D:\scripts\daily_write\Amiya_desi-\scripts\daily_write\resources.json
+2026-03-07T15:30:41.472261 [START] helper_fetch running
+2026-03-07T15:30:42.700313 [RSS] Fetched 20 from https://hnrss.org/frontpage
+2026-03-07T15:30:43.172520 [RSS] Fetched 12 from https://dev.to/feed/tag/ai
+2026-03-07T15:30:44.018798 [RSS] Fetched 20 from https://lobste.rs/rss
+2026-03-07T15:30:44.401880 [RSS] Fetched 20 from https://www.producthunt.com/feed
+2026-03-07T15:30:44.654914 [RSS] Fetched 20 from https://techcrunch.com/feed/
+2026-03-07T15:30:44.897896 [RSS] Fetched 0 from https://www.reddit.com/r/technology/.rss
+2026-03-07T15:30:45.119351 [RSS] Fetched 0 from https://www.reddit.com/r/programming/.rss
+2026-03-07T15:30:45.348741 [RSS] Fetched 0 from https://www.reddit.com/r/python/.rss
+2026-03-07T15:30:45.588607 [RSS] Fetched 20 from https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
+2026-03-07T15:30:46.375955 [RSS] Fetched 0 from https://scp-wiki.wikidot.com/rss
+2026-03-07T15:30:46.846702 [RSS] Fetched 0 from https://www.scp-wiki.net/rss.php
+2026-03-07T15:30:48.215819 [RSS] Fetched 0 from https://scp-wiki-cn.wikidot.mer.run/most-recently-created
+2026-03-07T15:30:48.439880 [RSS] Fetched 0 from https://www.reddit.com/r/SCP/.rss
+2026-03-07T15:30:48.657956 [RSS] Fetched 0 from https://www.reddit.com/r/SCPChinese/.rss
+2026-03-07T15:30:49.891864 [RSS] Fetched 0 from https://scp-jp.wikidot.com/rss
+2026-03-07T15:30:50.655683 [RSS] Fetched 0 from https://scp-wiki-cn.wikidot.com/rss
+2026-03-07T15:30:50.813453 [RSS] Fetched 0 from https://scp.eldritch-horror.com/rss
+2026-03-07T15:30:56.176636 [SCP] gathered 5 articles
+2026-03-07T15:30:57.025901 [GITHUB] Query 'topic:ai stars:>50000' fetched 10 items
+2026-03-07T15:30:58.863670 [GITHUB] Query 'stars:>50000 machine learning' fetched 6 items
+2026-03-07T15:31:00.519156 [GITHUB] Query 'stars:>30000 artificial intelligence' fetched 1 items
+2026-03-07T15:31:02.292591 [GITHUB] Query 'stars:>50000' fetched 10 items
+2026-03-07T15:31:04.070980 [GITHUB] Query 'stars:>50000 topic:javascript' fetched 10 items
+2026-03-07T15:31:06.032942 [GITHUB] Query 'stars:>50000 topic:web' fetched 10 items
+2026-03-07T15:31:07.887885 [GITHUB] Query 'stars:>40000 topic:cli' fetched 10 items
+2026-03-07T15:31:09.649753 [GITHUB] Query 'stars:>40000 topic:devops' fetched 8 items
+2026-03-07T15:31:11.430331 [GITHUB] Query 'stars:>30000 topic:python' fetched 10 items
+2026-03-07T15:31:13.289906 [GITHUB] Query 'stars:>30000 topic:go' fetched 10 items
+2026-03-07T15:31:15.088392 [GITHUB] Query 'stars:>20000 topic:open-source' fetched 10 items
+2026-03-07T15:31:16.884944 [GITHUB] Query 'stars:>20000 topic:rust' fetched 10 items
+2026-03-07T15:31:18.682632 [GITHUB] Query 'stars:>15000 data science' fetched 8 items
+2026-03-07T15:31:19.689643 [DONE] Wrote 50 items to D:\scripts\daily_write\Amiya_desi-\scripts\daily_write\resources.json
+2026-03-07T15:32:43.938545 [START] helper_fetch running
+2026-03-07T15:32:45.115806 [RSS] Fetched 20 from https://hnrss.org/frontpage
+2026-03-07T15:32:45.580831 [RSS] Fetched 12 from https://dev.to/feed/tag/ai
+2026-03-07T15:32:46.355377 [RSS] Fetched 20 from https://lobste.rs/rss
+2026-03-07T15:32:46.716134 [RSS] Fetched 20 from https://www.producthunt.com/feed
+2026-03-07T15:32:46.978968 [RSS] Fetched 20 from https://techcrunch.com/feed/
+2026-03-07T15:32:47.192870 [RSS] Fetched 0 from https://www.reddit.com/r/technology/.rss
+2026-03-07T15:32:47.427502 [RSS] Fetched 0 from https://www.reddit.com/r/programming/.rss
+2026-03-07T15:32:47.663588 [RSS] Fetched 0 from https://www.reddit.com/r/python/.rss
+2026-03-07T15:32:47.919942 [RSS] Fetched 20 from https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
+2026-03-07T15:32:48.656662 [RSS] Fetched 0 from https://scp-wiki.wikidot.com/rss
+2026-03-07T15:32:49.142569 [RSS] Fetched 0 from https://www.scp-wiki.net/rss.php
+2026-03-07T15:32:50.540482 [RSS] Fetched 0 from https://scp-wiki-cn.wikidot.mer.run/most-recently-created
+2026-03-07T15:32:50.765432 [RSS] Fetched 0 from https://www.reddit.com/r/SCP/.rss
+2026-03-07T15:32:51.000429 [RSS] Fetched 0 from https://www.reddit.com/r/SCPChinese/.rss
+2026-03-07T15:32:52.225433 [RSS] Fetched 0 from https://scp-jp.wikidot.com/rss
+2026-03-07T15:32:53.041565 [RSS] Fetched 0 from https://scp-wiki-cn.wikidot.com/rss
+2026-03-07T15:32:53.196457 [RSS] Fetched 0 from https://scp.eldritch-horror.com/rss
+2026-03-07T15:32:58.512699 [SCP] gathered 5 articles
+2026-03-07T15:32:59.418046 [GITHUB] Query 'topic:ai stars:>50000' fetched 10 items
+2026-03-07T15:33:01.172176 [GITHUB] Query 'stars:>50000 machine learning' fetched 6 items
+2026-03-07T15:33:02.821948 [GITHUB] Query 'stars:>30000 artificial intelligence' fetched 1 items
+2026-03-07T15:33:04.778547 [GITHUB] Query 'stars:>50000' fetched 10 items
+2026-03-07T15:33:06.615405 [GITHUB] Query 'stars:>50000 topic:javascript' fetched 10 items
+2026-03-07T15:33:08.469216 [GITHUB] Query 'stars:>50000 topic:web' fetched 10 items
+2026-03-07T15:33:10.250870 [GITHUB] Query 'stars:>40000 topic:cli' fetched 10 items
+2026-03-07T15:33:12.094688 [GITHUB] Query 'stars:>40000 topic:devops' fetched 8 items
+2026-03-07T15:33:14.112569 [GITHUB] Query 'stars:>30000 topic:python' fetched 10 items
+2026-03-07T15:33:15.923176 [GITHUB] Query 'stars:>30000 topic:go' fetched 10 items
+2026-03-07T15:33:17.743668 [GITHUB] Query 'stars:>20000 topic:open-source' fetched 10 items
+2026-03-07T15:33:19.680454 [GITHUB] Query 'stars:>20000 topic:rust' fetched 10 items
+2026-03-07T15:33:21.446657 [GITHUB] Query 'stars:>15000 data science' fetched 8 items
+2026-03-07T15:33:22.451268 [DONE] Wrote 50 items to D:\scripts\daily_write\Amiya_desi-\scripts\daily_write\resources.json
+2026-03-07T15:51:59.694862 [START] helper_fetch running
+2026-03-07T15:52:00.940028 [RSS] Fetched 20 from https://hnrss.org/frontpage
+2026-03-07T15:52:01.783651 [RSS] Fetched 12 from https://dev.to/feed/tag/ai
+2026-03-07T15:52:02.867397 [RSS] Fetched 20 from https://lobste.rs/rss
+2026-03-07T15:52:03.242795 [RSS] Fetched 20 from https://www.producthunt.com/feed
+2026-03-07T15:52:03.505597 [RSS] Fetched 20 from https://techcrunch.com/feed/
+2026-03-07T15:52:03.761098 [RSS] Fetched 0 from https://www.reddit.com/r/technology/.rss
+2026-03-07T15:52:03.992538 [RSS] Fetched 0 from https://www.reddit.com/r/programming/.rss
+2026-03-07T15:52:04.249458 [RSS] Fetched 0 from https://www.reddit.com/r/python/.rss
+2026-03-07T15:52:04.525198 [RSS] Fetched 20 from https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
+2026-03-07T15:52:05.404962 [RSS] Fetched 0 from https://scp-wiki.wikidot.com/rss
+2026-03-07T15:52:05.925901 [RSS] Fetched 0 from https://www.scp-wiki.net/rss.php
+2026-03-07T15:52:07.305699 [RSS] Fetched 0 from https://scp-wiki-cn.wikidot.mer.run/most-recently-created
+2026-03-07T15:52:07.557923 [RSS] Fetched 0 from https://www.reddit.com/r/SCP/.rss
+2026-03-07T15:52:07.794758 [RSS] Fetched 0 from https://www.reddit.com/r/SCPChinese/.rss
+2026-03-07T15:52:09.078193 [RSS] Fetched 0 from https://scp-jp.wikidot.com/rss
+2026-03-07T15:52:09.922562 [RSS] Fetched 0 from https://scp-wiki-cn.wikidot.com/rss
+2026-03-07T15:52:10.186877 [RSS] Fetched 0 from https://scp.eldritch-horror.com/rss
+2026-03-07T15:52:15.777121 [SCP] gathered 5 articles
+2026-03-07T15:52:16.830473 [GITHUB] Query 'topic:ai stars:>50000' fetched 10 items
+2026-03-07T15:52:18.632273 [GITHUB] Query 'stars:>50000 machine learning' fetched 6 items
+2026-03-07T15:52:20.295894 [GITHUB] Query 'stars:>30000 artificial intelligence' fetched 1 items
+2026-03-07T15:52:22.097264 [GITHUB] Query 'stars:>50000' fetched 10 items
+2026-03-07T15:52:23.983296 [GITHUB] Query 'stars:>50000 topic:javascript' fetched 10 items
+2026-03-07T15:52:25.869582 [GITHUB] Query 'stars:>50000 topic:web' fetched 10 items
+2026-03-07T15:52:27.795504 [GITHUB] Query 'stars:>40000 topic:cli' fetched 10 items
+2026-03-07T15:52:29.600007 [GITHUB] Query 'stars:>40000 topic:devops' fetched 8 items
+2026-03-07T15:52:31.743482 [GITHUB] Query 'stars:>30000 topic:python' fetched 10 items
+2026-03-07T15:52:33.612817 [GITHUB] Query 'stars:>30000 topic:go' fetched 10 items
+2026-03-07T15:52:35.459700 [GITHUB] Query 'stars:>20000 topic:open-source' fetched 10 items
+2026-03-07T15:52:37.361743 [GITHUB] Query 'stars:>20000 topic:rust' fetched 10 items
+2026-03-07T15:52:39.190237 [GITHUB] Query 'stars:>15000 data science' fetched 8 items
+2026-03-07T15:52:40.197145 [DONE] Wrote 50 items to D:\scripts\daily_write\Amiya_desi-\scripts\daily_write\resources.json

@@ -8,6 +8,8 @@ import sys
 import json
 import time
 import hashlib
+import random
+import re
 from datetime import datetime, timezone
 
 try:
@@ -42,8 +44,14 @@ RSS_FEEDS = [
     # SCP Foundation feeds (community stories)
     'https://scp-wiki.wikidot.com/rss',
     'https://www.scp-wiki.net/rss.php',
-    # additional SCP recently created mirror
+    # additional SCP mirrors and community feeds
     'https://scp-wiki-cn.wikidot.mer.run/most-recently-created',
+    'https://www.reddit.com/r/SCP/.rss',
+    'https://www.reddit.com/r/SCPChinese/.rss',
+    'https://scp-jp.wikidot.com/rss',
+    'https://scp-wiki-cn.wikidot.com/rss',
+    # miscellaneous SCP-related aggregators
+    'https://scp.eldritch-horror.com/rss',
 ]
 
 # queries broadened to include other popular open source projects
@@ -100,8 +108,10 @@ def fetch_rss():
     items = []
     for url in RSS_FEEDS:
         try:
-            d = feedparser.parse(url)
-            entries = d.entries[:10]
+            # some RSS endpoints (especially SCP mirrors) reject default Python UA;
+            # pretend to be a browser so we get a response.
+            d = feedparser.parse(url, request_headers={'User-Agent': 'Mozilla/5.0'})
+            entries = d.entries[:20]  # grab more items from each feed
             for e in entries:
                 link = e.get('link') or e.get('id') or ''
                 title = e.get('title', '').strip()
@@ -126,6 +136,62 @@ def fetch_rss():
             log(f"[RSS] Fetched {len(entries)} from {url}")
         except Exception as e:
             log(f"[RSS] Error fetching {url}: {e}")
+    return items
+
+
+def fetch_scp():
+    """Scrape SCP Foundation website for random article links.
+
+    The official site doesn't expose a usable RSS feed, so we fetch the
+    "scp-series" page and extract /scp-### links.  A few random articles are
+    then fetched to obtain titles/short descriptions.  This helps ensure the
+    workflow occasionally includes SCP stories even when the RSS feeds are
+    unavailable.
+    """
+    items = []
+    try:
+        r = requests.get('https://scp-wiki.wikidot.com/scp-series',
+                         headers={'User-Agent': 'Mozilla/5.0'},
+                         timeout=15,
+                         verify=False)
+        if r.status_code == 200:
+            paths = set(re.findall(r'href="(/scp-\d{3,})"', r.text))
+            if paths:
+                sample = random.sample(list(paths), min(len(paths), 5))
+                for path in sample:
+                    url = 'https://scp-wiki.wikidot.com' + path
+                    title = path.lstrip('/')
+                    desc = ''
+                    try:
+                        pr = requests.get(url,
+                                          headers={'User-Agent': 'Mozilla/5.0'},
+                                          timeout=10,
+                                          verify=False)
+                        if pr.status_code == 200:
+                            m = re.search(r'<title>([^<]+)</title>', pr.text)
+                            if m:
+                                title = m.group(1).strip()
+                            p = re.search(r'<p>([^<]{20,200})</p>', pr.text)
+                            if p:
+                                desc = p.group(1).strip()
+                    except Exception:
+                        pass
+                    items.append({
+                        'title': title,
+                        'description': desc,
+                        'url': url,
+                        'source': 'scp-scrape',
+                        'fetched_at': now_iso(),
+                        # give SCP entries a generous score so they
+                        # aren't trimmed out when MAX_RESULTS is reached
+                        'score': 100,
+                        'tags': ['scp'],
+                    })
+        else:
+            log(f"[SCP] series page returned {r.status_code}")
+    except Exception as e:
+        log(f"[SCP] scrape error: {e}")
+    log(f"[SCP] gathered {len(items)} articles")
     return items
 
 
@@ -187,6 +253,10 @@ def main():
     # drop anything that has already been posted
     rss_items = [i for i in rss_items if i.get('url') not in history]
     all_items.extend(rss_items)
+
+    sc_items = fetch_scp()
+    sc_items = [i for i in sc_items if i.get('url') not in history]
+    all_items.extend(sc_items)
 
     gh_items = fetch_github()
     gh_items = [i for i in gh_items if i.get('url') not in history]

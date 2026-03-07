@@ -85,12 +85,30 @@ def pick_items(items: list, history: set) -> (list, list):
     scp = [i for i in items if ('tags' in i and 'scp' in i.get('tags', []))
            or ('scp' in (i.get('source') or ''))]
     other = [i for i in items if i not in scp]
+
     total = random.randint(3, 5)
-    scp_count = min(len(scp), random.randint(0, 2))
-    scp_selected = random.sample(scp, scp_count) if scp_count > 0 else []
-    other_count = total - len(scp_selected)
-    other_selected = (random.sample(other, min(other_count, len(other)))
-                      if other_count > 0 and other else [])
+    # determine how many SCP items to include based on probability
+    # 60% → 0, 30% → 1, 10% → 2. 0.001% chance of "easter egg" all-SCP.
+    easter = random.random() < 0.001
+    if easter:
+        scp_selected = random.sample(scp, min(len(scp), total)) if scp else []
+        # mark all selections as easter
+        for it in scp_selected:
+            it.setdefault('tags', []).append('easter')
+        other_selected = []
+    else:
+        r = random.random()
+        if r < 0.6:
+            scp_count = 0
+        elif r < 0.9:
+            scp_count = 1
+        else:
+            scp_count = 2
+        scp_count = min(scp_count, len(scp))
+        scp_selected = random.sample(scp, scp_count) if scp_count > 0 else []
+        other_count = total - len(scp_selected)
+        other_selected = (random.sample(other, min(other_count, len(other)))
+                          if other_count > 0 and other else [])
     selected = scp_selected + other_selected
     remaining = [i for i in items if i not in selected]
     return selected, remaining

@@ -44,6 +44,8 @@ fi
 ARTICLE_TITLE="[Update] 今日免费资源推荐 - $current_date"
 # start with actual newlines via $'...'
 ARTICLE_CONTENT=$'#### 资源推荐\n\n'
+# add optional anchor for easter egg jump
+ARTICLE_CONTENT+=$'[点击此处前往彩蛋](#easter)\n\n'
 
 # wait for resources.json
 WAIT_SECONDS=60
@@ -67,17 +69,49 @@ mapfile -t picks < "$PICK_TEMP" || picks=()
 rm -f "$PICK_TEMP"
 
 if [ ${#picks[@]} -eq 0 ]; then
-  ARTICLE_CONTENT+=$'- **资源名称：** 待填充\n  - **资源简介：** 占位内容\n  - **获取：** https://example.com\n\n'
+  ARTICLE_CONTENT+=$'- 资源名称：待填充\n    - 简介：占位内容\n    - 获取：https://example.com\n\n'
 else
+  # split normal vs scp entries
+  normal=()
+  scp=()
+  easter_flag=0
   for line in "${picks[@]}"; do
     IFS='@@' read -r title desc url tags <<< "$line"
-    ARTICLE_CONTENT+=$"- **资源名称：** ${title:-未命名资源}\n"
-    ARTICLE_CONTENT+=$"  - 简介： ${desc:-无简介}\n"
-    ARTICLE_CONTENT+=$"  - 获取： ${url:-#}\n\n"
-    if echo "$tags" | grep -q "scp"; then
-      ARTICLE_CONTENT+=$"  - 标签：SCP 基金会\n\n"
+    if [[ "$tags" == *scp* ]]; then
+      scp+=("$title@@$desc@@$url@@$tags")
+      if [[ "$tags" == *easter* ]]; then
+        easter_flag=1
+      fi
+    else
+      normal+=("$title@@$desc@@$url@@$tags")
     fi
   done
+  # add anchor label and note if easter egg
+  if [ $easter_flag -eq 1 ]; then
+    ARTICLE_CONTENT+=$'<a name="easter"></a>\n'
+    ARTICLE_CONTENT+=$'**彩蛋专场：本篇只包含SCP文章，祝你好运！**\n\n'
+  fi
+  # output normal resources unless we're in easter
+  if [ $easter_flag -eq 0 ]; then
+    for entry in "${normal[@]}"; do
+      IFS='@@' read -r title desc url tags <<< "$entry"
+      ARTICLE_CONTENT+=$"- 资源名称：${title:-未命名资源}\n"
+      ARTICLE_CONTENT+=$"    - 简介： ${desc:-无简介}\n"
+      ARTICLE_CONTENT+=$"    - 获取： ${url:-#}\n\n"
+    done
+  fi
+  # output scp items with heading (or in easter section)
+  if [ ${#scp[@]} -gt 0 ]; then
+    if [ $easter_flag -eq 0 ]; then
+      ARTICLE_CONTENT+=$'#### SCP 资源\n\n'
+    fi
+    for entry in "${scp[@]}"; do
+      IFS='@@' read -r title desc url tags <<< "$entry"
+      ARTICLE_CONTENT+=$"- 资源名称：${title:-SCP}\n"
+      ARTICLE_CONTENT+=$"    - 简介： ${desc:-无简介}\n"
+      ARTICLE_CONTENT+=$"    - 获取： ${url:-#}\n\n"
+    done
+  fi
 fi
 ARTICLE_CONTENT+="> 更多实用资源，敬请关注！\n\n---\n\nTrigger: 自动构建"
 TAG_LABEL="免费资源"
@@ -89,8 +123,6 @@ else
   # fallback hardcoded repo
   POST_URL="https://api.github.com/repos/exfinmax/Amiya_desi-/issues"
 fi
-
-echo "[DEBUG] POST_URL=$POST_URL" | tee -a "$LOG_FILE"
 
 DRY_RUN=0
 [ "${1-}" = "--dry-run" ] && DRY_RUN=1
@@ -107,10 +139,6 @@ fi
 
 printf '%s' "$payload" > "$SCRIPT_DIR/dry_run_payload.json" || true
 
-echo "[DEBUG] GITHUB_REPOSITORY=$GITHUB_REPOSITORY" | tee -a "$LOG_FILE"
-echo "[DEBUG] POST_URL=$POST_URL" | tee -a "$LOG_FILE"
-echo "[DEBUG] payload preview:" | tee -a "$LOG_FILE"
-echo "$payload" | head -c 4000 | tee -a "$LOG_FILE"
 
 if [ "$DRY_RUN" -eq 1 ]; then
   echo "[DRY RUN]" | tee -a "$LOG_FILE"
