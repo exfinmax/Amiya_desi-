@@ -67,7 +67,10 @@ mapfile -t picks < "$PICK_TEMP" || picks=()
 rm -f "$PICK_TEMP"
 
 if [ ${#picks[@]} -eq 0 ]; then
-  ARTICLE_CONTENT+=$'- 资源名称：待填充\n    - 简介：占位内容\n    - 获取：https://example.com\n\n'
+  # placeholder entry when selection fails, use same html formatting
+  ARTICLE_CONTENT+=$"<br>- **资源名称：** 待填充<br>"
+  ARTICLE_CONTENT+=$"<br>  - 简介： 占位内容<br>"
+  ARTICLE_CONTENT+=$"<br>  - 获取： <a href=\"https://example.com\">https://example.com</a><br><br>"
 else
   # split normal vs scp entries
   normal=()
@@ -96,7 +99,7 @@ else
       IFS='@@' read -r title desc url tags <<< "$entry"
       ARTICLE_CONTENT+=$"<br>- **资源名称：** ${title:-SCP}<br>"
       ARTICLE_CONTENT+=$"<br>  - 简介： ${desc:-无简介}<br>"
-      ARTICLE_CONTENT+=$"<br>  - 获取： ${url:-#}<br><br>"
+      ARTICLE_CONTENT+=$"<br>  - 获取： <a href=\"${url:-#}\">${url:-#}</a><br><br>"
     done
   fi
   # output scp items with heading (or in easter section)
@@ -108,11 +111,12 @@ else
       IFS='@@' read -r title desc url tags <<< "$entry"
       ARTICLE_CONTENT+=$"<br>- **资源名称：** ${title:-SCP}<br>"
       ARTICLE_CONTENT+=$"<br>  - 简介： ${desc:-无简介}<br>"
-      ARTICLE_CONTENT+=$"<br>  - 获取： ${url:-#}<br><br>"
+      ARTICLE_CONTENT+=$"<br>  - 获取： <a href=\"${url:-#}\">${url:-#}</a><br><br>"
     done
   fi
 fi
-ARTICLE_CONTENT+="> 更多实用资源，敬请关注！\n\n---\n\nTrigger: 自动构建"
+# use explicit <br> separators so no literal backslash-n appears later
+ARTICLE_CONTENT+=$"> 更多实用资源，敬请关注！<br><br>---<br><br>Trigger: 自动构建"
 TAG_LABEL="免费资源"
 
 # determine issue-posting URL (avoid using GITHUB_API_URL which is just the base)
@@ -125,6 +129,9 @@ fi
 
 DRY_RUN=0
 [ "${1-}" = "--dry-run" ] && DRY_RUN=1
+
+# sanitize any leftover literal \n sequences (e.g. from earlier operations)
+ARTICLE_CONTENT="$(echo "$ARTICLE_CONTENT" | sed 's/\\n/<br>/g')"
 
 # build payload
 if command -v jq >/dev/null 2>&1; then
