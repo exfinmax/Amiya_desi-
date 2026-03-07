@@ -122,10 +122,14 @@ else
     head -c 4000 /tmp/gh_response.txt >> "$LOG_FILE"
   fi
   if [ "$http_status" -ge 200 ] && [ "$http_status" -lt 300 ]; then
-    echo "[INFO] success" | tee -a "$LOG_FILE"
+    echo "[INFO] success (HTTP $http_status)" | tee -a "$LOG_FILE"
     echo "$current_date - SUCCESS" >> "$LOG_FILE"
   else
-    echo "[ERROR] post failed" | tee -a "$LOG_FILE"
+    echo "[ERROR] post failed (HTTP $http_status)" | tee -a "$LOG_FILE"
+    if [ -f /tmp/gh_response.txt ]; then
+      echo "[ERROR] response body:" | tee -a "$LOG_FILE"
+      head -n 50 /tmp/gh_response.txt | tee -a "$LOG_FILE"
+    fi
     exit 1
   fi
 fi
