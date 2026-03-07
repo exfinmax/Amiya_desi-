@@ -106,9 +106,9 @@ else
     fi
     for entry in "${scp[@]}"; do
       IFS='@@' read -r title desc url tags <<< "$entry"
-      ARTICLE_CONTENT+=$"\n- **资源名称：** ${title:-SCP}\n"
-      ARTICLE_CONTENT+=$"  - 简介： ${desc:-无简介}\n"
-      ARTICLE_CONTENT+=$"  - 获取： ${url:-#}\n\n"
+      ARTICLE_CONTENT+=$"<br>- **资源名称：** ${title:-SCP}<br>"
+      ARTICLE_CONTENT+=$"<br>  - 简介： ${desc:-无简介}<br>"
+      ARTICLE_CONTENT+=$"<br>  - 获取： ${url:-#}<br><br>"
     done
   fi
 fi
