@@ -1,16 +1,5 @@
 [
   {
-    "title": "SCP-725 - SCP Foundation",
-    "description": "SCP-725 in an agitated state",
-    "url": "https://scp-wiki.wikidot.com/scp-725",
-    "source": "scp-scrape",
-    "fetched_at": "2026-03-07T07:52:11.985334+00:00",
-    "score": 100,
-    "tags": [
-      "scp"
-    ]
-  },
-  {
     "title": "SCP-432 - SCP Foundation",
     "description": "Photograph taken from within SCP-432",
     "url": "https://scp-wiki.wikidot.com/scp-432",
@@ -44,26 +33,6 @@
     ]
   },
   {
-    "title": "SCP-868 - SCP Foundation",
-    "description": "",
-    "url": "https://scp-wiki.wikidot.com/scp-868",
-    "source": "scp-scrape",
-    "fetched_at": "2026-03-07T07:52:15.777101+00:00",
-    "score": 100,
-    "tags": [
-      "scp"
-    ]
-  },
-  {
-    "title": "openclaw/openclaw",
-    "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-    "url": "https://github.com/openclaw/openclaw",
-    "source": "github:search",
-    "fetched_at": "2026-03-07T07:52:16.830386+00:00",
-    "stars": 272740,
-    "score": 30.0
-  },
-  {
     "title": "f/prompts.chat",
     "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
     "url": "https://github.com/f/prompts.chat",
@@ -73,48 +42,12 @@
     "score": 30.0
   },
   {
-    "title": "langgenius/dify",
-    "description": "Production-ready platform for agentic workflow development.",
-    "url": "https://github.com/langgenius/dify",
-    "source": "github:search",
-    "fetched_at": "2026-03-07T07:52:16.830445+00:00",
-    "stars": 131509,
-    "score": 30.0
-  },
-  {
     "title": "langchain-ai/langchain",
     "description": "The agent engineering platform",
     "url": "https://github.com/langchain-ai/langchain",
     "source": "github:search",
     "fetched_at": "2026-03-07T07:52:16.830452+00:00",
     "stars": 128506,
-    "score": 30.0
-  },
-  {
-    "title": "tensorflow/tensorflow",
-    "description": "An Open Source Machine Learning Framework for Everyone",
-    "url": "https://github.com/tensorflow/tensorflow",
-    "source": "github:search",
-    "fetched_at": "2026-03-07T07:52:18.632153+00:00",
-    "stars": 194017,
-    "score": 30.0
-  },
-  {
-    "title": "huggingface/transformers",
-    "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-    "url": "https://github.com/huggingface/transformers",
-    "source": "github:search",
-    "fetched_at": "2026-03-07T07:52:18.632177+00:00",
-    "stars": 157506,
-    "score": 30.0
-  },
-  {
-    "title": "microsoft/ML-For-Beginners",
-    "description": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",
-    "url": "https://github.com/microsoft/ML-For-Beginners",
-    "source": "github:search",
-    "fetched_at": "2026-03-07T07:52:18.632183+00:00",
-    "stars": 84169,
     "score": 30.0
   },
   {
@@ -136,24 +69,6 @@
     "score": 30.0
   },
   {
-    "title": "kamranahmedse/developer-roadmap",
-    "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
-    "url": "https://github.com/kamranahmedse/developer-roadmap",
-    "source": "github:search",
-    "fetched_at": "2026-03-07T07:52:22.097243+00:00",
-    "stars": 350340,
-    "score": 30.0
-  },
-  {
-    "title": "donnemartin/system-design-primer",
-    "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
-    "url": "https://github.com/donnemartin/system-design-primer",
-    "source": "github:search",
-    "fetched_at": "2026-03-07T07:52:22.097247+00:00",
-    "stars": 337723,
-    "score": 30.0
-  },
-  {
     "title": "jwasham/coding-interview-university",
     "description": "A complete computer science study plan to become a software engineer.",
     "url": "https://github.com/jwasham/coding-interview-university",
@@ -172,15 +87,6 @@
     "score": 30.0
   },
   {
-    "title": "practical-tutorials/project-based-learning",
-    "description": "Curated list of project-based tutorials",
-    "url": "https://github.com/practical-tutorials/project-based-learning",
-    "source": "github:search",
-    "fetched_at": "2026-03-07T07:52:23.983259+00:00",
-    "stars": 260415,
-    "score": 30.0
-  },
-  {
     "title": "facebook/react",
     "description": "The library for web and native user interfaces.",
     "url": "https://github.com/facebook/react",
@@ -190,57 +96,12 @@
     "score": 30.0
   },
   {
-    "title": "vuejs/vue",
-    "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
-    "url": "https://github.com/vuejs/vue",
-    "source": "github:search",
-    "fetched_at": "2026-03-07T07:52:23.983268+00:00",
-    "stars": 209961,
-    "score": 30.0
-  },
-  {
-    "title": "getify/You-Dont-Know-JS",
-    "description": "A book series (2 published editions) on the JS language.",
-    "url": "https://github.com/getify/You-Dont-Know-JS",
-    "source": "github:search",
-    "fetched_at": "2026-03-07T07:52:23.983275+00:00",
-    "stars": 184467,
-    "score": 30.0
-  },
-  {
-    "title": "electron/electron",
-    "description": ":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS",
-    "url": "https://github.com/electron/electron",
-    "source": "github:search",
-    "fetched_at": "2026-03-07T07:52:23.983288+00:00",
-    "stars": 120343,
-    "score": 30.0
-  },
-  {
-    "title": "flutter/flutter",
-    "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
-    "url": "https://github.com/flutter/flutter",
-    "source": "github:search",
-    "fetched_at": "2026-03-07T07:52:25.869541+00:00",
-    "stars": 175459,
-    "score": 30.0
-  },
-  {
     "title": "fastapi/fastapi",
     "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
     "url": "https://github.com/fastapi/fastapi",
     "source": "github:search",
     "fetched_at": "2026-03-07T07:52:25.869557+00:00",
     "stars": 95964,
-    "score": 30.0
-  },
-  {
-    "title": "puppeteer/puppeteer",
-    "description": "JavaScript API for Chrome and Firefox",
-    "url": "https://github.com/puppeteer/puppeteer",
-    "source": "github:search",
-    "fetched_at": "2026-03-07T07:52:25.869560+00:00",
-    "stars": 93728,
     "score": 30.0
   },
   {
