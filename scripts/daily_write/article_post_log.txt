@@ -1,5 +1,13 @@
-[INFO] Started at Sat Mar  7 05:37:55 PM CST 2026, trigger time 10:10
-[INFO] IMMEDIATE mode, skipping wait
-[DRY RUN]
-2026-03-07 - DRYRUN
-[INFO] done
+[INFO] 开始 Wed Mar 18 07:30:44 UTC 2026
+[INFO] 运行 select_resources.py
+2026-03-18 07:30:44,909 INFO [Select] 加载 60 条资源: /home/runner/work/Amiya_desi-/Amiya_desi-/scripts/daily_write/resources.json
+2026-03-18 07:30:44,910 INFO [Select] 加载 1 条资源: /home/runner/work/Amiya_desi-/Amiya_desi-/scripts/daily_write/fallback_resources.json
+2026-03-18 07:30:44,925 INFO [Select] 去重后剩余 61 条
+2026-03-18 07:30:45,013 INFO [Select] 写入 3 条到 /home/runner/work/Amiya_desi-/Amiya_desi-/scripts/daily_write/daily_selected.json
+ohmyzsh/ohmyzsh@@ohmyzsh/ohmyzsh，GitHub 上拥有 185,422 stars 的热门开源项目。@@https://github.com/ohmyzsh/ohmyzsh@@cli,cli,cli-app,oh-my-zsh
+huggingface/transformers@@huggingface/transformers，GitHub 上拥有 157,993 stars 的热门开源项目。@@https://github.com/huggingface/transformers@@ai,ml,audio,deep-learning,deepseek
+vinta/awesome-python@@vinta/awesome-python，GitHub 上拥有 287,703 stars 的热门开源项目。@@https://github.com/vinta/awesome-python@@awesome,collections,python
+[INFO] 运行 render_daily_post.py
+[DRY RUN] payload 已写入 dry_run_payload.json
+2026-03-18 - DRYRUN
+[INFO] 完成 Wed Mar 18 07:30:45 UTC 2026

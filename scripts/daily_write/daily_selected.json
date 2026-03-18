@@ -1,0 +1,62 @@
+[
+  {
+    "title": "ohmyzsh/ohmyzsh",
+    "url": "https://github.com/ohmyzsh/ohmyzsh",
+    "source": "github:search",
+    "tags": [
+      "cli",
+      "cli",
+      "cli-app",
+      "oh-my-zsh"
+    ],
+    "score": 80.52,
+    "summary": "ohmyzsh/ohmyzsh，GitHub 上拥有 185,422 stars 的热门开源项目。",
+    "reason": "GitHub 高星项目，社区认可度高。",
+    "audience": "开发者",
+    "keywords": [
+      "ohmyzsh",
+      "ohmyzsh"
+    ],
+    "stars": 185422
+  },
+  {
+    "title": "huggingface/transformers",
+    "url": "https://github.com/huggingface/transformers",
+    "source": "github:search",
+    "tags": [
+      "ai",
+      "ml",
+      "audio",
+      "deep-learning",
+      "deepseek"
+    ],
+    "score": 79.88,
+    "summary": "huggingface/transformers，GitHub 上拥有 157,993 stars 的热门开源项目。",
+    "reason": "GitHub 高星项目，社区认可度高。",
+    "audience": "开发者",
+    "keywords": [
+      "huggingface",
+      "transformers"
+    ],
+    "stars": 157993
+  },
+  {
+    "title": "vinta/awesome-python",
+    "url": "https://github.com/vinta/awesome-python",
+    "source": "github:search",
+    "tags": [
+      "awesome",
+      "collections",
+      "python"
+    ],
+    "score": 78.91,
+    "summary": "vinta/awesome-python，GitHub 上拥有 287,703 stars 的热门开源项目。",
+    "reason": "GitHub 高星项目，社区认可度高。",
+    "audience": "开发者",
+    "keywords": [
+      "vinta",
+      "awesome-python"
+    ],
+    "stars": 287703
+  }
+]

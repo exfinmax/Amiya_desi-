@@ -1,0 +1,27 @@
+> 今天的资源不算多，但每条都经过筛选，应该不会让你失望。
+
+---
+
+#### 今日资源推荐
+
+- **ohmyzsh/ohmyzsh** ⭐185,422
+  - 简介：ohmyzsh/ohmyzsh，GitHub 上拥有 185,422 stars 的热门开源项目。
+  - 推荐理由：GitHub 高星项目，社区认可度高。
+  - 获取：<https://github.com/ohmyzsh/ohmyzsh>
+
+- **huggingface/transformers** ⭐157,993
+  - 简介：huggingface/transformers，GitHub 上拥有 157,993 stars 的热门开源项目。
+  - 推荐理由：GitHub 高星项目，社区认可度高。
+  - 获取：<https://github.com/huggingface/transformers>
+
+- **vinta/awesome-python** ⭐287,703
+  - 简介：vinta/awesome-python，GitHub 上拥有 287,703 stars 的热门开源项目。
+  - 推荐理由：GitHub 高星项目，社区认可度高。
+  - 获取：<https://github.com/vinta/awesome-python>
+
+
+> 更多实用资源，敬请关注！
+
+---
+
+Trigger: 自动构建
