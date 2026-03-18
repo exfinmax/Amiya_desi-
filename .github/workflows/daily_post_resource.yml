@@ -174,5 +174,4 @@ jobs:
             git commit -m "chore: update daily resource registry and generated artifacts [skip ci]"
             git push
           fi
-permissions:
-  contents: write
+
