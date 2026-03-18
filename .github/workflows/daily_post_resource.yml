@@ -81,7 +81,7 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests feedparser openai
+          pip install -r scripts/daily_write/requirements.txt
 
       - name: Ensure scripts are executable
         run: |
