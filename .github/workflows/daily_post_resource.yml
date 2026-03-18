@@ -2,9 +2,34 @@ name: Daily Fetch & Post Resources
 
 on:
   schedule:
-    # Runs daily at 08:00 Asia/Shanghai (00:00 UTC)
+    # 每天 08:00 CST（00:00 UTC）
     - cron: '0 0 * * *'
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run（不实际发布）'
+        required: false
+        default: 'false'
+        type: choice
+        options: ['false', 'true']
+      force_publish:
+        description: '强制发布（忽略今日已发布检查）'
+        required: false
+        default: 'true'
+        type: choice
+        options: ['true', 'false']
+      enable_ai_summary:
+        description: '启用 AI 摘要'
+        required: false
+        default: 'true'
+        type: choice
+        options: ['true', 'false']
+      enable_ai_greeting:
+        description: '启用 AI 祝福语'
+        required: false
+        default: 'true'
+        type: choice
+        options: ['true', 'false']
 
 concurrency:
   group: daily-post-resource
@@ -14,61 +39,140 @@ jobs:
   fetch-and-post:
     runs-on: ubuntu-latest
     env:
-      # Use repository secret TOKEN_PUBLISH (set this in repo Settings → Secrets)
       GITHUB_TOKEN: ${{ secrets.TOKEN_PUBLISH }}
+      GITHUB_REPOSITORY: ${{ github.repository }}
+
+      # ModelScope AI 配置（通过 Secrets 注入，缺失时自动 fallback）
+      MODELSCOPE_API_KEY:      ${{ secrets.MODELSCOPE_API_KEY }}
+      MODELSCOPE_BASE_URL:     ${{ secrets.MODELSCOPE_BASE_URL || 'https://api-inference.modelscope.cn/v1' }}
+      MODELSCOPE_MODEL_SUMMARY:  ${{ secrets.MODELSCOPE_MODEL_SUMMARY || 'Qwen/Qwen2.5-72B-Instruct' }}
+      MODELSCOPE_MODEL_GREETING: ${{ secrets.MODELSCOPE_MODEL_GREETING || 'Qwen/Qwen2.5-32B-Instruct' }}
+      MODELSCOPE_MODEL_REASONING: ${{ secrets.MODELSCOPE_MODEL_REASONING || 'deepseek-ai/DeepSeek-R1' }}
+      MODELSCOPE_MODEL_CODER:    ${{ secrets.MODELSCOPE_MODEL_CODER || 'Qwen/Qwen2.5-Coder-32B-Instruct' }}
+
+      # AI 开关（手动触发时可覆盖）
+      ENABLE_AI_SUMMARY:  ${{ github.event.inputs.enable_ai_summary || secrets.ENABLE_AI_SUMMARY || '1' }}
+      ENABLE_AI_GREETING: ${{ github.event.inputs.enable_ai_greeting || secrets.ENABLE_AI_GREETING || '1' }}
+
+      # 超时与重试
+      AI_TIMEOUT_SECONDS: ${{ secrets.AI_TIMEOUT_SECONDS || '30' }}
+      AI_MAX_RETRIES:     ${{ secrets.AI_MAX_RETRIES || '2' }}
+
+      # 发布控制
+      IMMEDIATE:      '1'
+      FORCE_PUBLISH:  ${{ github.event.inputs.force_publish || '1' }}
+      DRY_RUN:        ${{ github.event.inputs.dry_run || '0' }}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.TOKEN_PUBLISH }}
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
       - name: Install system deps
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq jq
 
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests feedparser
+          # openai SDK 可选，用于兼容 ModelScope API-Inference
+          pip install openai || true
 
       - name: Ensure scripts are executable
         run: |
-          chmod +x ./scripts/daily_write/helper_fetch.py || true
-          chmod +x ./scripts/daily_write/post_resource_article.sh || true
-          chmod +x ./scripts/daily_write/select_resources.py || true
+          chmod +x scripts/daily_write/post_resource_article.sh
+          chmod +x scripts/daily_write/helper_fetch.py
+          chmod +x scripts/daily_write/select_resources.py
 
-      - name: Run helper fetch (build resources.json)
-        working-directory: ./scripts/daily_write
+      - name: Create state directory
+        run: mkdir -p scripts/daily_write/state
+
+      - name: Run helper_fetch (build resources.json)
+        working-directory: scripts/daily_write
+        run: python helper_fetch.py
+
+      - name: Run poster (select → render → publish)
+        working-directory: scripts/daily_write
         run: |
-          # helper_fetch.py writes resources.json in the same dir
-          python helper_fetch.py
+          if [ "$DRY_RUN" = "true" ] || [ "$DRY_RUN" = "1" ]; then
+            ./post_resource_article.sh --dry-run
+          else
+            ./post_resource_article.sh
+          fi
 
+      # ── Artifacts ────────────────────────────────────────────────────────────
 
-      - name: Run poster (publish to GitHub Issues)
-        working-directory: ./scripts/daily_write
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN_PUBLISH }}
-          # ensure repo context is passed in case script falls back
-          GITHUB_REPOSITORY: ${{ github.repository }}
-        run: |
-          # IMMEDIATE=1 makes the script skip random wait (useful in CI)
-          export IMMEDIATE=1
-          # FORCE_PUBLISH=1 allows publishing in CI
-          export FORCE_PUBLISH=1
-          ./post_resource_article.sh
-
-      - name: Upload resources.json as artifact (for audit)
+      - name: Upload resources.json
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: resources-json
-          path: ./scripts/daily_write/resources.json
+          path: scripts/daily_write/resources.json
+          if-no-files-found: warn
 
-      - name: Upload article_post_log.txt (optional)
+      - name: Upload daily_selected.json
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-selected-json
+          path: scripts/daily_write/daily_selected.json
+          if-no-files-found: warn
+
+      - name: Upload helper_fetch.log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: helper-fetch-log
+          path: scripts/daily_write/helper_fetch.log
+          if-no-files-found: warn
+
+      - name: Upload article_post_log.txt
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: article-post-log
-          path: ./scripts/daily_write/article_post_log.txt
+          path: scripts/daily_write/article_post_log.txt
+          if-no-files-found: warn
+
+      - name: Upload dry_run_payload.json
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dry-run-payload
+          path: scripts/daily_write/dry_run_payload.json
+          if-no-files-found: warn
+
+      - name: Upload registry state
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: registry-state
+          path: scripts/daily_write/state/
+          if-no-files-found: warn
+
+      # ── 自动提交 registry / state 更新 ──────────────────────────────────────
+      - name: Commit registry and state updates
+        if: always()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add scripts/daily_write/state/ \
+                  scripts/daily_write/posted_urls.txt \
+                  scripts/daily_write/daily_selected.json \
+                  scripts/daily_write/resources.json \
+                  scripts/daily_write/helper_fetch.log \
+                  scripts/daily_write/article_post_log.txt \
+                  || true
+          # 只有有变更时才提交，避免空 commit 触发循环
+          if git diff --cached --quiet; then
+            echo "[Commit] 无变更，跳过提交。"
+          else
+            git commit -m "chore: update daily resource registry and generated artifacts [skip ci]"
+            git push
+          fi
