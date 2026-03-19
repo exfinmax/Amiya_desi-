@@ -3,3 +3,7 @@ https://github.com/Significant-Gravitas/AutoGPT
 https://github.com/ohmyzsh/ohmyzsh
 https://github.com/huggingface/transformers
 https://github.com/vinta/awesome-python
+https://scp-wiki.wikidot.com/scp-336
+https://github.com/rustdesk/rustdesk
+https://github.com/tensorflow/tensorflow
+https://github.com/langgenius/dify

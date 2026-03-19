@@ -302,3 +302,26 @@
 2026-03-18 07:30:43,812 INFO [GitHub] 'stars:>20000 topic:rust' → 8 条
 2026-03-18 07:30:44,815 INFO [Filter] 过滤已发送后: 127 → 123 条
 2026-03-18 07:30:44,818 INFO [DONE] 写入 60 条到 /home/runner/work/Amiya_desi-/Amiya_desi-/scripts/daily_write/resources.json
+2026-03-19 02:45:34,691 INFO [START] helper_fetch 开始运行
+2026-03-19 02:45:34,990 INFO [RSS] https://hnrss.org/frontpage → 12 条
+2026-03-19 02:45:35,129 INFO [RSS] https://dev.to/feed/tag/ai → 10 条
+2026-03-19 02:45:35,368 INFO [RSS] https://lobste.rs/rss → 10 条
+2026-03-19 02:45:35,559 INFO [RSS] https://www.producthunt.com/feed → 8 条
+2026-03-19 02:45:35,653 INFO [RSS] https://techcrunch.com/feed/ → 8 条
+2026-03-19 02:45:35,722 INFO [RSS] https://www.reddit.com/r/programming/.rss → 0 条
+2026-03-19 02:45:35,780 INFO [RSS] https://www.reddit.com/r/python/.rss → 0 条
+2026-03-19 02:45:35,826 INFO [RSS] https://www.reddit.com/r/SCP/.rss → 0 条
+2026-03-19 02:45:36,139 INFO [RSS] https://scp-wiki.wikidot.com/rss → 0 条
+2026-03-19 02:45:36,366 INFO [RSS] https://scp-wiki-cn.wikidot.com/rss → 0 条
+2026-03-19 02:45:37,547 INFO [SCP] 获取 5 条
+2026-03-19 02:45:38,063 INFO [GitHub] 'topic:ai stars:>50000' → 10 条
+2026-03-19 02:45:39,442 INFO [GitHub] 'stars:>50000 machine learning' → 6 条
+2026-03-19 02:45:40,964 INFO [GitHub] 'stars:>50000' → 10 条
+2026-03-19 02:45:42,382 INFO [GitHub] 'stars:>50000 topic:javascript' → 8 条
+2026-03-19 02:45:43,773 INFO [GitHub] 'stars:>40000 topic:cli' → 8 条
+2026-03-19 02:45:45,211 INFO [GitHub] 'stars:>40000 topic:devops' → 8 条
+2026-03-19 02:45:46,605 INFO [GitHub] 'stars:>30000 topic:python' → 8 条
+2026-03-19 02:45:48,083 INFO [GitHub] 'stars:>30000 topic:go' → 8 条
+2026-03-19 02:45:49,567 INFO [GitHub] 'stars:>20000 topic:rust' → 8 条
+2026-03-19 02:45:50,569 INFO [Filter] 过滤已发送后: 127 → 118 条
+2026-03-19 02:45:50,572 INFO [DONE] 写入 60 条到 /home/runner/work/Amiya_desi-/Amiya_desi-/scripts/daily_write/resources.json

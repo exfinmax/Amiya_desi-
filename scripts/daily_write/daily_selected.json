@@ -1,62 +1,81 @@
 [
   {
-    "title": "ohmyzsh/ohmyzsh",
-    "url": "https://github.com/ohmyzsh/ohmyzsh",
+    "title": "SCP-336 - SCP Foundation",
+    "url": "https://scp-wiki.wikidot.com/scp-336",
+    "source": "scp-scrape",
+    "tags": [
+      "scp"
+    ],
+    "score": 111.87,
+    "summary": "SCP-336 - SCP Foundation，值得关注的技术资源。",
+    "reason": "SCP 基金会收录条目，创意写作爱好者必看。",
+    "audience": "开发者",
+    "keywords": [
+      "SCP-336",
+      "SCP",
+      "Foundation"
+    ],
+    "stars": null
+  },
+  {
+    "title": "rustdesk/rustdesk",
+    "url": "https://github.com/rustdesk/rustdesk",
     "source": "github:search",
     "tags": [
-      "cli",
-      "cli",
-      "cli-app",
-      "oh-my-zsh"
+      "rust",
+      "android",
+      "anydesk",
+      "dart"
     ],
-    "score": 80.52,
-    "summary": "ohmyzsh/ohmyzsh，GitHub 上拥有 185,422 stars 的热门开源项目。",
+    "score": 79.88,
+    "summary": "rustdesk/rustdesk，GitHub 上拥有 109,589 stars 的热门开源项目。",
     "reason": "GitHub 高星项目，社区认可度高。",
     "audience": "开发者",
     "keywords": [
-      "ohmyzsh",
-      "ohmyzsh"
+      "rustdesk",
+      "rustdesk"
     ],
-    "stars": 185422
+    "stars": 109589
   },
   {
-    "title": "huggingface/transformers",
-    "url": "https://github.com/huggingface/transformers",
+    "title": "tensorflow/tensorflow",
+    "url": "https://github.com/tensorflow/tensorflow",
     "source": "github:search",
     "tags": [
       "ai",
       "ml",
-      "audio",
       "deep-learning",
-      "deepseek"
+      "deep-neural-networks",
+      "distributed"
     ],
-    "score": 79.88,
-    "summary": "huggingface/transformers，GitHub 上拥有 157,993 stars 的热门开源项目。",
+    "score": 77.85,
+    "summary": "tensorflow/tensorflow，GitHub 上拥有 194,208 stars 的热门开源项目。",
     "reason": "GitHub 高星项目，社区认可度高。",
     "audience": "开发者",
     "keywords": [
-      "huggingface",
-      "transformers"
+      "tensorflow",
+      "tensorflow"
     ],
-    "stars": 157993
+    "stars": 194208
   },
   {
-    "title": "vinta/awesome-python",
-    "url": "https://github.com/vinta/awesome-python",
+    "title": "langgenius/dify",
+    "url": "https://github.com/langgenius/dify",
     "source": "github:search",
     "tags": [
-      "awesome",
-      "collections",
-      "python"
+      "ai",
+      "agent",
+      "agentic-ai",
+      "agentic-framework"
     ],
-    "score": 78.91,
-    "summary": "vinta/awesome-python，GitHub 上拥有 287,703 stars 的热门开源项目。",
+    "score": 77.83,
+    "summary": "langgenius/dify，GitHub 上拥有 133,440 stars 的热门开源项目。",
     "reason": "GitHub 高星项目，社区认可度高。",
     "audience": "开发者",
     "keywords": [
-      "vinta",
-      "awesome-python"
+      "langgenius",
+      "dify"
     ],
-    "stars": 287703
+    "stars": 133440
   }
 ]

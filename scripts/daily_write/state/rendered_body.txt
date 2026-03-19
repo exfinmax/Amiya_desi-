@@ -1,23 +1,31 @@
-> 今天的资源不算多，但每条都经过筛选，应该不会让你失望。
+> 今天也不必接收太多信息，挑几条有价值的慢慢看就很好。
 
 ---
 
 #### 今日资源推荐
 
-- **ohmyzsh/ohmyzsh** ⭐185,422
-  - 简介：ohmyzsh/ohmyzsh，GitHub 上拥有 185,422 stars 的热门开源项目。
+- **rustdesk/rustdesk** ⭐109,589
+  - 简介：rustdesk/rustdesk，GitHub 上拥有 109,589 stars 的热门开源项目。
   - 推荐理由：GitHub 高星项目，社区认可度高。
-  - 获取：<https://github.com/ohmyzsh/ohmyzsh>
+  - 获取：<https://github.com/rustdesk/rustdesk>
 
-- **huggingface/transformers** ⭐157,993
-  - 简介：huggingface/transformers，GitHub 上拥有 157,993 stars 的热门开源项目。
+- **tensorflow/tensorflow** ⭐194,208
+  - 简介：tensorflow/tensorflow，GitHub 上拥有 194,208 stars 的热门开源项目。
   - 推荐理由：GitHub 高星项目，社区认可度高。
-  - 获取：<https://github.com/huggingface/transformers>
+  - 获取：<https://github.com/tensorflow/tensorflow>
 
-- **vinta/awesome-python** ⭐287,703
-  - 简介：vinta/awesome-python，GitHub 上拥有 287,703 stars 的热门开源项目。
+- **langgenius/dify** ⭐133,440
+  - 简介：langgenius/dify，GitHub 上拥有 133,440 stars 的热门开源项目。
   - 推荐理由：GitHub 高星项目，社区认可度高。
-  - 获取：<https://github.com/vinta/awesome-python>
+  - 获取：<https://github.com/langgenius/dify>
+
+
+#### SCP 资源
+
+- **SCP-336 - SCP Foundation**
+  - 简介：SCP-336 - SCP Foundation，值得关注的技术资源。
+  - 推荐理由：SCP 基金会收录条目，创意写作爱好者必看。
+  - 获取：<https://scp-wiki.wikidot.com/scp-336>
 
 
 > 更多实用资源，敬请关注！
