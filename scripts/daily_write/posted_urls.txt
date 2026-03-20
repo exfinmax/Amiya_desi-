@@ -7,3 +7,6 @@ https://scp-wiki.wikidot.com/scp-336
 https://github.com/rustdesk/rustdesk
 https://github.com/tensorflow/tensorflow
 https://github.com/langgenius/dify
+https://github.com/f/prompts.chat
+https://github.com/open-webui/open-webui
+https://github.com/ollama/ollama

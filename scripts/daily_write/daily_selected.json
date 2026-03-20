@@ -1,81 +1,61 @@
 [
   {
-    "title": "SCP-336 - SCP Foundation",
-    "url": "https://scp-wiki.wikidot.com/scp-336",
-    "source": "scp-scrape",
-    "tags": [
-      "scp"
-    ],
-    "score": 111.87,
-    "summary": "SCP-336 - SCP Foundation，值得关注的技术资源。",
-    "reason": "SCP 基金会收录条目，创意写作爱好者必看。",
-    "audience": "开发者",
-    "keywords": [
-      "SCP-336",
-      "SCP",
-      "Foundation"
-    ],
-    "stars": null
-  },
-  {
-    "title": "rustdesk/rustdesk",
-    "url": "https://github.com/rustdesk/rustdesk",
-    "source": "github:search",
-    "tags": [
-      "rust",
-      "android",
-      "anydesk",
-      "dart"
-    ],
-    "score": 79.88,
-    "summary": "rustdesk/rustdesk，GitHub 上拥有 109,589 stars 的热门开源项目。",
-    "reason": "GitHub 高星项目，社区认可度高。",
-    "audience": "开发者",
-    "keywords": [
-      "rustdesk",
-      "rustdesk"
-    ],
-    "stars": 109589
-  },
-  {
-    "title": "tensorflow/tensorflow",
-    "url": "https://github.com/tensorflow/tensorflow",
+    "title": "f/prompts.chat",
+    "url": "https://github.com/f/prompts.chat",
     "source": "github:search",
     "tags": [
       "ai",
-      "ml",
-      "deep-learning",
-      "deep-neural-networks",
-      "distributed"
+      "ai",
+      "artificial-intelligence",
+      "awesome-list"
     ],
-    "score": 77.85,
-    "summary": "tensorflow/tensorflow，GitHub 上拥有 194,208 stars 的热门开源项目。",
+    "score": 78.81,
+    "summary": "f/prompts.chat，GitHub 上拥有 153,370 stars 的热门开源项目。",
     "reason": "GitHub 高星项目，社区认可度高。",
     "audience": "开发者",
     "keywords": [
-      "tensorflow",
-      "tensorflow"
+      "prompts.chat"
     ],
-    "stars": 194208
+    "stars": 153370
   },
   {
-    "title": "langgenius/dify",
-    "url": "https://github.com/langgenius/dify",
+    "title": "open-webui/open-webui",
+    "url": "https://github.com/open-webui/open-webui",
     "source": "github:search",
     "tags": [
       "ai",
-      "agent",
-      "agentic-ai",
-      "agentic-framework"
+      "ai",
+      "llm",
+      "llm-ui"
     ],
-    "score": 77.83,
-    "summary": "langgenius/dify，GitHub 上拥有 133,440 stars 的热门开源项目。",
+    "score": 77.45,
+    "summary": "open-webui/open-webui，GitHub 上拥有 127,922 stars 的热门开源项目。",
     "reason": "GitHub 高星项目，社区认可度高。",
     "audience": "开发者",
     "keywords": [
-      "langgenius",
-      "dify"
+      "open-webui",
+      "open-webui"
     ],
-    "stars": 133440
+    "stars": 127922
+  },
+  {
+    "title": "ollama/ollama",
+    "url": "https://github.com/ollama/ollama",
+    "source": "github:search",
+    "tags": [
+      "go",
+      "deepseek",
+      "gemma",
+      "gemma3"
+    ],
+    "score": 76.23,
+    "summary": "ollama/ollama，GitHub 上拥有 165,622 stars 的热门开源项目。",
+    "reason": "GitHub 高星项目，社区认可度高。",
+    "audience": "开发者",
+    "keywords": [
+      "ollama",
+      "ollama"
+    ],
+    "stars": 165622
   }
 ]
