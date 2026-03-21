@@ -1,44 +1,44 @@
-[INFO] 开始 Fri Mar 20 02:36:21 UTC 2026
+[INFO] 开始 Sat Mar 21 02:30:36 UTC 2026
 [INFO] 运行 select_resources.py
-2026-03-20 02:36:21,432 INFO [Select] 加载 60 条资源: /home/runner/work/Amiya_desi-/Amiya_desi-/scripts/daily_write/resources.json
-2026-03-20 02:36:21,432 INFO [Select] 加载 1 条资源: /home/runner/work/Amiya_desi-/Amiya_desi-/scripts/daily_write/fallback_resources.json
-2026-03-20 02:36:21,449 INFO [Select] 去重后剩余 61 条
-2026-03-20 02:36:21,534 INFO [ModelScope] 尝试模型: Qwen/Qwen2.5-72B-Instruct
-2026-03-20 02:36:22,488 WARNING [ModelScope] model=Qwen/Qwen2.5-72B-Instruct attempt=1 HTTP 400 | 响应前1000字: {"error":{"message":"Model id : Qwen/Qwen2.5-72B-Instruct , has no provider supported","request_id":"03199633-6018-4406-ad79-7b9d3013dbf5"}}
-2026-03-20 02:36:22,489 WARNING [ModelScope] 模型 Qwen/Qwen2.5-72B-Instruct 失败，尝试下一档。
-2026-03-20 02:36:22,489 ERROR [ModelScope] 所有候选模型均失败: ['Qwen/Qwen2.5-72B-Instruct']
-2026-03-20 02:36:22,489 WARNING [ModelScope] 摘要生成失败，使用规则摘要: f/prompts.chat
-2026-03-20 02:36:22,490 INFO [ModelScope] 尝试模型: Qwen/Qwen2.5-72B-Instruct
-2026-03-20 02:36:23,569 WARNING [ModelScope] model=Qwen/Qwen2.5-72B-Instruct attempt=1 HTTP 400 | 响应前1000字: {"error":{"message":"Model id : Qwen/Qwen2.5-72B-Instruct , has no provider supported","request_id":"41d2a287-d1e6-4bbf-8459-8d3e80f4f552"}}
-2026-03-20 02:36:23,570 WARNING [ModelScope] 模型 Qwen/Qwen2.5-72B-Instruct 失败，尝试下一档。
-2026-03-20 02:36:23,570 ERROR [ModelScope] 所有候选模型均失败: ['Qwen/Qwen2.5-72B-Instruct']
-2026-03-20 02:36:23,570 WARNING [ModelScope] 摘要生成失败，使用规则摘要: open-webui/open-webui
-2026-03-20 02:36:23,570 INFO [ModelScope] 尝试模型: Qwen/Qwen2.5-72B-Instruct
-2026-03-20 02:36:24,479 WARNING [ModelScope] model=Qwen/Qwen2.5-72B-Instruct attempt=1 HTTP 400 | 响应前1000字: {"error":{"message":"Model id : Qwen/Qwen2.5-72B-Instruct , has no provider supported","request_id":"c8adc468-e458-489e-bb03-28b69e54aed7"}}
-2026-03-20 02:36:24,480 WARNING [ModelScope] 模型 Qwen/Qwen2.5-72B-Instruct 失败，尝试下一档。
-2026-03-20 02:36:24,480 ERROR [ModelScope] 所有候选模型均失败: ['Qwen/Qwen2.5-72B-Instruct']
-2026-03-20 02:36:24,480 WARNING [ModelScope] 摘要生成失败，使用规则摘要: ollama/ollama
-2026-03-20 02:36:24,483 INFO [Select] 写入 3 条到 /home/runner/work/Amiya_desi-/Amiya_desi-/scripts/daily_write/daily_selected.json
-f/prompts.chat@@f/prompts.chat，GitHub 上拥有 153,370 stars 的热门开源项目。@@https://github.com/f/prompts.chat@@ai,ai,artificial-intelligence,awesome-list
-open-webui/open-webui@@open-webui/open-webui，GitHub 上拥有 127,922 stars 的热门开源项目。@@https://github.com/open-webui/open-webui@@ai,ai,llm,llm-ui
-ollama/ollama@@ollama/ollama，GitHub 上拥有 165,622 stars 的热门开源项目。@@https://github.com/ollama/ollama@@go,deepseek,gemma,gemma3
+2026-03-21 02:30:36,387 INFO [Select] 加载 60 条资源: /home/runner/work/Amiya_desi-/Amiya_desi-/scripts/daily_write/resources.json
+2026-03-21 02:30:36,387 INFO [Select] 加载 1 条资源: /home/runner/work/Amiya_desi-/Amiya_desi-/scripts/daily_write/fallback_resources.json
+2026-03-21 02:30:36,405 INFO [Select] 去重后剩余 60 条
+2026-03-21 02:30:36,492 INFO [ModelScope] 尝试模型: Qwen/Qwen2.5-72B-Instruct
+2026-03-21 02:30:38,044 WARNING [ModelScope] model=Qwen/Qwen2.5-72B-Instruct attempt=1 HTTP 400 | 响应前1000字: {"error":{"message":"Model id : Qwen/Qwen2.5-72B-Instruct , has no provider supported","request_id":"69c78116-c977-439e-8f38-c1d59fddaf12"}}
+2026-03-21 02:30:38,045 WARNING [ModelScope] 模型 Qwen/Qwen2.5-72B-Instruct 失败，尝试下一档。
+2026-03-21 02:30:38,045 ERROR [ModelScope] 所有候选模型均失败: ['Qwen/Qwen2.5-72B-Instruct']
+2026-03-21 02:30:38,045 WARNING [ModelScope] 摘要生成失败，使用规则摘要: fatedier/frp
+2026-03-21 02:30:38,045 INFO [ModelScope] 尝试模型: Qwen/Qwen2.5-72B-Instruct
+2026-03-21 02:30:39,453 WARNING [ModelScope] model=Qwen/Qwen2.5-72B-Instruct attempt=1 HTTP 400 | 响应前1000字: {"error":{"message":"Model id : Qwen/Qwen2.5-72B-Instruct , has no provider supported","request_id":"56a877f2-1463-4c66-ae41-e2353cce52bd"}}
+2026-03-21 02:30:39,454 WARNING [ModelScope] 模型 Qwen/Qwen2.5-72B-Instruct 失败，尝试下一档。
+2026-03-21 02:30:39,454 ERROR [ModelScope] 所有候选模型均失败: ['Qwen/Qwen2.5-72B-Instruct']
+2026-03-21 02:30:39,454 WARNING [ModelScope] 摘要生成失败，使用规则摘要: rust-lang/rust
+2026-03-21 02:30:39,454 INFO [ModelScope] 尝试模型: Qwen/Qwen2.5-72B-Instruct
+2026-03-21 02:30:41,054 WARNING [ModelScope] model=Qwen/Qwen2.5-72B-Instruct attempt=1 HTTP 400 | 响应前1000字: {"error":{"message":"Model id : Qwen/Qwen2.5-72B-Instruct , has no provider supported","request_id":"a91920aa-c99c-4534-af8e-fb6789bac935"}}
+2026-03-21 02:30:41,055 WARNING [ModelScope] 模型 Qwen/Qwen2.5-72B-Instruct 失败，尝试下一档。
+2026-03-21 02:30:41,055 ERROR [ModelScope] 所有候选模型均失败: ['Qwen/Qwen2.5-72B-Instruct']
+2026-03-21 02:30:41,055 WARNING [ModelScope] 摘要生成失败，使用规则摘要: kubernetes/kubernetes
+2026-03-21 02:30:41,058 INFO [Select] 写入 3 条到 /home/runner/work/Amiya_desi-/Amiya_desi-/scripts/daily_write/daily_selected.json
+fatedier/frp@@fatedier/frp，GitHub 上拥有 105,445 stars 的热门开源项目。@@https://github.com/fatedier/frp@@go,expose,firewall,frp
+rust-lang/rust@@rust-lang/rust，GitHub 上拥有 111,376 stars 的热门开源项目。@@https://github.com/rust-lang/rust@@rust,compiler,language,rust
+kubernetes/kubernetes@@kubernetes/kubernetes，GitHub 上拥有 121,259 stars 的热门开源项目。@@https://github.com/kubernetes/kubernetes@@go,cncf,containers,go
 [INFO] 运行 render_daily_post.py
-2026-03-20 02:36:24,636 INFO [ModelScope] 尝试模型: Qwen/Qwen2.5-32B-Instruct
-2026-03-20 02:36:25,563 WARNING [ModelScope] model=Qwen/Qwen2.5-32B-Instruct attempt=1 HTTP 400 | 响应前1000字: {"error":{"message":"Model id : Qwen/Qwen2.5-32B-Instruct , has no provider supported","request_id":"5650023c-cce9-4ff3-b693-676b4c6fa7ad"}}
-2026-03-20 02:36:25,564 WARNING [ModelScope] 模型 Qwen/Qwen2.5-32B-Instruct 失败，尝试下一档。
-2026-03-20 02:36:25,564 ERROR [ModelScope] 所有候选模型均失败: ['Qwen/Qwen2.5-32B-Instruct']
-2026-03-20 02:36:25,564 WARNING [ModelScope] 祝福语生成失败，使用本地模板。
+2026-03-21 02:30:41,215 INFO [ModelScope] 尝试模型: Qwen/Qwen2.5-32B-Instruct
+2026-03-21 02:30:42,386 WARNING [ModelScope] model=Qwen/Qwen2.5-32B-Instruct attempt=1 HTTP 400 | 响应前1000字: {"error":{"message":"Model id : Qwen/Qwen2.5-32B-Instruct , has no provider supported","request_id":"4cdaabe2-6c69-481c-97e5-3700558d06f0"}}
+2026-03-21 02:30:42,387 WARNING [ModelScope] 模型 Qwen/Qwen2.5-32B-Instruct 失败，尝试下一档。
+2026-03-21 02:30:42,387 ERROR [ModelScope] 所有候选模型均失败: ['Qwen/Qwen2.5-32B-Instruct']
+2026-03-21 02:30:42,387 WARNING [ModelScope] 祝福语生成失败，使用本地模板。
 {
-  "url": "https://api.github.com/repos/exfinmax/Amiya_desi-/issues/51",
+  "url": "https://api.github.com/repos/exfinmax/Amiya_desi-/issues/52",
   "repository_url": "https://api.github.com/repos/exfinmax/Amiya_desi-",
-  "labels_url": "https://api.github.com/repos/exfinmax/Amiya_desi-/issues/51/labels{/name}",
-  "comments_url": "https://api.github.com/repos/exfinmax/Amiya_desi-/issues/51/comments",
-  "events_url": "https://api.github.com/repos/exfinmax/Amiya_desi-/issues/51/events",
-  "html_url": "https://github.com/exfinmax/Amiya_desi-/issues/51",
-  "id": 4105346632,
-  "node_id": "I_kwDOQIyYFM70sp5I",
-  "number": 51,
-  "title": "[Update] 今日免费资源推荐 - 2026-03-20",
+  "labels_url": "https://api.github.com/repos/exfinmax/Amiya_desi-/issues/52/labels{/name}",
+  "comments_url": "https://api.github.com/repos/exfinmax/Amiya_desi-/issues/52/comments",
+  "events_url": "https://api.github.com/repos/exfinmax/Amiya_desi-/issues/52/events",
+  "html_url": "https://github.com/exfinmax/Amiya_desi-/issues/52",
+  "id": 4111053226,
+  "node_id": "I_kwDOQIyYFM71CbGq",
+  "number": 52,
+  "title": "[Update] 今日免费资源推荐 - 2026-03-21",
   "user": {
     "login": "exfinmax",
     "id": 209887894,
@@ -96,8 +96,8 @@ ollama/ollama@@ollama/ollama，GitHub 上拥有 165,622 stars 的热门开源项
   ],
   "milestone": null,
   "comments": 0,
-  "created_at": "2026-03-20T02:36:25Z",
-  "updated_at": "2026-03-20T02:36:25Z",
+  "created_at": "2026-03-21T02:30:42Z",
+  "updated_at": "2026-03-21T02:30:42Z",
   "closed_at": null,
   "assignee": null,
   "author_association": "OWNER",
@@ -113,6 +113,7 @@ ollama/ollama@@ollama/ollama，GitHub 上拥有 165,622 stars 的热门开源项
     "blocking": 0,
     "total_blocking": 0
   },
-  "body": "> 今天的资源不算多，但每条都经过筛选，应该不会让你失望。\n\n---\n\n#### 今日资源推荐\n\n- **f/prompts.chat** ⭐153,370\n  - 简介：f/prompts.chat，GitHub 上拥有 153,370 stars 的热门开源项目。\n  - 推荐理由：GitHub 高星项目，社区认可度高。\n  - 获取：<https://github.com/f/prompts.chat>\n\n- **open-webui/open-webui** ⭐127,922\n  - 简介：open-webui/open-webui，GitHub 上拥有 127,922 stars 的热门开源项目。\n  - 推荐理由：GitHub 高星项目，社区认可度高。\n  - 获取：<https://github.com/open-webui/open-webui>\n\n- **ollama/ollama** ⭐165,622\n  - 简介：ollama/ollama，GitHub 上拥有 165,622 stars 的热门开源项目。\n  - 推荐理由：GitHub 高星项目，社区认可度高。\n  - 获取：<https://github.com/ollama/ollama>\n\n\n> 更多实用资源，敬请关注！\n\n---\n\nTrigger: 自动构建"[INFO] 发布成功 HTTP 201
-2026-03-20 - SUCCESS
-[INFO] 完成 Fri Mar 20 02:36:26 UTC 2026
+  "body": "> 周末也好，工作日也好，好内容随时都值得看一眼。\n\n---\n\n#### 今日资源推荐\n\n- **fatedier/frp** ⭐105,445\n  - 简介：fatedier/frp，GitHub 上拥有 105,445 stars 的热门开源项目。\n  - 推荐理由：GitHub 高星项目，社区认可度高。\n  - 获取：<https://github.com/fatedier/frp>\n\n- **rust-lang/rust** ⭐111,376\n  - 简介：rust-lang/rust，GitHub 上拥有 111,376 stars 的热门开源项目。\n  - 推荐理由：GitHub 高星项目，社区认可度高。\n  - 获取：<https://github.com/rust-lang/rust>\n\n- **kubernetes/kubernetes** ⭐121,259\n  - 简介：kubernetes/kubernetes，GitHub 上拥有 121,259 stars 的热门开源项目。\n  - 推荐理由：GitHub 高星项目，社区认可度高。\n  - 获取：<https://github.com/kubernetes/kubernetes>\n\n\n> 更多实用资源，敬请关注！\n\n---\n\nTrigger: 自动构建",
+  "closed_by"[INFO] 发布成功 HTTP 201
+2026-03-21 - SUCCESS
+[INFO] 完成 Sat Mar 21 02:30:42 UTC 2026

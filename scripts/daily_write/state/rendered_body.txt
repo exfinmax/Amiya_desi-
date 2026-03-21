@@ -1,23 +1,23 @@
-> 今天的资源不算多，但每条都经过筛选，应该不会让你失望。
+> 周末也好，工作日也好，好内容随时都值得看一眼。
 
 ---
 
 #### 今日资源推荐
 
-- **f/prompts.chat** ⭐153,370
-  - 简介：f/prompts.chat，GitHub 上拥有 153,370 stars 的热门开源项目。
+- **fatedier/frp** ⭐105,445
+  - 简介：fatedier/frp，GitHub 上拥有 105,445 stars 的热门开源项目。
   - 推荐理由：GitHub 高星项目，社区认可度高。
-  - 获取：<https://github.com/f/prompts.chat>
+  - 获取：<https://github.com/fatedier/frp>
 
-- **open-webui/open-webui** ⭐127,922
-  - 简介：open-webui/open-webui，GitHub 上拥有 127,922 stars 的热门开源项目。
+- **rust-lang/rust** ⭐111,376
+  - 简介：rust-lang/rust，GitHub 上拥有 111,376 stars 的热门开源项目。
   - 推荐理由：GitHub 高星项目，社区认可度高。
-  - 获取：<https://github.com/open-webui/open-webui>
+  - 获取：<https://github.com/rust-lang/rust>
 
-- **ollama/ollama** ⭐165,622
-  - 简介：ollama/ollama，GitHub 上拥有 165,622 stars 的热门开源项目。
+- **kubernetes/kubernetes** ⭐121,259
+  - 简介：kubernetes/kubernetes，GitHub 上拥有 121,259 stars 的热门开源项目。
   - 推荐理由：GitHub 高星项目，社区认可度高。
-  - 获取：<https://github.com/ollama/ollama>
+  - 获取：<https://github.com/kubernetes/kubernetes>
 
 
 > 更多实用资源，敬请关注！
