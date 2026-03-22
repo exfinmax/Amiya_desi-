@@ -1,62 +1,80 @@
 [
   {
-    "title": "fatedier/frp",
-    "url": "https://github.com/fatedier/frp",
-    "source": "github:search",
+    "title": "SCP-171 - SCP Foundation",
+    "url": "https://scp-wiki.wikidot.com/scp-171",
+    "source": "scp-scrape",
     "tags": [
-      "go",
-      "expose",
-      "firewall",
-      "frp"
+      "scp"
     ],
-    "score": 78.41,
-    "summary": "fatedier/frp，GitHub 上拥有 105,445 stars 的热门开源项目。",
-    "reason": "GitHub 高星项目，社区认可度高。",
+    "score": 115.31,
+    "summary": "SCP-171 - SCP Foundation，值得关注的技术资源。",
+    "reason": "SCP 基金会收录条目，创意写作爱好者必看。",
     "audience": "开发者",
     "keywords": [
-      "fatedier",
-      "frp"
+      "SCP-171",
+      "SCP",
+      "Foundation"
     ],
-    "stars": 105445
+    "stars": null
   },
   {
-    "title": "rust-lang/rust",
-    "url": "https://github.com/rust-lang/rust",
+    "title": "tauri-apps/tauri",
+    "url": "https://github.com/tauri-apps/tauri",
     "source": "github:search",
     "tags": [
       "rust",
-      "compiler",
-      "language",
-      "rust"
+      "desktop-app",
+      "high-performance",
+      "mobile-app"
     ],
-    "score": 77.37,
-    "summary": "rust-lang/rust，GitHub 上拥有 111,376 stars 的热门开源项目。",
+    "score": 79.45,
+    "summary": "tauri-apps/tauri，GitHub 上拥有 104,457 stars 的热门开源项目。",
     "reason": "GitHub 高星项目，社区认可度高。",
     "audience": "开发者",
     "keywords": [
-      "rust-lang",
-      "rust"
+      "tauri-apps",
+      "tauri"
     ],
-    "stars": 111376
+    "stars": 104457
   },
   {
-    "title": "kubernetes/kubernetes",
-    "url": "https://github.com/kubernetes/kubernetes",
+    "title": "openclaw/openclaw",
+    "url": "https://github.com/openclaw/openclaw",
     "source": "github:search",
     "tags": [
-      "go",
-      "cncf",
-      "containers",
-      "go"
+      "ai",
+      "ai",
+      "assistant",
+      "crustacean"
     ],
-    "score": 76.12,
-    "summary": "kubernetes/kubernetes，GitHub 上拥有 121,259 stars 的热门开源项目。",
+    "score": 77.3,
+    "summary": "openclaw/openclaw，GitHub 上拥有 328,752 stars 的热门开源项目。",
     "reason": "GitHub 高星项目，社区认可度高。",
     "audience": "开发者",
     "keywords": [
-      "kubernetes",
-      "kubernetes"
+      "openclaw",
+      "openclaw"
     ],
-    "stars": 121259
+    "stars": 328752
+  },
+  {
+    "title": "yt-dlp/yt-dlp",
+    "url": "https://github.com/yt-dlp/yt-dlp",
+    "source": "github:search",
+    "tags": [
+      "cli",
+      "cli",
+      "downloader",
+      "python"
+    ],
+    "score": 75.77,
+    "summary": "yt-dlp/yt-dlp，GitHub 上拥有 152,465 stars 的热门开源项目。",
+    "reason": "GitHub 高星项目，社区认可度高。",
+    "audience": "开发者",
+    "keywords": [
+      "yt-dlp",
+      "yt-dlp"
+    ],
+    "stars": 152465
   }
 ]
