@@ -17,3 +17,7 @@ https://scp-wiki.wikidot.com/scp-171
 https://github.com/tauri-apps/tauri
 https://github.com/openclaw/openclaw
 https://github.com/yt-dlp/yt-dlp
+https://scp-wiki.wikidot.com/scp-868
+https://github.com/avelino/awesome-go
+https://github.com/denoland/deno
+https://github.com/langchain-ai/langchain

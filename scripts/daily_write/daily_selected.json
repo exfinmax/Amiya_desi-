@@ -1,80 +1,80 @@
 [
   {
-    "title": "SCP-171 - SCP Foundation",
-    "url": "https://scp-wiki.wikidot.com/scp-171",
+    "title": "SCP-868 - SCP Foundation",
+    "url": "https://scp-wiki.wikidot.com/scp-868",
     "source": "scp-scrape",
     "tags": [
       "scp"
     ],
-    "score": 115.31,
-    "summary": "SCP-171 - SCP Foundation，值得关注的技术资源。",
+    "score": 111.22,
+    "summary": "SCP-868 - SCP Foundation，值得关注的技术资源。",
     "reason": "SCP 基金会收录条目，创意写作爱好者必看。",
     "audience": "开发者",
     "keywords": [
-      "SCP-171",
+      "SCP-868",
       "SCP",
       "Foundation"
     ],
     "stars": null
   },
   {
-    "title": "tauri-apps/tauri",
-    "url": "https://github.com/tauri-apps/tauri",
+    "title": "avelino/awesome-go",
+    "url": "https://github.com/avelino/awesome-go",
+    "source": "github:search",
+    "tags": [
+      "go",
+      "awesome",
+      "awesome-list",
+      "go"
+    ],
+    "score": 77.23,
+    "summary": "avelino/awesome-go，GitHub 上拥有 168,007 stars 的热门开源项目。",
+    "reason": "GitHub 高星项目，社区认可度高。",
+    "audience": "开发者",
+    "keywords": [
+      "avelino",
+      "awesome-go"
+    ],
+    "stars": 168007
+  },
+  {
+    "title": "denoland/deno",
+    "url": "https://github.com/denoland/deno",
     "source": "github:search",
     "tags": [
       "rust",
-      "desktop-app",
-      "high-performance",
-      "mobile-app"
+      "deno",
+      "javascript",
+      "rust"
     ],
-    "score": 79.45,
-    "summary": "tauri-apps/tauri，GitHub 上拥有 104,457 stars 的热门开源项目。",
+    "score": 76.19,
+    "summary": "denoland/deno，GitHub 上拥有 106,458 stars 的热门开源项目。",
     "reason": "GitHub 高星项目，社区认可度高。",
     "audience": "开发者",
     "keywords": [
-      "tauri-apps",
-      "tauri"
+      "denoland",
+      "deno"
     ],
-    "stars": 104457
+    "stars": 106458
   },
   {
-    "title": "openclaw/openclaw",
-    "url": "https://github.com/openclaw/openclaw",
+    "title": "langchain-ai/langchain",
+    "url": "https://github.com/langchain-ai/langchain",
     "source": "github:search",
     "tags": [
       "ai",
+      "agents",
       "ai",
-      "assistant",
-      "crustacean"
+      "ai-agents"
     ],
-    "score": 77.3,
-    "summary": "openclaw/openclaw，GitHub 上拥有 328,752 stars 的热门开源项目。",
+    "score": 75.45,
+    "summary": "langchain-ai/langchain，GitHub 上拥有 130,632 stars 的热门开源项目。",
     "reason": "GitHub 高星项目，社区认可度高。",
     "audience": "开发者",
     "keywords": [
-      "openclaw",
-      "openclaw"
+      "langchain-ai",
+      "langchain"
     ],
-    "stars": 328752
-  },
-  {
-    "title": "yt-dlp/yt-dlp",
-    "url": "https://github.com/yt-dlp/yt-dlp",
-    "source": "github:search",
-    "tags": [
-      "cli",
-      "cli",
-      "downloader",
-      "python"
-    ],
-    "score": 75.77,
-    "summary": "yt-dlp/yt-dlp，GitHub 上拥有 152,465 stars 的热门开源项目。",
-    "reason": "GitHub 高星项目，社区认可度高。",
-    "audience": "开发者",
-    "keywords": [
-      "yt-dlp",
-      "yt-dlp"
-    ],
-    "stars": 152465
+    "stars": 130632
   }
 ]
