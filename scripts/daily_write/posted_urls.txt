@@ -21,3 +21,7 @@ https://scp-wiki.wikidot.com/scp-868
 https://github.com/avelino/awesome-go
 https://github.com/denoland/deno
 https://github.com/langchain-ai/langchain
+https://scp-wiki.wikidot.com/scp-931
+https://github.com/microsoft/generative-ai-for-beginners
+https://github.com/twbs/bootstrap
+https://github.com/go-gitea/gitea

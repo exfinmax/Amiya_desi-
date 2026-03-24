@@ -1,80 +1,80 @@
 [
   {
-    "title": "SCP-868 - SCP Foundation",
-    "url": "https://scp-wiki.wikidot.com/scp-868",
+    "title": "SCP-931 - SCP Foundation",
+    "url": "https://scp-wiki.wikidot.com/scp-931",
     "source": "scp-scrape",
     "tags": [
       "scp"
     ],
-    "score": 111.22,
-    "summary": "SCP-868 - SCP Foundation，值得关注的技术资源。",
+    "score": 114.08,
+    "summary": "SCP-931 - SCP Foundation，值得关注的技术资源。",
     "reason": "SCP 基金会收录条目，创意写作爱好者必看。",
     "audience": "开发者",
     "keywords": [
-      "SCP-868",
+      "SCP-931",
       "SCP",
       "Foundation"
     ],
     "stars": null
   },
   {
-    "title": "avelino/awesome-go",
-    "url": "https://github.com/avelino/awesome-go",
+    "title": "microsoft/generative-ai-for-beginners",
+    "url": "https://github.com/microsoft/generative-ai-for-beginners",
     "source": "github:search",
     "tags": [
-      "go",
-      "awesome",
-      "awesome-list",
-      "go"
+      "ai",
+      "ai",
+      "azure",
+      "chatgpt"
     ],
-    "score": 77.23,
-    "summary": "avelino/awesome-go，GitHub 上拥有 168,007 stars 的热门开源项目。",
+    "score": 77.04,
+    "summary": "microsoft/generative-ai-for-beginners，GitHub 上拥有 108,420 sta",
     "reason": "GitHub 高星项目，社区认可度高。",
     "audience": "开发者",
     "keywords": [
-      "avelino",
-      "awesome-go"
+      "microsoft",
+      "generative-ai-for-beginners"
     ],
-    "stars": 168007
+    "stars": 108420
   },
   {
-    "title": "denoland/deno",
-    "url": "https://github.com/denoland/deno",
+    "title": "twbs/bootstrap",
+    "url": "https://github.com/twbs/bootstrap",
     "source": "github:search",
     "tags": [
-      "rust",
-      "deno",
       "javascript",
-      "rust"
+      "bootstrap",
+      "css",
+      "css-framework"
     ],
-    "score": 76.19,
-    "summary": "denoland/deno，GitHub 上拥有 106,458 stars 的热门开源项目。",
+    "score": 75.04,
+    "summary": "twbs/bootstrap，GitHub 上拥有 174,106 stars 的热门开源项目。",
     "reason": "GitHub 高星项目，社区认可度高。",
     "audience": "开发者",
     "keywords": [
-      "denoland",
-      "deno"
+      "twbs",
+      "bootstrap"
     ],
-    "stars": 106458
+    "stars": 174106
   },
   {
-    "title": "langchain-ai/langchain",
-    "url": "https://github.com/langchain-ai/langchain",
+    "title": "go-gitea/gitea",
+    "url": "https://github.com/go-gitea/gitea",
     "source": "github:search",
     "tags": [
-      "ai",
-      "agents",
-      "ai",
-      "ai-agents"
+      "devops",
+      "bitbucket",
+      "cicd",
+      "devops"
     ],
-    "score": 75.45,
-    "summary": "langchain-ai/langchain，GitHub 上拥有 130,632 stars 的热门开源项目。",
+    "score": 73.37,
+    "summary": "go-gitea/gitea，GitHub 上拥有 54,437 stars 的热门开源项目。",
     "reason": "GitHub 高星项目，社区认可度高。",
     "audience": "开发者",
     "keywords": [
-      "langchain-ai",
-      "langchain"
+      "go-gitea",
+      "gitea"
     ],
-    "stars": 130632
+    "stars": 54437
   }
 ]
