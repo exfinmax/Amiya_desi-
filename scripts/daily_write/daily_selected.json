@@ -1,80 +1,61 @@
 [
   {
-    "title": "SCP-931 - SCP Foundation",
-    "url": "https://scp-wiki.wikidot.com/scp-931",
-    "source": "scp-scrape",
-    "tags": [
-      "scp"
-    ],
-    "score": 114.08,
-    "summary": "SCP-931 - SCP Foundation，值得关注的技术资源。",
-    "reason": "SCP 基金会收录条目，创意写作爱好者必看。",
-    "audience": "开发者",
-    "keywords": [
-      "SCP-931",
-      "SCP",
-      "Foundation"
-    ],
-    "stars": null
-  },
-  {
-    "title": "microsoft/generative-ai-for-beginners",
-    "url": "https://github.com/microsoft/generative-ai-for-beginners",
+    "title": "gin-gonic/gin",
+    "url": "https://github.com/gin-gonic/gin",
     "source": "github:search",
     "tags": [
+      "go",
+      "framework",
+      "gin",
+      "go"
+    ],
+    "score": 74.15,
+    "summary": "gin-gonic/gin，GitHub 上拥有 88,304 stars 的热门开源项目。",
+    "reason": "GitHub 高星项目，社区认可度高。",
+    "audience": "开发者",
+    "keywords": [
+      "gin-gonic",
+      "gin"
+    ],
+    "stars": 88304
+  },
+  {
+    "title": "kamranahmedse/developer-roadmap",
+    "url": "https://github.com/kamranahmedse/developer-roadmap",
+    "source": "github:search",
+    "tags": [
+      "angular-roadmap",
+      "backend-roadmap",
+      "blockchain-roadmap"
+    ],
+    "score": 73.66,
+    "summary": "kamranahmedse/developer-roadmap，GitHub 上拥有 351,624 stars 的热门",
+    "reason": "GitHub 高星项目，社区认可度高。",
+    "audience": "开发者",
+    "keywords": [
+      "kamranahmedse",
+      "developer-roadmap"
+    ],
+    "stars": 351624
+  },
+  {
+    "title": "google-gemini/gemini-cli",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "source": "github:search",
+    "tags": [
+      "cli",
       "ai",
-      "ai",
-      "azure",
-      "chatgpt"
+      "ai-agents",
+      "cli"
     ],
-    "score": 77.04,
-    "summary": "microsoft/generative-ai-for-beginners，GitHub 上拥有 108,420 sta",
+    "score": 73.52,
+    "summary": "google-gemini/gemini-cli，GitHub 上拥有 98,967 stars 的热门开源项目。",
     "reason": "GitHub 高星项目，社区认可度高。",
     "audience": "开发者",
     "keywords": [
-      "microsoft",
-      "generative-ai-for-beginners"
+      "google-gemini",
+      "gemini-cli"
     ],
-    "stars": 108420
-  },
-  {
-    "title": "twbs/bootstrap",
-    "url": "https://github.com/twbs/bootstrap",
-    "source": "github:search",
-    "tags": [
-      "javascript",
-      "bootstrap",
-      "css",
-      "css-framework"
-    ],
-    "score": 75.04,
-    "summary": "twbs/bootstrap，GitHub 上拥有 174,106 stars 的热门开源项目。",
-    "reason": "GitHub 高星项目，社区认可度高。",
-    "audience": "开发者",
-    "keywords": [
-      "twbs",
-      "bootstrap"
-    ],
-    "stars": 174106
-  },
-  {
-    "title": "go-gitea/gitea",
-    "url": "https://github.com/go-gitea/gitea",
-    "source": "github:search",
-    "tags": [
-      "devops",
-      "bitbucket",
-      "cicd",
-      "devops"
-    ],
-    "score": 73.37,
-    "summary": "go-gitea/gitea，GitHub 上拥有 54,437 stars 的热门开源项目。",
-    "reason": "GitHub 高星项目，社区认可度高。",
-    "audience": "开发者",
-    "keywords": [
-      "go-gitea",
-      "gitea"
-    ],
-    "stars": 54437
+    "stars": 98967
   }
 ]

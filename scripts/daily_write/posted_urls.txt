@@ -25,3 +25,6 @@ https://scp-wiki.wikidot.com/scp-931
 https://github.com/microsoft/generative-ai-for-beginners
 https://github.com/twbs/bootstrap
 https://github.com/go-gitea/gitea
+https://github.com/gin-gonic/gin
+https://github.com/kamranahmedse/developer-roadmap
+https://github.com/google-gemini/gemini-cli

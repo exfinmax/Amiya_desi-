@@ -1,31 +1,23 @@
-> 技术圈每天都有新东西，但真正值得花时间的并不多，今天这几条算是。
+> 信息很多，但好内容不多。今天帮你筛了几条，慢慢看。
 
 ---
 
 #### 今日资源推荐
 
-- **microsoft/generative-ai-for-beginners** ⭐108,420
-  - 简介：microsoft/generative-ai-for-beginners，GitHub 上拥有 108,420 sta
+- **gin-gonic/gin** ⭐88,304
+  - 简介：gin-gonic/gin，GitHub 上拥有 88,304 stars 的热门开源项目。
   - 推荐理由：GitHub 高星项目，社区认可度高。
-  - 获取：<https://github.com/microsoft/generative-ai-for-beginners>
+  - 获取：<https://github.com/gin-gonic/gin>
 
-- **twbs/bootstrap** ⭐174,106
-  - 简介：twbs/bootstrap，GitHub 上拥有 174,106 stars 的热门开源项目。
+- **kamranahmedse/developer-roadmap** ⭐351,624
+  - 简介：kamranahmedse/developer-roadmap，GitHub 上拥有 351,624 stars 的热门
   - 推荐理由：GitHub 高星项目，社区认可度高。
-  - 获取：<https://github.com/twbs/bootstrap>
+  - 获取：<https://github.com/kamranahmedse/developer-roadmap>
 
-- **go-gitea/gitea** ⭐54,437
-  - 简介：go-gitea/gitea，GitHub 上拥有 54,437 stars 的热门开源项目。
+- **google-gemini/gemini-cli** ⭐98,967
+  - 简介：google-gemini/gemini-cli，GitHub 上拥有 98,967 stars 的热门开源项目。
   - 推荐理由：GitHub 高星项目，社区认可度高。
-  - 获取：<https://github.com/go-gitea/gitea>
-
-
-#### SCP 资源
-
-- **SCP-931 - SCP Foundation**
-  - 简介：SCP-931 - SCP Foundation，值得关注的技术资源。
-  - 推荐理由：SCP 基金会收录条目，创意写作爱好者必看。
-  - 获取：<https://scp-wiki.wikidot.com/scp-931>
+  - 获取：<https://github.com/google-gemini/gemini-cli>
 
 
 > 更多实用资源，敬请关注！
