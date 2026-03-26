@@ -1,23 +1,23 @@
-> 信息很多，但好内容不多。今天帮你筛了几条，慢慢看。
+> 周末也好，工作日也好，好内容随时都值得看一眼。
 
 ---
 
 #### 今日资源推荐
 
-- **gin-gonic/gin** ⭐88,304
-  - 简介：gin-gonic/gin，GitHub 上拥有 88,304 stars 的热门开源项目。
+- **freeCodeCamp/freeCodeCamp** ⭐438,835
+  - 简介：freeCodeCamp/freeCodeCamp，GitHub 上拥有 438,835 stars 的热门开源项目。
   - 推荐理由：GitHub 高星项目，社区认可度高。
-  - 获取：<https://github.com/gin-gonic/gin>
+  - 获取：<https://github.com/freeCodeCamp/freeCodeCamp>
 
-- **kamranahmedse/developer-roadmap** ⭐351,624
-  - 简介：kamranahmedse/developer-roadmap，GitHub 上拥有 351,624 stars 的热门
+- **TheAlgorithms/Python** ⭐219,054
+  - 简介：TheAlgorithms/Python，GitHub 上拥有 219,054 stars 的热门开源项目。
   - 推荐理由：GitHub 高星项目，社区认可度高。
-  - 获取：<https://github.com/kamranahmedse/developer-roadmap>
+  - 获取：<https://github.com/TheAlgorithms/Python>
 
-- **google-gemini/gemini-cli** ⭐98,967
-  - 简介：google-gemini/gemini-cli，GitHub 上拥有 98,967 stars 的热门开源项目。
+- **gohugoio/hugo** ⭐87,280
+  - 简介：gohugoio/hugo，GitHub 上拥有 87,280 stars 的热门开源项目。
   - 推荐理由：GitHub 高星项目，社区认可度高。
-  - 获取：<https://github.com/google-gemini/gemini-cli>
+  - 获取：<https://github.com/gohugoio/hugo>
 
 
 > 更多实用资源，敬请关注！

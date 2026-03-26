@@ -1,61 +1,61 @@
 [
   {
-    "title": "gin-gonic/gin",
-    "url": "https://github.com/gin-gonic/gin",
+    "title": "freeCodeCamp/freeCodeCamp",
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+    "source": "github:search",
+    "tags": [
+      "careers",
+      "certification",
+      "community"
+    ],
+    "score": 74.21,
+    "summary": "freeCodeCamp/freeCodeCamp，GitHub 上拥有 438,835 stars 的热门开源项目。",
+    "reason": "GitHub 高星项目，社区认可度高。",
+    "audience": "开发者",
+    "keywords": [
+      "freeCodeCamp",
+      "freeCodeCamp"
+    ],
+    "stars": 438835
+  },
+  {
+    "title": "TheAlgorithms/Python",
+    "url": "https://github.com/TheAlgorithms/Python",
+    "source": "github:search",
+    "tags": [
+      "python",
+      "algorithm",
+      "algorithm-competitions",
+      "algorithms-implemented"
+    ],
+    "score": 73.74,
+    "summary": "TheAlgorithms/Python，GitHub 上拥有 219,054 stars 的热门开源项目。",
+    "reason": "GitHub 高星项目，社区认可度高。",
+    "audience": "开发者",
+    "keywords": [
+      "TheAlgorithms",
+      "Python"
+    ],
+    "stars": 219054
+  },
+  {
+    "title": "gohugoio/hugo",
+    "url": "https://github.com/gohugoio/hugo",
     "source": "github:search",
     "tags": [
       "go",
-      "framework",
-      "gin",
-      "go"
+      "blog-engine",
+      "cms",
+      "content-management-system"
     ],
-    "score": 74.15,
-    "summary": "gin-gonic/gin，GitHub 上拥有 88,304 stars 的热门开源项目。",
+    "score": 72.56,
+    "summary": "gohugoio/hugo，GitHub 上拥有 87,280 stars 的热门开源项目。",
     "reason": "GitHub 高星项目，社区认可度高。",
     "audience": "开发者",
     "keywords": [
-      "gin-gonic",
-      "gin"
+      "gohugoio",
+      "hugo"
     ],
-    "stars": 88304
-  },
-  {
-    "title": "kamranahmedse/developer-roadmap",
-    "url": "https://github.com/kamranahmedse/developer-roadmap",
-    "source": "github:search",
-    "tags": [
-      "angular-roadmap",
-      "backend-roadmap",
-      "blockchain-roadmap"
-    ],
-    "score": 73.66,
-    "summary": "kamranahmedse/developer-roadmap，GitHub 上拥有 351,624 stars 的热门",
-    "reason": "GitHub 高星项目，社区认可度高。",
-    "audience": "开发者",
-    "keywords": [
-      "kamranahmedse",
-      "developer-roadmap"
-    ],
-    "stars": 351624
-  },
-  {
-    "title": "google-gemini/gemini-cli",
-    "url": "https://github.com/google-gemini/gemini-cli",
-    "source": "github:search",
-    "tags": [
-      "cli",
-      "ai",
-      "ai-agents",
-      "cli"
-    ],
-    "score": 73.52,
-    "summary": "google-gemini/gemini-cli，GitHub 上拥有 98,967 stars 的热门开源项目。",
-    "reason": "GitHub 高星项目，社区认可度高。",
-    "audience": "开发者",
-    "keywords": [
-      "google-gemini",
-      "gemini-cli"
-    ],
-    "stars": 98967
+    "stars": 87280
   }
 ]

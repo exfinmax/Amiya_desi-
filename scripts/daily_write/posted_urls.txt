@@ -28,3 +28,6 @@ https://github.com/go-gitea/gitea
 https://github.com/gin-gonic/gin
 https://github.com/kamranahmedse/developer-roadmap
 https://github.com/google-gemini/gemini-cli
+https://github.com/freeCodeCamp/freeCodeCamp
+https://github.com/TheAlgorithms/Python
+https://github.com/gohugoio/hugo
