@@ -1,61 +1,62 @@
 [
   {
-    "title": "freeCodeCamp/freeCodeCamp",
-    "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+    "title": "pathwaycom/pathway",
+    "url": "https://github.com/pathwaycom/pathway",
     "source": "github:search",
     "tags": [
-      "careers",
-      "certification",
-      "community"
+      "rust",
+      "batch-processing",
+      "data-analytics",
+      "data-pipelines"
     ],
-    "score": 74.21,
-    "summary": "freeCodeCamp/freeCodeCamp，GitHub 上拥有 438,835 stars 的热门开源项目。",
+    "score": 75.84,
+    "summary": "pathwaycom/pathway，GitHub 上拥有 62,720 stars 的热门开源项目。",
     "reason": "GitHub 高星项目，社区认可度高。",
     "audience": "开发者",
     "keywords": [
-      "freeCodeCamp",
-      "freeCodeCamp"
+      "pathwaycom",
+      "pathway"
     ],
-    "stars": 438835
+    "stars": 62720
   },
   {
-    "title": "TheAlgorithms/Python",
-    "url": "https://github.com/TheAlgorithms/Python",
+    "title": "toeverything/AFFiNE",
+    "url": "https://github.com/toeverything/AFFiNE",
     "source": "github:search",
     "tags": [
-      "python",
-      "algorithm",
-      "algorithm-competitions",
-      "algorithms-implemented"
+      "rust",
+      "app",
+      "crdt",
+      "editor"
     ],
-    "score": 73.74,
-    "summary": "TheAlgorithms/Python，GitHub 上拥有 219,054 stars 的热门开源项目。",
+    "score": 75.42,
+    "summary": "toeverything/AFFiNE，GitHub 上拥有 66,632 stars 的热门开源项目。",
     "reason": "GitHub 高星项目，社区认可度高。",
     "audience": "开发者",
     "keywords": [
-      "TheAlgorithms",
-      "Python"
+      "toeverything",
+      "AFFiNE"
     ],
-    "stars": 219054
+    "stars": 66632
   },
   {
-    "title": "gohugoio/hugo",
-    "url": "https://github.com/gohugoio/hugo",
+    "title": "sherlock-project/sherlock",
+    "url": "https://github.com/sherlock-project/sherlock",
     "source": "github:search",
     "tags": [
-      "go",
-      "blog-engine",
-      "cms",
-      "content-management-system"
+      "cli",
+      "cli",
+      "cti",
+      "cybersecurity"
     ],
-    "score": 72.56,
-    "summary": "gohugoio/hugo，GitHub 上拥有 87,280 stars 的热门开源项目。",
+    "score": 72.51,
+    "summary": "sherlock-project/sherlock，GitHub 上拥有 74,104 stars 的热门开源项目。",
     "reason": "GitHub 高星项目，社区认可度高。",
     "audience": "开发者",
     "keywords": [
-      "gohugoio",
-      "hugo"
+      "sherlock-project",
+      "sherlock"
     ],
-    "stars": 87280
+    "stars": 74104
   }
 ]

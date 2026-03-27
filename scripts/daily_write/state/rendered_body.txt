@@ -1,23 +1,23 @@
-> 周末也好，工作日也好，好内容随时都值得看一眼。
+> 周五了，把今天真正值得看的几条内容收好，其余的可以先放一放。
 
 ---
 
 #### 今日资源推荐
 
-- **freeCodeCamp/freeCodeCamp** ⭐438,835
-  - 简介：freeCodeCamp/freeCodeCamp，GitHub 上拥有 438,835 stars 的热门开源项目。
+- **pathwaycom/pathway** ⭐62,720
+  - 简介：pathwaycom/pathway，GitHub 上拥有 62,720 stars 的热门开源项目。
   - 推荐理由：GitHub 高星项目，社区认可度高。
-  - 获取：<https://github.com/freeCodeCamp/freeCodeCamp>
+  - 获取：<https://github.com/pathwaycom/pathway>
 
-- **TheAlgorithms/Python** ⭐219,054
-  - 简介：TheAlgorithms/Python，GitHub 上拥有 219,054 stars 的热门开源项目。
+- **toeverything/AFFiNE** ⭐66,632
+  - 简介：toeverything/AFFiNE，GitHub 上拥有 66,632 stars 的热门开源项目。
   - 推荐理由：GitHub 高星项目，社区认可度高。
-  - 获取：<https://github.com/TheAlgorithms/Python>
+  - 获取：<https://github.com/toeverything/AFFiNE>
 
-- **gohugoio/hugo** ⭐87,280
-  - 简介：gohugoio/hugo，GitHub 上拥有 87,280 stars 的热门开源项目。
+- **sherlock-project/sherlock** ⭐74,104
+  - 简介：sherlock-project/sherlock，GitHub 上拥有 74,104 stars 的热门开源项目。
   - 推荐理由：GitHub 高星项目，社区认可度高。
-  - 获取：<https://github.com/gohugoio/hugo>
+  - 获取：<https://github.com/sherlock-project/sherlock>
 
 
 > 更多实用资源，敬请关注！

@@ -31,3 +31,6 @@ https://github.com/google-gemini/gemini-cli
 https://github.com/freeCodeCamp/freeCodeCamp
 https://github.com/TheAlgorithms/Python
 https://github.com/gohugoio/hugo
+https://github.com/pathwaycom/pathway
+https://github.com/toeverything/AFFiNE
+https://github.com/sherlock-project/sherlock
