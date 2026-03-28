@@ -1,62 +1,63 @@
 [
   {
-    "title": "pathwaycom/pathway",
-    "url": "https://github.com/pathwaycom/pathway",
+    "title": "x1xhlol/system-prompts-and-models-of-ai-tools",
+    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
     "source": "github:search",
     "tags": [
-      "rust",
-      "batch-processing",
-      "data-analytics",
-      "data-pipelines"
+      "ai",
+      "ai",
+      "bolt",
+      "cluely"
     ],
-    "score": 75.84,
-    "summary": "pathwaycom/pathway，GitHub 上拥有 62,720 stars 的热门开源项目。",
+    "score": 79.01,
+    "summary": "x1xhlol/system-prompts-and-models-of-ai-tools，GitHub 上拥有 133",
     "reason": "GitHub 高星项目，社区认可度高。",
     "audience": "开发者",
     "keywords": [
-      "pathwaycom",
-      "pathway"
+      "x1xhlol",
+      "system-prompts-and-models-of-ai-tools"
     ],
-    "stars": 62720
+    "stars": 133473
   },
   {
-    "title": "toeverything/AFFiNE",
-    "url": "https://github.com/toeverything/AFFiNE",
+    "title": "facebook/react",
+    "url": "https://github.com/facebook/react",
     "source": "github:search",
     "tags": [
-      "rust",
-      "app",
-      "crdt",
-      "editor"
+      "javascript",
+      "declarative",
+      "frontend",
+      "javascript"
     ],
-    "score": 75.42,
-    "summary": "toeverything/AFFiNE，GitHub 上拥有 66,632 stars 的热门开源项目。",
+    "score": 72.23,
+    "summary": "facebook/react，GitHub 上拥有 244,227 stars 的热门开源项目。",
     "reason": "GitHub 高星项目，社区认可度高。",
     "audience": "开发者",
     "keywords": [
-      "toeverything",
-      "AFFiNE"
+      "facebook",
+      "react"
     ],
-    "stars": 66632
+    "stars": 244227
   },
   {
-    "title": "sherlock-project/sherlock",
-    "url": "https://github.com/sherlock-project/sherlock",
+    "title": "microsoft/ML-For-Beginners",
+    "url": "https://github.com/microsoft/ML-For-Beginners",
     "source": "github:search",
     "tags": [
-      "cli",
-      "cli",
-      "cti",
-      "cybersecurity"
+      "ai",
+      "ml",
+      "data-science",
+      "education",
+      "machine-learning"
     ],
-    "score": 72.51,
-    "summary": "sherlock-project/sherlock，GitHub 上拥有 74,104 stars 的热门开源项目。",
+    "score": 71.49,
+    "summary": "microsoft/ML-For-Beginners，GitHub 上拥有 84,783 stars 的热门开源项目。",
     "reason": "GitHub 高星项目，社区认可度高。",
     "audience": "开发者",
     "keywords": [
-      "sherlock-project",
-      "sherlock"
+      "microsoft",
+      "ML-For-Beginners"
     ],
-    "stars": 74104
+    "stars": 84783
   }
 ]

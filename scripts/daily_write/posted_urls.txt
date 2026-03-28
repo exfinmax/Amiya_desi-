@@ -34,3 +34,6 @@ https://github.com/gohugoio/hugo
 https://github.com/pathwaycom/pathway
 https://github.com/toeverything/AFFiNE
 https://github.com/sherlock-project/sherlock
+https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools
+https://github.com/facebook/react
+https://github.com/microsoft/ML-For-Beginners

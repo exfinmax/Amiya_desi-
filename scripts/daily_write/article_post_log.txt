@@ -1,44 +1,44 @@
-[INFO] 开始 Fri Mar 27 02:52:41 UTC 2026
+[INFO] 开始 Sat Mar 28 02:42:17 UTC 2026
 [INFO] 运行 select_resources.py
-2026-03-27 02:52:41,525 INFO [Select] 加载 60 条资源: /home/runner/work/Amiya_desi-/Amiya_desi-/scripts/daily_write/resources.json
-2026-03-27 02:52:41,525 INFO [Select] 加载 1 条资源: /home/runner/work/Amiya_desi-/Amiya_desi-/scripts/daily_write/fallback_resources.json
-2026-03-27 02:52:41,556 INFO [Select] 去重后剩余 61 条
-2026-03-27 02:52:41,641 INFO [ModelScope] 尝试模型: Qwen/Qwen2.5-72B-Instruct
-2026-03-27 02:52:42,719 WARNING [ModelScope] model=Qwen/Qwen2.5-72B-Instruct attempt=1 HTTP 400 | 响应前1000字: {"error":{"message":"Model id : Qwen/Qwen2.5-72B-Instruct , has no provider supported","request_id":"24565d42-44bb-46b4-92c0-08ee3fb3064b"}}
-2026-03-27 02:52:42,720 WARNING [ModelScope] 模型 Qwen/Qwen2.5-72B-Instruct 失败，尝试下一档。
-2026-03-27 02:52:42,721 ERROR [ModelScope] 所有候选模型均失败: ['Qwen/Qwen2.5-72B-Instruct']
-2026-03-27 02:52:42,721 WARNING [ModelScope] 摘要生成失败，使用规则摘要: pathwaycom/pathway
-2026-03-27 02:52:42,721 INFO [ModelScope] 尝试模型: Qwen/Qwen2.5-72B-Instruct
-2026-03-27 02:52:43,649 WARNING [ModelScope] model=Qwen/Qwen2.5-72B-Instruct attempt=1 HTTP 400 | 响应前1000字: {"error":{"message":"Model id : Qwen/Qwen2.5-72B-Instruct , has no provider supported","request_id":"9ea57374-e283-4116-8e5c-240909126fd8"}}
-2026-03-27 02:52:43,650 WARNING [ModelScope] 模型 Qwen/Qwen2.5-72B-Instruct 失败，尝试下一档。
-2026-03-27 02:52:43,650 ERROR [ModelScope] 所有候选模型均失败: ['Qwen/Qwen2.5-72B-Instruct']
-2026-03-27 02:52:43,650 WARNING [ModelScope] 摘要生成失败，使用规则摘要: toeverything/AFFiNE
-2026-03-27 02:52:43,650 INFO [ModelScope] 尝试模型: Qwen/Qwen2.5-72B-Instruct
-2026-03-27 02:52:44,699 WARNING [ModelScope] model=Qwen/Qwen2.5-72B-Instruct attempt=1 HTTP 400 | 响应前1000字: {"error":{"message":"Model id : Qwen/Qwen2.5-72B-Instruct , has no provider supported","request_id":"0980b5dd-07cd-4b77-bd4b-dd23f73bc508"}}
-2026-03-27 02:52:44,700 WARNING [ModelScope] 模型 Qwen/Qwen2.5-72B-Instruct 失败，尝试下一档。
-2026-03-27 02:52:44,700 ERROR [ModelScope] 所有候选模型均失败: ['Qwen/Qwen2.5-72B-Instruct']
-2026-03-27 02:52:44,700 WARNING [ModelScope] 摘要生成失败，使用规则摘要: sherlock-project/sherlock
-2026-03-27 02:52:44,706 INFO [Select] 写入 3 条到 /home/runner/work/Amiya_desi-/Amiya_desi-/scripts/daily_write/daily_selected.json
-pathwaycom/pathway@@pathwaycom/pathway，GitHub 上拥有 62,720 stars 的热门开源项目。@@https://github.com/pathwaycom/pathway@@rust,batch-processing,data-analytics,data-pipelines
-toeverything/AFFiNE@@toeverything/AFFiNE，GitHub 上拥有 66,632 stars 的热门开源项目。@@https://github.com/toeverything/AFFiNE@@rust,app,crdt,editor
-sherlock-project/sherlock@@sherlock-project/sherlock，GitHub 上拥有 74,104 stars 的热门开源项目。@@https://github.com/sherlock-project/sherlock@@cli,cli,cti,cybersecurity
+2026-03-28 02:42:17,324 INFO [Select] 加载 60 条资源: /home/runner/work/Amiya_desi-/Amiya_desi-/scripts/daily_write/resources.json
+2026-03-28 02:42:17,324 INFO [Select] 加载 1 条资源: /home/runner/work/Amiya_desi-/Amiya_desi-/scripts/daily_write/fallback_resources.json
+2026-03-28 02:42:17,355 INFO [Select] 去重后剩余 61 条
+2026-03-28 02:42:17,439 INFO [ModelScope] 尝试模型: Qwen/Qwen2.5-72B-Instruct
+2026-03-28 02:42:18,408 WARNING [ModelScope] model=Qwen/Qwen2.5-72B-Instruct attempt=1 HTTP 400 | 响应前1000字: {"error":{"message":"Model id : Qwen/Qwen2.5-72B-Instruct , has no provider supported","request_id":"64dee6a4-8e74-4816-ba87-493cbd05241c"}}
+2026-03-28 02:42:18,409 WARNING [ModelScope] 模型 Qwen/Qwen2.5-72B-Instruct 失败，尝试下一档。
+2026-03-28 02:42:18,409 ERROR [ModelScope] 所有候选模型均失败: ['Qwen/Qwen2.5-72B-Instruct']
+2026-03-28 02:42:18,409 WARNING [ModelScope] 摘要生成失败，使用规则摘要: x1xhlol/system-prompts-and-models-of-ai-tools
+2026-03-28 02:42:18,409 INFO [ModelScope] 尝试模型: Qwen/Qwen2.5-72B-Instruct
+2026-03-28 02:42:19,578 WARNING [ModelScope] model=Qwen/Qwen2.5-72B-Instruct attempt=1 HTTP 400 | 响应前1000字: {"error":{"message":"Model id : Qwen/Qwen2.5-72B-Instruct , has no provider supported","request_id":"29f814df-699b-4773-bfeb-96099ffa0dc8"}}
+2026-03-28 02:42:19,579 WARNING [ModelScope] 模型 Qwen/Qwen2.5-72B-Instruct 失败，尝试下一档。
+2026-03-28 02:42:19,579 ERROR [ModelScope] 所有候选模型均失败: ['Qwen/Qwen2.5-72B-Instruct']
+2026-03-28 02:42:19,580 WARNING [ModelScope] 摘要生成失败，使用规则摘要: facebook/react
+2026-03-28 02:42:19,580 INFO [ModelScope] 尝试模型: Qwen/Qwen2.5-72B-Instruct
+2026-03-28 02:42:20,912 WARNING [ModelScope] model=Qwen/Qwen2.5-72B-Instruct attempt=1 HTTP 400 | 响应前1000字: {"error":{"message":"Model id : Qwen/Qwen2.5-72B-Instruct , has no provider supported","request_id":"44320e26-f094-43c1-9cc0-a1c27644470f"}}
+2026-03-28 02:42:20,913 WARNING [ModelScope] 模型 Qwen/Qwen2.5-72B-Instruct 失败，尝试下一档。
+2026-03-28 02:42:20,913 ERROR [ModelScope] 所有候选模型均失败: ['Qwen/Qwen2.5-72B-Instruct']
+2026-03-28 02:42:20,913 WARNING [ModelScope] 摘要生成失败，使用规则摘要: microsoft/ML-For-Beginners
+2026-03-28 02:42:20,919 INFO [Select] 写入 3 条到 /home/runner/work/Amiya_desi-/Amiya_desi-/scripts/daily_write/daily_selected.json
+x1xhlol/system-prompts-and-models-of-ai-tools@@x1xhlol/system-prompts-and-models-of-ai-tools，GitHub 上拥有 133@@https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools@@ai,ai,bolt,cluely
+facebook/react@@facebook/react，GitHub 上拥有 244,227 stars 的热门开源项目。@@https://github.com/facebook/react@@javascript,declarative,frontend,javascript
+microsoft/ML-For-Beginners@@microsoft/ML-For-Beginners，GitHub 上拥有 84,783 stars 的热门开源项目。@@https://github.com/microsoft/ML-For-Beginners@@ai,ml,data-science,education,machine-learning
 [INFO] 运行 render_daily_post.py
-2026-03-27 02:52:44,870 INFO [ModelScope] 尝试模型: Qwen/Qwen2.5-32B-Instruct
-2026-03-27 02:52:45,785 WARNING [ModelScope] model=Qwen/Qwen2.5-32B-Instruct attempt=1 HTTP 400 | 响应前1000字: {"error":{"message":"Model id : Qwen/Qwen2.5-32B-Instruct , has no provider supported","request_id":"275e8100-3338-440b-9126-32ae6b994607"}}
-2026-03-27 02:52:45,786 WARNING [ModelScope] 模型 Qwen/Qwen2.5-32B-Instruct 失败，尝试下一档。
-2026-03-27 02:52:45,786 ERROR [ModelScope] 所有候选模型均失败: ['Qwen/Qwen2.5-32B-Instruct']
-2026-03-27 02:52:45,786 WARNING [ModelScope] 祝福语生成失败，使用本地模板。
+2026-03-28 02:42:21,070 INFO [ModelScope] 尝试模型: Qwen/Qwen2.5-32B-Instruct
+2026-03-28 02:42:22,225 WARNING [ModelScope] model=Qwen/Qwen2.5-32B-Instruct attempt=1 HTTP 400 | 响应前1000字: {"error":{"message":"Model id : Qwen/Qwen2.5-32B-Instruct , has no provider supported","request_id":"ab17e07a-351e-409f-9b26-99e6cd97ee40"}}
+2026-03-28 02:42:22,226 WARNING [ModelScope] 模型 Qwen/Qwen2.5-32B-Instruct 失败，尝试下一档。
+2026-03-28 02:42:22,226 ERROR [ModelScope] 所有候选模型均失败: ['Qwen/Qwen2.5-32B-Instruct']
+2026-03-28 02:42:22,226 WARNING [ModelScope] 祝福语生成失败，使用本地模板。
 {
-  "url": "https://api.github.com/repos/exfinmax/Amiya_desi-/issues/58",
+  "url": "https://api.github.com/repos/exfinmax/Amiya_desi-/issues/59",
   "repository_url": "https://api.github.com/repos/exfinmax/Amiya_desi-",
-  "labels_url": "https://api.github.com/repos/exfinmax/Amiya_desi-/issues/58/labels{/name}",
-  "comments_url": "https://api.github.com/repos/exfinmax/Amiya_desi-/issues/58/comments",
-  "events_url": "https://api.github.com/repos/exfinmax/Amiya_desi-/issues/58/events",
-  "html_url": "https://github.com/exfinmax/Amiya_desi-/issues/58",
-  "id": 4148785922,
-  "node_id": "I_kwDOQIyYFM73SXMC",
-  "number": 58,
-  "title": "[Update] 今日免费资源推荐 - 2026-03-27",
+  "labels_url": "https://api.github.com/repos/exfinmax/Amiya_desi-/issues/59/labels{/name}",
+  "comments_url": "https://api.github.com/repos/exfinmax/Amiya_desi-/issues/59/comments",
+  "events_url": "https://api.github.com/repos/exfinmax/Amiya_desi-/issues/59/events",
+  "html_url": "https://github.com/exfinmax/Amiya_desi-/issues/59",
+  "id": 4157056121,
+  "node_id": "I_kwDOQIyYFM73x6R5",
+  "number": 59,
+  "title": "[Update] 今日免费资源推荐 - 2026-03-28",
   "user": {
     "login": "exfinmax",
     "id": 209887894,
@@ -96,8 +96,8 @@ sherlock-project/sherlock@@sherlock-project/sherlock，GitHub 上拥有 74,104 s
   ],
   "milestone": null,
   "comments": 0,
-  "created_at": "2026-03-27T02:52:46Z",
-  "updated_at": "2026-03-27T02:52:46Z",
+  "created_at": "2026-03-28T02:42:22Z",
+  "updated_at": "2026-03-28T02:42:22Z",
   "closed_at": null,
   "assignee": null,
   "author_association": "OWNER",
@@ -113,6 +113,6 @@ sherlock-project/sherlock@@sherlock-project/sherlock，GitHub 上拥有 74,104 s
     "blocking": 0,
     "total_blocking": 0
   },
-  "body": "> 周五了，把今天真正值得看的几条内容收好，其余的可以先放一放。\n\n---\n\n#### 今日资源推荐\n\n- **pathwaycom/pathway** ⭐62,720\n  - 简介：pathwaycom/pathway，GitHub 上拥有 62,720 stars 的热门开源项目。\n  - 推荐理由：GitHub 高星项目，社区认可度高。\n  - 获取：<https://github.com/pathwaycom/pathway>\n\n- **toeverything/AFFiNE** ⭐66,632\n  - 简介：toeverything/AFFiNE，GitHub 上拥有 66,632 stars 的热门开源项目。\n  - 推荐理由：GitHub 高星项目，社区认可度高。\n  - 获取：<https://github.com/toeverything/AFFiNE>\n\n- **sherlock-project/sherlock** ⭐74,104\n  - 简介：sherlock-project/sherlock，GitHub 上拥有 74,104 stars 的热门开源项目。\n  - 推荐理由：GitHub 高星项目，社区认可度高。\n  - 获取：<https://github.com/sherlock-project/sherlock>\n\n\n> 更多实用资源，敬[INFO] 发布成功 HTTP 201
-2026-03-27 - SUCCESS
-[INFO] 完成 Fri Mar 27 02:52:46 UTC 2026
+  "body": "> 今天的资源不算多，但每条都经过筛选，应该不会让你失望。\n\n---\n\n#### 今日资源推荐\n\n- **x1xhlol/system-prompts-and-models-of-ai-tools** ⭐133,473\n  - 简介：x1xhlol/system-prompts-and-models-of-ai-tools，GitHub 上拥有 133\n  - 推荐理由：GitHub 高星项目，社区认可度高。\n  - 获取：<https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools>\n\n- **facebook/react** ⭐244,227\n  - 简介：facebook/react，GitHub 上拥有 244,227 stars 的热门开源项目。\n  - 推荐理由：GitHub 高星项目，社区认可度高。\n  - 获取：<https://github.com/facebook/react>\n\n- **microsoft/ML-For-Beginners** ⭐84,783\n  - 简介：microsoft/ML-For-Beginners，GitHub 上拥有 84,783 stars 的热门开源项目。\n  - 推荐理由：GitHub 高星项目，社区认可度高。\n  - 获取：<https://github.com/microsoft/ML-For-Beginners>\n\[INFO] 发布成功 HTTP 201
+2026-03-28 - SUCCESS
+[INFO] 完成 Sat Mar 28 02:42:22 UTC 2026

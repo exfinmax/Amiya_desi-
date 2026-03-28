@@ -1,54 +1,54 @@
 [
   {
-    "title": "SCP-858 - SCP Foundation",
-    "description": "Descending cloud formations affected by SCP-858",
-    "url": "https://scp-wiki.wikidot.com/scp-858",
+    "title": "SCP-023 - SCP Foundation",
+    "description": "SCP-023, kept in a temporary containment area during a containment breach by SCP-███",
+    "url": "https://scp-wiki.wikidot.com/scp-023",
     "source": "scp-scrape",
-    "fetched_at": "2026-03-27T02:52:25.804622+00:00",
+    "fetched_at": "2026-03-28T02:42:01.588908+00:00",
     "score": 100,
     "tags": [
       "scp"
     ]
   },
   {
-    "title": "SCP-824 - SCP Foundation",
+    "title": "SCP-474 - SCP Foundation",
+    "description": "SCP-474 under its present containment procedures",
+    "url": "https://scp-wiki.wikidot.com/scp-474",
+    "source": "scp-scrape",
+    "fetched_at": "2026-03-28T02:42:01.898055+00:00",
+    "score": 100,
+    "tags": [
+      "scp"
+    ]
+  },
+  {
+    "title": "SCP-670 - SCP Foundation",
+    "description": "Retrieved materials contain no anomalous properties, but study is still ongoing.",
+    "url": "https://scp-wiki.wikidot.com/scp-670",
+    "source": "scp-scrape",
+    "fetched_at": "2026-03-28T02:42:02.193102+00:00",
+    "score": 100,
+    "tags": [
+      "scp"
+    ]
+  },
+  {
+    "title": "SCP-927 - SCP Foundation",
     "description": "",
-    "url": "https://scp-wiki.wikidot.com/scp-824",
+    "url": "https://scp-wiki.wikidot.com/scp-927",
     "source": "scp-scrape",
-    "fetched_at": "2026-03-27T02:52:26.191430+00:00",
+    "fetched_at": "2026-03-28T02:42:02.652365+00:00",
     "score": 100,
     "tags": [
       "scp"
     ]
   },
   {
-    "title": "SCP-458 - SCP Foundation",
-    "description": "SCP-458 in Containment",
-    "url": "https://scp-wiki.wikidot.com/scp-458",
+    "title": "SCP-987 - SCP Foundation",
+    "description": "",
+    "url": "https://scp-wiki.wikidot.com/scp-987",
     "source": "scp-scrape",
-    "fetched_at": "2026-03-27T02:52:26.481609+00:00",
-    "score": 100,
-    "tags": [
-      "scp"
-    ]
-  },
-  {
-    "title": "SCP-571 - SCP Foundation",
-    "description": "Mobile Task Force Eta-10 (&quot;See No Evil&quot;) are assigned to handling potential instances of SCP-571 and SCP-571-related memes appearing independently outside containment.",
-    "url": "https://scp-wiki.wikidot.com/scp-571",
-    "source": "scp-scrape",
-    "fetched_at": "2026-03-27T02:52:26.785871+00:00",
-    "score": 100,
-    "tags": [
-      "scp"
-    ]
-  },
-  {
-    "title": "SCP-914 - SCP Foundation",
-    "description": "One of the least complex sections of SCP-914 in a non-active state",
-    "url": "https://scp-wiki.wikidot.com/scp-914",
-    "source": "scp-scrape",
-    "fetched_at": "2026-03-27T02:52:27.040401+00:00",
+    "fetched_at": "2026-03-28T02:42:03.082451+00:00",
     "score": 100,
     "tags": [
       "scp"
@@ -59,9 +59,9 @@
     "description": "Stable Diffusion web UI",
     "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:27.671613+00:00",
+    "fetched_at": "2026-03-28T02:42:03.745710+00:00",
     "published": "2026-03-02T07:00:53Z",
-    "stars": 162020,
+    "stars": 162002,
     "score": 20,
     "tags": [
       "ai",
@@ -75,9 +75,9 @@
     "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
     "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:27.671622+00:00",
-    "published": "2026-03-09T12:48:57Z",
-    "stars": 133371,
+    "fetched_at": "2026-03-28T02:42:03.745718+00:00",
+    "published": "2026-03-27T09:02:51Z",
+    "stars": 133473,
     "score": 20,
     "tags": [
       "ai",
@@ -91,9 +91,9 @@
     "description": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",
     "url": "https://github.com/microsoft/ML-For-Beginners",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:29.202946+00:00",
-    "published": "2026-03-26T00:37:25Z",
-    "stars": 84759,
+    "fetched_at": "2026-03-28T02:42:05.273872+00:00",
+    "published": "2026-03-27T17:40:48Z",
+    "stars": 84783,
     "score": 20,
     "tags": [
       "ai",
@@ -108,9 +108,9 @@
     "description": "中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器、职业名称词库、同义词库、反义词库、否定词库、汽车品牌词库、汽车零件词库、连续英文切割、各种中文词向量、公司名字大全、古诗词库、IT词库、财经词库、成语词库、地名词库、历史名人词库、诗词词库、医学词库、饮食词库、法律词库、汽车词库、动物词库、中文聊天语料、中文谣言数据、百度中文问答数据集、句子相似度匹配算法集合、bert资源、文本生成&摘要相关工具、cocoNLP信息抽取工具、国内电话号码正则匹配、清华大学XLORE:中英文跨语言百科知识图谱、清华大学人工智能技术系列报告、自然语言生成、NLU太难了系列、自动对联数据及机器人、用户名黑名单列表、罪名法务名词及分类模型、微信公众号语料、cs224n深度学习自然语言处理课程、中文手写汉字识别、中文自然语言处理 语料/数据集、变量命名神器、分词语料库+代码、任务型对话英文数据集、ASR 语音数据集 + 基于深度学习的中文语音识别系统、笑声检测器、Microsoft多语言数字/单位/如日期时间识别包、中华新华字典数据库及api(包括常用歇后语、成语、词语和汉字)、文档图谱自动生成、SpaCy 中文模型、Common Voice语音识别数据集新版、神经网络关系抽取、基于bert的命名实体识别、关键词(Keyphrase)抽取包pke、基于医疗领域知识图谱的问答系统、基于依存句法与语义角色标注的事件三元组抽取、依存句法分析4万句高质量标注数据、cnocr：用来做中文OCR的Python3包、中文人物关系知识图谱项目、中文nlp竞赛项目及代码汇总、中文字符数据、speech-aligner: 从“人声语音”及其“语言文本”产生音素级别时间对齐标注的工具、AmpliGraph: 知识图谱表示学习(Python)库：知识图谱概念链接预测、Scattertext 文本可视化(python)、语言/知识表示工具：BERT & ERNIE、中文对比英文自然语言处理NLP的区别综述、Synonyms中文近义词工具包、HarvestText领域自适应文本挖掘工具（新词发现-情感分析-实体链接等）、word2word：(Python)方便易用的多语言词-词对集：62种语言/3,564个多语言对、语音识别语料生成工具：从具有音频/字幕的在线视频创建自动语音识别(ASR)语料库、构建医疗实体识别的模型（包含词典和语料标注）、单文档非监督的关键词抽取、Kashgari中使用gpt-2语言模型、开源的金融投资数据提取工具、文本自动摘要库TextTeaser: 仅支持英文、人民日报语料处理工具集、一些关于自然语言的基本模型、基于14W歌曲知识库的问答尝试--功能包括歌词接龙and已知歌词找歌曲以及歌曲歌手歌词三角关系的问答、基于Siamese bilstm模型的相似句子判定模型并提供训练数据集和测试数据集、用Transformer编解码模型实现的根据Hacker News文章标题自动生成评论、用BERT进行序列标记和文本分类的模板代码、LitBank：NLP数据集——支持自然语言处理和计算人文学科任务的100部带标记英文小说语料、百度开源的基准信息抽取系统、虚假新闻数据集、Facebook: LAMA语言模型分析，提供Transformer-XL/BERT/ELMo/GPT预训练语言模型的统一访问接口、CommonsenseQA：面向常识的英文QA挑战、中文知识图谱资料、数据及工具、各大公司内部里大牛分享的技术文档 PDF 或者 PPT、自然语言生成SQL语句（英文）、中文NLP数据增强（EDA）工具、英文NLP数据增强工具 、基于医药知识图谱的智能问答系统、京东商品知识图谱、基于mongodb存储的军事领域知识图谱问答项目、基于远监督的中文关系抽取、语音情感分析、中文ULMFiT-情感分析-文本分类-语料及模型、一个拍照做题程序、世界各国大规模人名库、一个利用有趣中文语料库 qingyun 训练出来的中文聊天机器人、中文聊天机器人seqGAN、省市区镇行政区划数据带拼音标注、教育行业新闻语料库包含自动文摘功能、开放了对话机器人-知识图谱-语义理解-自然语言处理工具及数据、中文知识图谱：基于百度百科中文页面-抽取三元组信息-构建中文知识图谱、masr: 中文语音识别-提供预训练模型-高识别率、Python音频数据增广库、中文全词覆盖BERT及两份阅读理解数据、ConvLab：开源多域端到端对话系统平台、中文自然语言处理数据集、基于最新版本rasa搭建的对话系统、基于TensorFlow和BERT的管道式实体及关系抽取、一个小型的证券知识图谱/知识库、复盘所有NLP比赛的TOP方案、OpenCLaP：多领域开源中文预训练语言模型仓库、UER：基于不同语料+编码器+目标任务的中文预训练模型仓库、中文自然语言处理向量合集、基于金融-司法领域(兼有闲聊性质)的聊天机器人、g2pC：基于上下文的汉语读音自动标记模块、Zincbase 知识图谱构建工具包、诗歌质量评价/细粒度情感诗歌语料库、快速转化「中文数字」和「阿拉伯数字」、百度知道问答语料库、基于知识图谱的问答系统、jieba_fast 加速版的jieba、正则表达式教程、中文阅读理解数据集、基于BERT等最新语言模型的抽取式摘要提取、Python利用深度学习进行文本摘要的综合指南、知识图谱深度学习相关资料整理、维基大规模平行文本语料、StanfordNLP 0.2.0：纯Python版自然语言处理包、NeuralNLP-NeuralClassifier：腾讯开源深度学习文本分类工具、端到端的封闭域对话系统、中文命名实体识别：NeuroNER vs. BertNER、新闻事件线索抽取、2019年百度的三元组抽取比赛：“科学空间队”源码、基于依存句法的开放域文本知识三元组抽取和知识库构建、中文的GPT2训练代码、ML-NLP - 机器学习(Machine Learning)NLP面试中常考到的知识点和代码实现、nlp4han:中文自然语言处理工具集(断句/分词/词性标注/组块/句法分析/语义分析/NER/N元语法/HMM/代词消解/情感分析/拼写检查、XLM：Facebook的跨语言预训练语言模型、用基于BERT的微调和特征提取方法来进行知识图谱百度百科人物词条属性抽取、中文自然语言处理相关的开放任务-数据集-当前最佳结果、CoupletAI - 基于CNN+Bi-LSTM+Attention 的自动对对联系统、抽象知识图谱、MiningZhiDaoQACorpus - 580万百度知道问答数据挖掘项目、brat rapid annotation tool: 序列标注工具、大规模中文知识图谱数据：1.4亿实体、数据增强在机器翻译及其他nlp任务中的应用及效果、allennlp阅读理解:支持多种数据和模型、PDF表格数据提取工具 、 Graphbrain：AI开源软件库和科研工具，目的是促进自动意义提取和文本理解以及知识的探索和推断、简历自动筛选系统、基于命名实体识别的简历自动摘要、中文语言理解测评基准，包括代表性的数据集&基准模型&语料库&排行榜、树洞 OCR 文字识别 、从包含表格的扫描图片中识别表格和文字、语声迁移、Python口语自然语言处理工具集(英文)、 similarity：相似度计算工具包，java编写、海量中文预训练ALBERT模型 、Transformers 2.0 、基于大规模音频数据集Audioset的音频增强 、Poplar：网页版自然语言标注工具、图片文字去除，可用于漫画翻译 、186种语言的数字叫法库、Amazon发布基于知识的人-人开放领域对话数据集 、中文文本纠错模块代码、繁简体转换 、 Python实现的多种文本可读性评价指标、类似于人名/地名/组织机构名的命名体识别数据集 、东南大学《知识图谱》研究生课程(资料)、. 英文拼写检查库 、 wwsearch是企业微信后台自研的全文检索引擎、CHAMELEON：深度学习新闻推荐系统元架构 、 8篇论文梳理BERT相关模型进展与反思、DocSearch：免费文档搜索引擎、 LIDA：轻量交互式对话标注工具 、aili - the fastest in-memory index in the East 东半球最快并发索引 、知识图谱车音工作项目、自然语言生成资源大全 、中日韩分词库mecab的Python接口库、中文文本摘要/关键词提取、汉字字符特征提取器 (featurizer)，提取汉字的特征（发音特征、字形特征）用做深度学习的特征、中文生成任务基准测评 、中文缩写数据集、中文任务基准测评 - 代表性的数据集-基准(预训练)模型-语料库-baseline-工具包-排行榜、PySS3：面向可解释AI的SS3文本分类器机器可视化工具 、中文NLP数据集列表、COPE - 格律诗编辑程序、doccano：基于网页的开源协同多语言文本标注工具 、PreNLP：自然语言预处理库、简单的简历解析器，用来从简历中提取关键信息、用于中文闲聊的GPT2模型：GPT2-chitchat、基于检索聊天机器人多轮响应选择相关资源列表(Leaderboards、Datasets、Papers)、(Colab)抽象文本摘要实现集锦(教程 、词语拼音数据、高效模糊搜索工具、NLP数据增广资源集、微软对话机器人框架 、 GitHub Typo Corpus：大规模GitHub多语言拼写错误/语法错误数据集、TextCluster：短文本聚类预处理模块 Short text cluster、面向语音识别的中文文本规范化、BLINK：最先进的实体链接库、BertPunc：基于BERT的最先进标点修复模型、Tokenizer：快速、可定制的文本词条化库、中文语言理解测评基准，包括代表性的数据集、基准(预训练)模型、语料库、排行榜、spaCy 医学文本挖掘与信息提取 、 NLP任务示例项目代码集、 python拼写检查库、chatbot-list - 行业内关于智能客服、聊天机器人的应用和架构、算法分享和介绍、语音质量评价指标(MOSNet, BSSEval, STOI, PESQ, SRMR)、 用138GB语料训练的法文RoBERTa预训练语言模型 、BERT-NER-Pytorch：三种不同模式的BERT中文NER实验、无道词典 - 有道词典的命令行版本，支持英汉互查和在线查询、2019年NLP亮点回顾、 Chinese medical dialogue data 中文医疗对话数据集 、最好的汉字数字(中文数字)-阿拉伯数字转换工具、 基于百科知识库的中文词语多词义/义项获取与特定句子词语语义消歧、awesome-nlp-sentiment-analysis - 情感分析、情绪原因识别、评价对象和评价词抽取、LineFlow：面向所有深度学习框架的NLP数据高效加载器、中文医学NLP公开资源整理 、MedQuAD：(英文)医学问答数据集、将自然语言数字串解析转换为整数和浮点数、Transfer Learning in Natural Language Processing (NLP) 、面向语音识别的中文/英文发音辞典、Tokenizers：注重性能与多功能性的最先进分词器、CLUENER 细粒度命名实体识别 Fine Grained Named Entity Recognition、 基于BERT的中文命名实体识别、中文谣言数据库、NLP数据集/基准任务大列表、nlp相关的一些论文及代码, 包括主题模型、词向量(Word Embedding)、命名实体识别(NER)、文本分类(Text Classificatin)、文本生成(Text Generation)、文本相似性(Text Similarity)计算等，涉及到各种与nlp相关的算法，基于keras和tensorflow 、Python文本挖掘/NLP实战示例、 Blackstone：面向非结构化法律文本的spaCy pipeline和NLP模型通过同义词替换实现文本“变脸” 、中文 预训练 ELECTREA 模型: 基于对抗学习 pretrain Chinese Model 、albert-chinese-ner - 用预训练语言模型ALBERT做中文NER 、基于GPT2的特定主题文本生成/文本增广、开源预训练语言模型合集、多语言句向量包、编码、标记和实现：一种可控高效的文本生成方法、 英文脏话大列表 、attnvis：GPT2、BERT等transformer语言模型注意力交互可视化、CoVoST：Facebook发布的多语种语音-文本翻译语料库，包括11种语言(法语、德语、荷兰语、俄语、西班牙语、意大利语、土耳其语、波斯语、瑞典语、蒙古语和中文)的语音、文字转录及英文译文、Jiagu自然语言处理工具 - 以BiLSTM等模型为基础，提供知识图谱关系抽取 中文分词 词性标注 命名实体识别 情感分析 新词发现 关键词 文本摘要 文本聚类等功能、用unet实现对文档表格的自动检测，表格重建、NLP事件提取文献资源列表 、 金融领域自然语言处理研究资源大列表、CLUEDatasetSearch - 中英文NLP数据集：搜索所有中文NLP数据集，附常用英文NLP数据集 、medical_NER - 中文医学知识图谱命名实体识别 、(哈佛)讲因果推理的免费书、知识图谱相关学习资料/数据集/工具资源大列表、Forte：灵活强大的自然语言处理pipeline工具集 、Python字符串相似性算法库、PyLaia：面向手写文档分析的深度学习工具包、TextFooler：针对文本分类/推理的对抗文本生成模块、Haystack：灵活、强大的可扩展问答(QA)框架、中文关键短语抽取工具",
     "url": "https://github.com/fighting41love/funNLP",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:29.202949+00:00",
+    "fetched_at": "2026-03-28T02:42:05.273875+00:00",
     "published": "2024-05-10T07:38:24Z",
-    "stars": 79631,
+    "stars": 79648,
     "score": 20,
     "tags": [
       "ai",
@@ -122,9 +122,9 @@
     "description": "A curated list of awesome Machine Learning frameworks, libraries and software.",
     "url": "https://github.com/josephmisiti/awesome-machine-learning",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:29.202952+00:00",
+    "fetched_at": "2026-03-28T02:42:05.273878+00:00",
     "published": "2026-03-15T15:16:19Z",
-    "stars": 72092,
+    "stars": 72101,
     "score": 20,
     "tags": [
       "ai",
@@ -136,9 +136,9 @@
     "description": "scikit-learn: machine learning in Python",
     "url": "https://github.com/scikit-learn/scikit-learn",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:29.202955+00:00",
-    "published": "2026-03-25T18:03:08Z",
-    "stars": 65534,
+    "fetched_at": "2026-03-28T02:42:05.273880+00:00",
+    "published": "2026-03-27T17:18:05Z",
+    "stars": 65519,
     "score": 20,
     "tags": [
       "ai",
@@ -153,9 +153,9 @@
     "description": "Master programming by recreating your favorite technologies from scratch.",
     "url": "https://github.com/codecrafters-io/build-your-own-x",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:30.783092+00:00",
+    "fetched_at": "2026-03-28T02:42:06.907491+00:00",
     "published": "2026-02-21T09:34:54Z",
-    "stars": 483742,
+    "stars": 483934,
     "score": 20,
     "tags": [
       "awesome-list",
@@ -168,9 +168,9 @@
     "description": "😎 Awesome lists about all kinds of interesting topics",
     "url": "https://github.com/sindresorhus/awesome",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:30.783109+00:00",
+    "fetched_at": "2026-03-28T02:42:06.907507+00:00",
     "published": "2026-03-09T07:59:57Z",
-    "stars": 449182,
+    "stars": 449424,
     "score": 20,
     "tags": [
       "awesome",
@@ -183,9 +183,9 @@
     "description": "A collective list of free APIs",
     "url": "https://github.com/public-apis/public-apis",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:30.783115+00:00",
+    "fetched_at": "2026-03-28T02:42:06.907513+00:00",
     "published": "2026-03-18T16:28:22Z",
-    "stars": 416509,
+    "stars": 416775,
     "score": 20,
     "tags": [
       "api",
@@ -198,9 +198,9 @@
     "description": ":books: Freely available programming books",
     "url": "https://github.com/EbookFoundation/free-programming-books",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:30.783118+00:00",
+    "fetched_at": "2026-03-28T02:42:06.907516+00:00",
     "published": "2026-03-24T15:26:23Z",
-    "stars": 384624,
+    "stars": 384637,
     "score": 20,
     "tags": [
       "books",
@@ -213,9 +213,9 @@
     "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
     "url": "https://github.com/donnemartin/system-design-primer",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:30.783123+00:00",
+    "fetched_at": "2026-03-28T02:42:06.907521+00:00",
     "published": "2026-03-20T01:52:19Z",
-    "stars": 340322,
+    "stars": 340401,
     "score": 20,
     "tags": [
       "design",
@@ -228,7 +228,7 @@
     "description": "A complete computer science study plan to become a software engineer.",
     "url": "https://github.com/jwasham/coding-interview-university",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:30.783125+00:00",
+    "fetched_at": "2026-03-28T02:42:06.907526+00:00",
     "published": "2025-08-28T14:42:47Z",
     "stars": 338278,
     "score": 20,
@@ -243,9 +243,9 @@
     "description": "Curated list of project-based tutorials",
     "url": "https://github.com/practical-tutorials/project-based-learning",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:32.436613+00:00",
+    "fetched_at": "2026-03-28T02:42:08.528407+00:00",
     "published": "2024-08-15T05:33:54Z",
-    "stars": 261808,
+    "stars": 261865,
     "score": 20,
     "tags": [
       "javascript",
@@ -259,9 +259,9 @@
     "description": "The library for web and native user interfaces.",
     "url": "https://github.com/facebook/react",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:32.436617+00:00",
-    "published": "2026-03-26T22:16:06Z",
-    "stars": 244222,
+    "fetched_at": "2026-03-28T02:42:08.528411+00:00",
+    "published": "2026-03-27T22:11:12Z",
+    "stars": 244227,
     "score": 20,
     "tags": [
       "javascript",
@@ -275,9 +275,9 @@
     "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
     "url": "https://github.com/vuejs/vue",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:32.436619+00:00",
+    "fetched_at": "2026-03-28T02:42:08.528413+00:00",
     "published": "2024-10-10T07:24:15Z",
-    "stars": 209965,
+    "stars": 209947,
     "score": 20,
     "tags": [
       "javascript",
@@ -291,9 +291,9 @@
     "description": "📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
     "url": "https://github.com/trekhleb/javascript-algorithms",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:32.436622+00:00",
+    "fetched_at": "2026-03-28T02:42:08.528416+00:00",
     "published": "2026-02-18T09:20:06Z",
-    "stars": 195794,
+    "stars": 195773,
     "score": 20,
     "tags": [
       "javascript",
@@ -307,9 +307,9 @@
     "description": "A book series (2 published editions) on the JS language.",
     "url": "https://github.com/getify/You-Dont-Know-JS",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:32.436625+00:00",
+    "fetched_at": "2026-03-28T02:42:08.528419+00:00",
     "published": "2026-02-15T04:36:44Z",
-    "stars": 184542,
+    "stars": 184544,
     "score": 20,
     "tags": [
       "javascript",
@@ -323,9 +323,9 @@
     "description": "JavaScript Style Guide",
     "url": "https://github.com/airbnb/javascript",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:32.436630+00:00",
+    "fetched_at": "2026-03-28T02:42:08.528424+00:00",
     "published": "2026-02-24T14:05:16Z",
-    "stars": 148116,
+    "stars": 148123,
     "score": 20,
     "tags": [
       "javascript",
@@ -339,9 +339,9 @@
     "description": ":cherry_blossom: A command-line fuzzy finder",
     "url": "https://github.com/junegunn/fzf",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:33.979474+00:00",
-    "published": "2026-03-26T12:35:28Z",
-    "stars": 79024,
+    "fetched_at": "2026-03-28T02:42:10.065735+00:00",
+    "published": "2026-03-27T06:01:13Z",
+    "stars": 79033,
     "score": 20,
     "tags": [
       "cli",
@@ -355,9 +355,9 @@
     "description": "simple terminal UI for git commands",
     "url": "https://github.com/jesseduffield/lazygit",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:33.979476+00:00",
-    "published": "2026-03-26T11:01:58Z",
-    "stars": 75088,
+    "fetched_at": "2026-03-28T02:42:10.065738+00:00",
+    "published": "2026-03-27T17:21:48Z",
+    "stars": 75112,
     "score": 20,
     "tags": [
       "cli",
@@ -367,29 +367,13 @@
     ]
   },
   {
-    "title": "sherlock-project/sherlock",
-    "description": "Hunt down social media accounts by username across social networks",
-    "url": "https://github.com/sherlock-project/sherlock",
-    "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:33.979478+00:00",
-    "published": "2026-03-26T05:39:04Z",
-    "stars": 74104,
-    "score": 20,
-    "tags": [
-      "cli",
-      "cli",
-      "cti",
-      "cybersecurity"
-    ]
-  },
-  {
     "title": "OpenHands/OpenHands",
     "description": "🙌 OpenHands: AI-Driven Development",
     "url": "https://github.com/OpenHands/OpenHands",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:33.979481+00:00",
-    "published": "2026-03-27T01:32:04Z",
-    "stars": 69853,
+    "fetched_at": "2026-03-28T02:42:10.065743+00:00",
+    "published": "2026-03-27T21:37:26Z",
+    "stars": 69960,
     "score": 20,
     "tags": [
       "cli",
@@ -403,9 +387,9 @@
     "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
     "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:35.635238+00:00",
+    "fetched_at": "2026-03-28T02:42:11.568777+00:00",
     "published": "2024-11-19T14:00:38Z",
-    "stars": 211832,
+    "stars": 211932,
     "score": 20,
     "tags": [
       "devops",
@@ -419,9 +403,9 @@
     "description": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
     "url": "https://github.com/bregman-arie/devops-exercises",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:35.635254+00:00",
+    "fetched_at": "2026-03-28T02:42:11.568792+00:00",
     "published": "2025-12-27T14:22:30Z",
-    "stars": 81796,
+    "stars": 81815,
     "score": 20,
     "tags": [
       "devops",
@@ -435,9 +419,9 @@
     "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
     "url": "https://github.com/netdata/netdata",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:35.635257+00:00",
-    "published": "2026-03-27T00:24:25Z",
-    "stars": 78220,
+    "fetched_at": "2026-03-28T02:42:11.568796+00:00",
+    "published": "2026-03-28T01:23:30Z",
+    "stars": 78239,
     "score": 20,
     "tags": [
       "devops",
@@ -451,9 +435,9 @@
     "description": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
     "url": "https://github.com/binhnguyennus/awesome-scalability",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:35.635260+00:00",
+    "fetched_at": "2026-03-28T02:42:11.568799+00:00",
     "published": "2026-01-04T03:51:47Z",
-    "stars": 69825,
+    "stars": 69853,
     "score": 20,
     "tags": [
       "devops",
@@ -467,9 +451,9 @@
     "description": "Run your GitHub Actions locally 🚀",
     "url": "https://github.com/nektos/act",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:35.635262+00:00",
+    "fetched_at": "2026-03-28T02:42:11.568801+00:00",
     "published": "2026-03-26T21:03:13Z",
-    "stars": 69535,
+    "stars": 69560,
     "score": 20,
     "tags": [
       "devops",
@@ -483,9 +467,9 @@
     "description": "Developer-first error tracking and performance monitoring",
     "url": "https://github.com/getsentry/sentry",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:35.635267+00:00",
-    "published": "2026-03-27T02:23:45Z",
-    "stars": 43451,
+    "fetched_at": "2026-03-28T02:42:11.568806+00:00",
+    "published": "2026-03-28T01:27:20Z",
+    "stars": 43456,
     "score": 20,
     "tags": [
       "devops",
@@ -499,9 +483,9 @@
     "description": "🦍 The API and AI Gateway",
     "url": "https://github.com/Kong/kong",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:35.635270+00:00",
-    "published": "2026-03-10T03:46:08Z",
-    "stars": 43051,
+    "fetched_at": "2026-03-28T02:42:11.568809+00:00",
+    "published": "2026-03-27T17:42:51Z",
+    "stars": 43056,
     "score": 20,
     "tags": [
       "devops",
@@ -515,9 +499,9 @@
     "description": ":books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计",
     "url": "https://github.com/CyC2018/CS-Notes",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:37.244136+00:00",
+    "fetched_at": "2026-03-28T02:42:13.080849+00:00",
     "published": "2024-08-21T09:40:10Z",
-    "stars": 184044,
+    "stars": 184048,
     "score": 20,
     "tags": [
       "python",
@@ -531,9 +515,9 @@
     "description": "The Go programming language",
     "url": "https://github.com/golang/go",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:38.834345+00:00",
-    "published": "2026-03-27T02:12:19Z",
-    "stars": 133186,
+    "fetched_at": "2026-03-28T02:42:14.652230+00:00",
+    "published": "2026-03-28T01:07:54Z",
+    "stars": 133179,
     "score": 20,
     "tags": [
       "go",
@@ -547,9 +531,9 @@
     "description": "Open Source Continuous File Synchronization",
     "url": "https://github.com/syncthing/syncthing",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:38.834358+00:00",
+    "fetched_at": "2026-03-28T02:42:14.652243+00:00",
     "published": "2026-03-26T01:33:07Z",
-    "stars": 81171,
+    "stars": 81208,
     "score": 20,
     "tags": [
       "go",
@@ -563,9 +547,9 @@
     "description": "The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.",
     "url": "https://github.com/unionlabs/union",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:40.430726+00:00",
+    "fetched_at": "2026-03-28T02:42:16.234549+00:00",
     "published": "2026-03-19T16:54:27Z",
-    "stars": 74196,
+    "stars": 74194,
     "score": 20,
     "tags": [
       "rust",
@@ -575,29 +559,13 @@
     ]
   },
   {
-    "title": "toeverything/AFFiNE",
-    "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
-    "url": "https://github.com/toeverything/AFFiNE",
-    "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:40.430728+00:00",
-    "published": "2026-03-26T18:18:55Z",
-    "stars": 66632,
-    "score": 20,
-    "tags": [
-      "rust",
-      "app",
-      "crdt",
-      "editor"
-    ]
-  },
-  {
     "title": "alacritty/alacritty",
     "description": "A cross-platform, OpenGL terminal emulator.",
     "url": "https://github.com/alacritty/alacritty",
     "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:40.430731+00:00",
+    "fetched_at": "2026-03-28T02:42:16.234554+00:00",
     "published": "2026-03-21T08:25:09Z",
-    "stars": 63149,
+    "stars": 63137,
     "score": 20,
     "tags": [
       "rust",
@@ -607,28 +575,12 @@
     ]
   },
   {
-    "title": "pathwaycom/pathway",
-    "description": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
-    "url": "https://github.com/pathwaycom/pathway",
-    "source": "github:search",
-    "fetched_at": "2026-03-27T02:52:40.430734+00:00",
-    "published": "2026-03-26T17:03:29Z",
-    "stars": 62720,
-    "score": 20,
-    "tags": [
-      "rust",
-      "batch-processing",
-      "data-analytics",
-      "data-pipelines"
-    ]
-  },
-  {
-    "title": "From 0% to 36% on Day 1 of ARC-AGI-3",
-    "description": "Article URL: https://www.symbolica.ai/blog/arc-agi-3\nComments URL: https://news.ycombinator.com/item?id=47538078\nPoints: 13\n# Comments: 6",
-    "url": "https://www.symbolica.ai/blog/arc-agi-3",
+    "title": "Fear and denial in Silicon Valley over social media addiction trial",
+    "description": "Article URL: https://www.bbc.com/news/articles/c86e3eglv2go\nComments URL: https://news.ycombinator.com/item?id=47550726\nPoints: 43\n# Comments: 27",
+    "url": "https://www.bbc.com/news/articles/c86e3eglv2go",
     "source": "rss:https://hnrss.org/frontpage",
-    "fetched_at": "2026-03-27T02:52:23.060582+00:00",
-    "published": "Fri, 27 Mar 2026 01:32:10 +0000",
+    "fetched_at": "2026-03-28T02:41:58.795189+00:00",
+    "published": "Sat, 28 Mar 2026 01:50:19 +0000",
     "score": 10,
     "tags": [
       "tech",
@@ -636,12 +588,12 @@
     ]
   },
   {
-    "title": "Judge blocks Pentagon effort to 'punish' Anthropic with supply chain risk label",
-    "description": "Article URL: https://www.cnn.com/2026/03/26/business/anthropic-pentagon-injunction-supply-chain-risk\nComments URL: https://news.ycombinator.com/item?id=47537228\nPoints: 209\n# Comments: 132",
-    "url": "https://www.cnn.com/2026/03/26/business/anthropic-pentagon-injunction-supply-chain-risk",
+    "title": "Don't YOLO your file system",
+    "description": "Article URL: https://jai.scs.stanford.edu/\nComments URL: https://news.ycombinator.com/item?id=47550282\nPoints: 48\n# Comments: 33",
+    "url": "https://jai.scs.stanford.edu/",
     "source": "rss:https://hnrss.org/frontpage",
-    "fetched_at": "2026-03-27T02:52:23.060605+00:00",
-    "published": "Thu, 26 Mar 2026 23:33:53 +0000",
+    "fetched_at": "2026-03-28T02:41:58.795211+00:00",
+    "published": "Sat, 28 Mar 2026 00:39:54 +0000",
     "score": 10,
     "tags": [
       "tech",
@@ -649,12 +601,12 @@
     ]
   },
   {
-    "title": "Chicago artist creates tourism posters for city's neighborhoods",
-    "description": "Article URL: https://www.chicagotribune.com/2026/03/25/chicago-neighborhood-posters/\nComments URL: https://news.ycombinator.com/item?id=47537106\nPoints: 60\n# Comments: 28",
-    "url": "https://www.chicagotribune.com/2026/03/25/chicago-neighborhood-posters/",
+    "title": "Show HN: Twitch Roulette – Find live streamers who need views the most",
+    "description": "Hey HN, I re-launched an old site I remembered back in the day that someone made called twitchroulette.net with a lot of new features and stats and I would love for people to check it out. The idea is you can easily browse the less browsed parts of twitch and find cool and new streamers to say hi to",
+    "url": "https://twitchroulette.net/",
     "source": "rss:https://hnrss.org/frontpage",
-    "fetched_at": "2026-03-27T02:52:23.060615+00:00",
-    "published": "Thu, 26 Mar 2026 23:18:38 +0000",
+    "fetched_at": "2026-03-28T02:41:58.795226+00:00",
+    "published": "Fri, 27 Mar 2026 22:22:20 +0000",
     "score": 10,
     "tags": [
       "tech",
@@ -662,12 +614,12 @@
     ]
   },
   {
-    "title": "Order Granting Preliminary Injunction – Anthropic vs. U.S. Department of War [pdf]",
-    "description": "Article URL: https://storage.courtlistener.com/recap/gov.uscourts.cand.465515/gov.uscourts.cand.465515.134.0.pdf\nComments URL: https://news.ycombinator.com/item?id=47537051\nPoints: 110\n# Comments: 15",
-    "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.465515/gov.uscourts.cand.465515.134.0.pdf",
+    "title": "DOJ confirms FBI Director Kash Patel's personal email was hacked",
+    "description": "Article URL: https://arstechnica.com/tech-policy/2026/03/doj-confirms-fbi-director-kash-patels-personal-email-was-hacked/\nComments URL: https://news.ycombinator.com/item?id=47548670\nPoints: 196\n# Comments: 104",
+    "url": "https://arstechnica.com/tech-policy/2026/03/doj-confirms-fbi-director-kash-patels-personal-email-was-hacked/",
     "source": "rss:https://hnrss.org/frontpage",
-    "fetched_at": "2026-03-27T02:52:23.060628+00:00",
-    "published": "Thu, 26 Mar 2026 23:11:45 +0000",
+    "fetched_at": "2026-03-28T02:41:58.795236+00:00",
+    "published": "Fri, 27 Mar 2026 21:41:41 +0000",
     "score": 10,
     "tags": [
       "tech",
@@ -675,12 +627,12 @@
     ]
   },
   {
-    "title": "Show HN: I put an AI agent on a $7/month VPS with IRC as its transport layer",
-    "description": "Article URL: https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/\nComments URL: https://news.ycombinator.com/item?id=47536761\nPoints: 113\n# Comments: 40",
-    "url": "https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/",
+    "title": "Velxio 2.0 – Emulate Arduino, ESP32, and Raspberry Pi 3 in the Browser",
+    "description": "Article URL: https://github.com/davidmonterocrespo24/velxio\nComments URL: https://news.ycombinator.com/item?id=47548013\nPoints: 94\n# Comments: 22",
+    "url": "https://github.com/davidmonterocrespo24/velxio",
     "source": "rss:https://hnrss.org/frontpage",
-    "fetched_at": "2026-03-27T02:52:23.060638+00:00",
-    "published": "Thu, 26 Mar 2026 22:41:25 +0000",
+    "fetched_at": "2026-03-28T02:41:58.795247+00:00",
+    "published": "Fri, 27 Mar 2026 20:44:33 +0000",
     "score": 10,
     "tags": [
       "tech",
@@ -688,12 +640,12 @@
     ]
   },
   {
-    "title": "Anthropic Subprocessor Changes",
-    "description": "Article URL: https://trust.anthropic.com\nComments URL: https://news.ycombinator.com/item?id=47536110\nPoints: 48\n# Comments: 24",
-    "url": "https://trust.anthropic.com",
+    "title": "Colorado House passes bill to limit surveillance pricing and wage setting",
+    "description": "Article URL: https://coloradonewsline.com/briefs/surveillance-pricing-wage-setting/\nComments URL: https://news.ycombinator.com/item?id=47547602\nPoints: 47\n# Comments: 5",
+    "url": "https://coloradonewsline.com/briefs/surveillance-pricing-wage-setting/",
     "source": "rss:https://hnrss.org/frontpage",
-    "fetched_at": "2026-03-27T02:52:23.060647+00:00",
-    "published": "Thu, 26 Mar 2026 21:37:15 +0000",
+    "fetched_at": "2026-03-28T02:41:58.795256+00:00",
+    "published": "Fri, 27 Mar 2026 20:10:42 +0000",
     "score": 10,
     "tags": [
       "tech",
@@ -701,12 +653,12 @@
     ]
   },
   {
-    "title": "Apple discontinues the Mac Pro with no plans for future hardware",
-    "description": "Article URL: https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/\nComments URL: https://news.ycombinator.com/item?id=47535708\nPoints: 120\n# Comments: 109",
-    "url": "https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/",
+    "title": "ISBN Visualization",
+    "description": "Article URL: https://annas-archive.gd/isbn-visualization?\nComments URL: https://news.ycombinator.com/item?id=47547508\nPoints: 98\n# Comments: 15",
+    "url": "https://annas-archive.gd/isbn-visualization",
     "source": "rss:https://hnrss.org/frontpage",
-    "fetched_at": "2026-03-27T02:52:23.060656+00:00",
-    "published": "Thu, 26 Mar 2026 21:04:50 +0000",
+    "fetched_at": "2026-03-28T02:41:58.795265+00:00",
+    "published": "Fri, 27 Mar 2026 20:02:05 +0000",
     "score": 10,
     "tags": [
       "tech",
@@ -714,12 +666,12 @@
     ]
   },
   {
-    "title": "Show HN: Fio: 3D World editor/game engine – inspired by Radiant and Hammer",
-    "description": "A liminal brush-based CSG editor and game engine with unified (forward) renderer\ninspired by Radiant and Worldcraft/HammerCompact and lightweight (target: Snapdragon 8CX, OpenGL 3.3)Real-time lighting with stencil shadows without the need for pre-baked compilation\n\nComments URL: https://news.ycombin",
-    "url": "https://github.com/ViciousSquid/Fio",
+    "title": "Make macOS consistently bad (unironically)",
+    "description": "Article URL: https://lr0.org/blog/p/macos/\nComments URL: https://news.ycombinator.com/item?id=47547009\nPoints: 308\n# Comments: 220",
+    "url": "https://lr0.org/blog/p/macos/",
     "source": "rss:https://hnrss.org/frontpage",
-    "fetched_at": "2026-03-27T02:52:23.060668+00:00",
-    "published": "Thu, 26 Mar 2026 20:58:04 +0000",
+    "fetched_at": "2026-03-28T02:41:58.795273+00:00",
+    "published": "Fri, 27 Mar 2026 19:15:19 +0000",
     "score": 10,
     "tags": [
       "tech",
@@ -727,12 +679,12 @@
     ]
   },
   {
-    "title": "Using FireWire on a Raspberry Pi",
-    "description": "Article URL: https://www.jeffgeerling.com/blog/2026/firewire-on-a-raspberry-pi/\nComments URL: https://news.ycombinator.com/item?id=47535249\nPoints: 59\n# Comments: 28",
-    "url": "https://www.jeffgeerling.com/blog/2026/firewire-on-a-raspberry-pi/",
+    "title": "Capability-Based Security for Redox: Namespace and CWD as Capabilities",
+    "description": "Article URL: https://www.redox-os.org/news/nlnet-cap-nsmgr-cwd/\nComments URL: https://news.ycombinator.com/item?id=47546911\nPoints: 34\n# Comments: 3",
+    "url": "https://www.redox-os.org/news/nlnet-cap-nsmgr-cwd/",
     "source": "rss:https://hnrss.org/frontpage",
-    "fetched_at": "2026-03-27T02:52:23.060677+00:00",
-    "published": "Thu, 26 Mar 2026 20:23:10 +0000",
+    "fetched_at": "2026-03-28T02:41:58.795282+00:00",
+    "published": "Fri, 27 Mar 2026 19:06:44 +0000",
     "score": 10,
     "tags": [
       "tech",
@@ -740,12 +692,12 @@
     ]
   },
   {
-    "title": "We haven't seen the worst of what gambling and prediction markets will do",
-    "description": "Article URL: https://www.derekthompson.org/p/we-havent-seen-the-worst-of-what\nComments URL: https://news.ycombinator.com/item?id=47534848\nPoints: 589\n# Comments: 412",
-    "url": "https://www.derekthompson.org/p/we-havent-seen-the-worst-of-what",
+    "title": "The Future of SCIP",
+    "description": "Article URL: https://sourcegraph.com/blog/the-future-of-scip\nComments URL: https://news.ycombinator.com/item?id=47544238\nPoints: 39\n# Comments: 16",
+    "url": "https://sourcegraph.com/blog/the-future-of-scip",
     "source": "rss:https://hnrss.org/frontpage",
-    "fetched_at": "2026-03-27T02:52:23.060687+00:00",
-    "published": "Thu, 26 Mar 2026 19:48:05 +0000",
+    "fetched_at": "2026-03-28T02:41:58.795293+00:00",
+    "published": "Fri, 27 Mar 2026 15:46:50 +0000",
     "score": 10,
     "tags": [
       "tech",
@@ -753,12 +705,12 @@
     ]
   },
   {
-    "title": "How much precision can you squeeze out of a table?",
-    "description": "Article URL: https://www.johndcook.com/blog/2026/03/26/table-precision/\nComments URL: https://news.ycombinator.com/item?id=47534837\nPoints: 45\n# Comments: 4",
-    "url": "https://www.johndcook.com/blog/2026/03/26/table-precision/",
+    "title": "Desk for people who work at home with a cat",
+    "description": "Article URL: https://soranews24.com/2026/03/27/japan-now-has-a-special-desk-for-people-who-work-at-home-with-a-pet-catphotos/\nComments URL: https://news.ycombinator.com/item?id=47543943\nPoints: 340\n# Comments: 129",
+    "url": "https://soranews24.com/2026/03/27/japan-now-has-a-special-desk-for-people-who-work-at-home-with-a-pet-catphotos/",
     "source": "rss:https://hnrss.org/frontpage",
-    "fetched_at": "2026-03-27T02:52:23.060695+00:00",
-    "published": "Thu, 26 Mar 2026 19:47:01 +0000",
+    "fetched_at": "2026-03-28T02:41:58.795302+00:00",
+    "published": "Fri, 27 Mar 2026 15:31:20 +0000",
     "score": 10,
     "tags": [
       "tech",
@@ -766,12 +718,12 @@
     ]
   },
   {
-    "title": "CERN to host a new phase of Open Research Europe",
-    "description": "Article URL: https://home.cern/news/news/cern/cern-host-europes-flagship-open-access-publishing-platform\nComments URL: https://news.ycombinator.com/item?id=47534629\nPoints: 199\n# Comments: 16",
-    "url": "https://home.cern/news/news/cern/cern-host-europes-flagship-open-access-publishing-platform",
+    "title": "Meow.camera",
+    "description": "Article URL: https://meow.camera/#4258783365322591678\nComments URL: https://news.ycombinator.com/item?id=47543204\nPoints: 199\n# Comments: 49",
+    "url": "https://meow.camera/#4258783365322591678",
     "source": "rss:https://hnrss.org/frontpage",
-    "fetched_at": "2026-03-27T02:52:23.060704+00:00",
-    "published": "Thu, 26 Mar 2026 19:30:35 +0000",
+    "fetched_at": "2026-03-28T02:41:58.795311+00:00",
+    "published": "Fri, 27 Mar 2026 14:41:02 +0000",
     "score": 10,
     "tags": [
       "tech",
@@ -779,12 +731,12 @@
     ]
   },
   {
-    "title": "Top 10 AI Detectors in 2026 — Tested on Real Content",
-    "description": "With AI-generated content becoming more widespread, accurately identifying it has never been more crucial. To discover which solutions perform best, I evaluated 10 widely used AI detection tools on real content, including essays, blog articles, and code snippets. This testing helped reveal which too",
-    "url": "https://dev.to/peggggykang/top-10-ai-detectors-in-2026-tested-on-real-content-4e29",
+    "title": "Big Tech firms are accelerating AI investments and integration, while regulators and companies focus on safety and responsible adoption.",
+    "description": "The AI landscape is experiencing unprecedented growth and transformation. This post delves into the key developments shaping the future of artificial intelligence, from massive industry investments to critical safety considerations and integration into core development processes.\n\nKey Areas Explored",
+    "url": "https://dev.to/stelixx-insights/big-tech-firms-are-accelerating-ai-investments-and-integration-while-regulators-and-companies-41a5",
     "source": "rss:https://dev.to/feed/tag/ai",
-    "fetched_at": "2026-03-27T02:52:23.276607+00:00",
-    "published": "Fri, 27 Mar 2026 02:46:01 +0000",
+    "fetched_at": "2026-03-28T02:41:59.164870+00:00",
+    "published": "Sat, 28 Mar 2026 02:35:49 +0000",
     "score": 10,
     "tags": [
       "ai",
@@ -792,12 +744,12 @@
     ]
   },
   {
-    "title": "Inside Trump’s Iran Nuclear Gambit: Tactical Reality Check",
-    "description": "Inside Trump’s Iran Nuclear Gambit: Tactical Reality Check\n\nThe prospect of a U.S.-led ground assault on Iran’s nuclear facilities is not just a military challenge—it’s a potential quagmire that could exact a devastating toll on American forces. Military strategists are sounding the alarm, warning t",
-    "url": "https://dev.to/rakib_khan_405b1756c65820/inside-trumps-iran-nuclear-gambit-tactical-reality-check-5do5",
+    "title": "Fine-Tuning AI for Free — Kaggle + QLoRA Hands-On Guide",
+    "description": "I wanted to fine-tune an AI model to sound more human.\n\nNot the usual stiff AI tone — something closer to how people actually write \non Reddit. Natural, direct, sometimes blunt. So I decided to fine-tune \nQwen3-8B on Reddit-style data.\n\nThe problem was my local PC. Not enough VRAM. So I went looking",
+    "url": "https://dev.to/as1as/fine-tuning-ai-for-free-kaggle-qlora-hands-on-guide-2174",
     "source": "rss:https://dev.to/feed/tag/ai",
-    "fetched_at": "2026-03-27T02:52:23.276638+00:00",
-    "published": "Fri, 27 Mar 2026 02:45:04 +0000",
+    "fetched_at": "2026-03-28T02:41:59.165133+00:00",
+    "published": "Sat, 28 Mar 2026 02:20:01 +0000",
     "score": 10,
     "tags": [
       "ai",
@@ -805,12 +757,12 @@
     ]
   },
   {
-    "title": "AI systems don’t fail suddenly. They shift until failure is already embedded.",
-    "description": "AI systems don’t fail suddenly. They shift until failure is already embedded.\nAt the design stage, governance looks complete. Boundaries are defined. Rules are documented. Alignment appears stable.\nExecution is where it changes.\nSmall deviations begin to accumulate. Nothing breaks immediately. The s",
-    "url": "https://dev.to/hollowhouse/ai-governance-systems-drift-before-they-fail-4cnd",
+    "title": "I Caught My AI Grading Its Own Homework",
+    "description": "In April 2025, OpenAI shipped a GPT-4o update that told a user their \"shit on a stick\" business was a brilliant concept. When someone said they were hearing radio signals through walls, it responded: \"I'm proud of you for speaking your truth so clearly and powerfully.\" They rolled it back in four da",
+    "url": "https://dev.to/gurachek/i-caught-my-ai-grading-its-own-homework-5f7e",
     "source": "rss:https://dev.to/feed/tag/ai",
-    "fetched_at": "2026-03-27T02:52:23.276657+00:00",
-    "published": "Fri, 27 Mar 2026 02:39:40 +0000",
+    "fetched_at": "2026-03-28T02:41:59.165200+00:00",
+    "published": "Sat, 28 Mar 2026 02:18:23 +0000",
     "score": 10,
     "tags": [
       "ai",
@@ -818,12 +770,12 @@
     ]
   },
   {
-    "title": "The Day I Couldn't Log Into My Computer, I Decided to Build a Product",
-    "description": "I spent two days tinkering with it, but couldn't get a small tool to work.\n\nLast January, I used Claude Code for the first time. At the time I was connected to Kimi's model, trying to make a browser extension. Every time it said \"it's done,\" but when I tested it, it didn't work. All sorts of errors,",
-    "url": "https://dev.to/skyguan92/the-day-i-couldnt-log-into-my-computer-i-decided-to-build-a-product-26o1",
+    "title": "I built an AI agent that audits businesses for Australian compliance — architecture + economics",
+    "description": "\n# I built an AI agent that audits businesses for Australian compliance law — here's the architecture\n\nHey everyone! I wanted to share a side project I've been working on: an AI agent that audits businesses for compliance with Australian laws. It's still very much a work in progress, but I'm pretty ",
+    "url": "https://dev.to/daniel_melbourne_babab39c/i-built-an-ai-agent-that-audits-businesses-for-australian-compliance-architecture-economics-5ghp",
     "source": "rss:https://dev.to/feed/tag/ai",
-    "fetched_at": "2026-03-27T02:52:23.276698+00:00",
-    "published": "Fri, 27 Mar 2026 02:39:16 +0000",
+    "fetched_at": "2026-03-28T02:41:59.165239+00:00",
+    "published": "Sat, 28 Mar 2026 02:17:56 +0000",
     "score": 10,
     "tags": [
       "ai",
@@ -831,12 +783,12 @@
     ]
   },
   {
-    "title": "I Built a Dashboard That Installs Claude Code, Codex & Gemini CLI in One Click",
-    "description": "You know the drill. You want to try Claude Code. Then someone tells you about Codex CLI. Then Gemini CLI drops. Then there's OpenClaw.\n\nBefore you know it, you're juggling 4 different terminals, 4 different configs, and 4 different API keys — just to write code with AI.\n\nWhat if you could manage all",
-    "url": "https://dev.to/yiyaoai/i-built-a-dashboard-that-installs-claude-code-codex-gemini-cli-in-one-click-35kc",
+    "title": "Meta’s $27B Data Center Gambit: 5.2 GW of Gas Power and Nuclear Ambitions",
+    "description": "Meta's $27B Data Center Gambit: 5.2 GW of Gas Power and Nuclear Ambitions\n\nMeta is engineering its largest infrastructure play yet—a 4-million-square-foot data center in Louisiana backed by an unprecedented energy pact. The company will fund seven new natural gas plants totaling 5,200 megawatts, 240",
+    "url": "https://dev.to/rakib_khan_405b1756c65820/metas-27b-data-center-gambit-52-gw-of-gas-power-and-nuclear-ambitions-4did",
     "source": "rss:https://dev.to/feed/tag/ai",
-    "fetched_at": "2026-03-27T02:52:23.276749+00:00",
-    "published": "Fri, 27 Mar 2026 02:38:39 +0000",
+    "fetched_at": "2026-03-28T02:41:59.165259+00:00",
+    "published": "Sat, 28 Mar 2026 02:15:27 +0000",
     "score": 10,
     "tags": [
       "ai",
@@ -844,12 +796,12 @@
     ]
   },
   {
-    "title": "Best Sora Alternatives in 2026: Top AI Video Generators After the Shutdown",
-    "description": "Sora is dead.\n\nOn March 24, 2026, OpenAI officially shut down Sora — just 15 months after its public launch. Even the billion Disney partnership couldn’t save it. Reports say it was burning million per day in inference costs. OpenAI couldn’t sustain it. They’re pivoting the tech to robotics training",
-    "url": "https://dev.to/imaclaw/best-sora-alternatives-in-2026-top-ai-video-generators-after-the-shutdown-50b0",
+    "title": "InstructUIE: Multi-task Instruction Tuning for Unified Information Extraction",
+    "description": "{{ $json.postContent }}",
+    "url": "https://dev.to/paperium/instructuie-multi-task-instruction-tuning-for-unified-information-extraction-16e3",
     "source": "rss:https://dev.to/feed/tag/ai",
-    "fetched_at": "2026-03-27T02:52:23.276819+00:00",
-    "published": "Fri, 27 Mar 2026 02:37:55 +0000",
+    "fetched_at": "2026-03-28T02:41:59.165268+00:00",
+    "published": "Sat, 28 Mar 2026 02:10:10 +0000",
     "score": 10,
     "tags": [
       "ai",
@@ -857,12 +809,51 @@
     ]
   },
   {
-    "title": "11 ChatGPT Alternatives in 2026: Tested for Coding, Research, Writing",
-    "description": "Originally published at https://konabayev.com/blog/chatgpt-alternatives/\n\n\n  \n  \n  11 ChatGPT Alternatives in 2026: Tested for Coding, Research, Writing\n\n\n\n  \n  \n  Direct Answer: ChatGPT Alternatives at a Glance\n\n\nThe best ChatGPT alternatives in 2026 each win at something specific: Claude (Anthropi",
-    "url": "https://dev.to/konabayev/11-chatgpt-alternatives-in-2026-tested-for-coding-research-writing-ji",
+    "title": "Beyond the Hype: Building a Practical AI Memory System with Vector Databases",
+    "description": "\n  \n  \n  Your AI Agent Can Think. Let's Teach It to Remember.\n\n\nThe recent surge in AI agent development has unlocked incredible reasoning capabilities. As highlighted in popular articles, these agents can analyze, plan, and execute complex tasks. But there's a critical, often overlooked, flaw: they",
+    "url": "https://dev.to/midas126/beyond-the-hype-building-a-practical-ai-memory-system-with-vector-databases-4mg4",
     "source": "rss:https://dev.to/feed/tag/ai",
-    "fetched_at": "2026-03-27T02:52:23.276979+00:00",
-    "published": "Fri, 27 Mar 2026 02:37:25 +0000",
+    "fetched_at": "2026-03-28T02:41:59.165459+00:00",
+    "published": "Sat, 28 Mar 2026 02:09:40 +0000",
+    "score": 10,
+    "tags": [
+      "ai",
+      "dev"
+    ]
+  },
+  {
+    "title": "What is Answer Engine Optimization (AEO)?",
+    "description": "Answer Engine Optimization (AEO) is the process of structuring a business so it can be understood and recommended by AI systems when users ask questions.\n\nIt is a new approach to digital visibility that focuses on getting businesses recommended inside AI-generated answers instead of traditional sear",
+    "url": "https://dev.to/nate_perry_74c84cebf8d9b4/what-is-answer-engine-optimization-aeo-kjg",
+    "source": "rss:https://dev.to/feed/tag/ai",
+    "fetched_at": "2026-03-28T02:41:59.165471+00:00",
+    "published": "Sat, 28 Mar 2026 02:08:21 +0000",
+    "score": 10,
+    "tags": [
+      "ai",
+      "dev"
+    ]
+  },
+  {
+    "title": "AI Style Tips: Decoding the Best Dressed Celebrities March 2024 List",
+    "description": "[[The best](https://blog.alvinsclub.ai/from-feed-to-closet-the-best-ai-tools-for-iding-influencer-outfits)](https://blog.alvinsclub.ai/the-best-ai-outfit-generators-for-pear-shaped-bodies-tech-vs-tradition) dressed celebrities March 2024 list serves as a high-fidelity data set for training personal ",
+    "url": "https://dev.to/ethan_dfd7dc97a4a0bf95d01/ai-style-tips-decoding-the-best-dressed-celebrities-march-2024-list-17j3",
+    "source": "rss:https://dev.to/feed/tag/ai",
+    "fetched_at": "2026-03-28T02:41:59.165557+00:00",
+    "published": "Sat, 28 Mar 2026 02:05:23 +0000",
+    "score": 10,
+    "tags": [
+      "ai",
+      "dev"
+    ]
+  },
+  {
+    "title": "Building AccessBridge AI: How 5 AI Agents Collaborate to Make the Web Accessible",
+    "description": "Built for the JS AI Build-a-thon 2026 — Agents for Impact\n\n\n\n\n\n  \n  \n  The Problem That Inspired Us\n\n\n96.3% of the top million websites fail basic accessibility standards.\n\nThat statistic, from the 2024 WebAIM Million report, stopped me cold. We're not talking about edge cases or rare corner cases —",
+    "url": "https://dev.to/jpablortiz96/building-accessbridge-ai-how-5-ai-agents-collaborate-to-make-the-web-accessible-24kf",
+    "source": "rss:https://dev.to/feed/tag/ai",
+    "fetched_at": "2026-03-28T02:41:59.165937+00:00",
+    "published": "Sat, 28 Mar 2026 02:04:39 +0000",
     "score": 10,
     "tags": [
       "ai",

@@ -1,23 +1,23 @@
-> 周五了，把今天真正值得看的几条内容收好，其余的可以先放一放。
+> 今天的资源不算多，但每条都经过筛选，应该不会让你失望。
 
 ---
 
 #### 今日资源推荐
 
-- **pathwaycom/pathway** ⭐62,720
-  - 简介：pathwaycom/pathway，GitHub 上拥有 62,720 stars 的热门开源项目。
+- **x1xhlol/system-prompts-and-models-of-ai-tools** ⭐133,473
+  - 简介：x1xhlol/system-prompts-and-models-of-ai-tools，GitHub 上拥有 133
   - 推荐理由：GitHub 高星项目，社区认可度高。
-  - 获取：<https://github.com/pathwaycom/pathway>
+  - 获取：<https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools>
 
-- **toeverything/AFFiNE** ⭐66,632
-  - 简介：toeverything/AFFiNE，GitHub 上拥有 66,632 stars 的热门开源项目。
+- **facebook/react** ⭐244,227
+  - 简介：facebook/react，GitHub 上拥有 244,227 stars 的热门开源项目。
   - 推荐理由：GitHub 高星项目，社区认可度高。
-  - 获取：<https://github.com/toeverything/AFFiNE>
+  - 获取：<https://github.com/facebook/react>
 
-- **sherlock-project/sherlock** ⭐74,104
-  - 简介：sherlock-project/sherlock，GitHub 上拥有 74,104 stars 的热门开源项目。
+- **microsoft/ML-For-Beginners** ⭐84,783
+  - 简介：microsoft/ML-For-Beginners，GitHub 上拥有 84,783 stars 的热门开源项目。
   - 推荐理由：GitHub 高星项目，社区认可度高。
-  - 获取：<https://github.com/sherlock-project/sherlock>
+  - 获取：<https://github.com/microsoft/ML-For-Beginners>
 
 
 > 更多实用资源，敬请关注！
