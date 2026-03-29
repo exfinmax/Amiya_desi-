@@ -1,4 +1,4 @@
-> 今天也不必接收太多信息，挑几条有价值的慢慢看就很好。
+> 今天的资源嘛...也就这样吧，不过不看会后悔哦~ (¬‿¬)
 
 ---
 
@@ -7,16 +7,19 @@
 - **golang/go** ⭐133,185
   - 简介：golang/go，GitHub 上拥有 133,185 stars 的热门开源项目。
   - 推荐理由：GitHub 高星项目，社区认可度高。
+  - 标签：golang
   - 获取：<https://github.com/golang/go>
 
 - **junegunn/fzf** ⭐79,068
-  - 简介：junegunn/fzf，GitHub 上拥有 79,068 stars 的热门开源项目。
-  - 推荐理由：GitHub 高星项目，社区认可度高。
+  - 简介：fzf 是一个高效的模糊查找命令行工具，支持多种 shell 环境。
+  - 推荐理由：提升命令行文件和历史命令搜索效率。
+  - 标签：cli, bash, fish
   - 获取：<https://github.com/junegunn/fzf>
 
 - **OpenHands/OpenHands** ⭐70,057
-  - 简介：OpenHands/OpenHands，GitHub 上拥有 70,057 stars 的热门开源项目。
-  - 推荐理由：GitHub 高星项目，社区认可度高。
+  - 简介：OpenHands 是一个开源的 CLI 工具，让 AI 代理直接操作开发环境。
+  - 推荐理由：通过自然语言控制终端，提升开发自动化效率。
+  - 标签：cli, agent, artificial-intelligence
   - 获取：<https://github.com/OpenHands/OpenHands>
 
 

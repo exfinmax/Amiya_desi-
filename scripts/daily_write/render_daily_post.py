@@ -38,6 +38,15 @@ def _load_selected() -> list:
     return []
 
 
+def _get_title(date_str: str, selected: list) -> str:
+    try:
+        from title_generator import generate_title
+        return generate_title(date_str, selected)
+    except Exception as e:
+        logger.warning(f"[Render] 标题生成失败: {e}")
+        return f"今日免费资源推荐 - {date_str}"
+
+
 def _get_greeting(date_str: str, selected: list) -> str:
     try:
         keywords = []
@@ -64,6 +73,7 @@ def render(date_str: str = "", dry_run: bool = False) -> str:
     today = date_str or datetime.now().strftime("%Y-%m-%d")
     selected = _load_selected()
 
+    title = _get_title(today, selected)
     greeting = _get_greeting(today, selected)
 
     lines = []
@@ -142,6 +152,7 @@ def _render_item(it: dict) -> list:
     reason = (it.get("reason") or "").strip()
     url = (it.get("url") or "#").strip()
     stars = it.get("stars")
+    keywords = it.get("keywords", [])
 
     # 构建链接
     if not url or url == "#":
@@ -157,6 +168,14 @@ def _render_item(it: dict) -> list:
     lines.append(f"  - 简介：{summary}")
     if reason:
         lines.append(f"  - 推荐理由：{reason}")
+    
+    # 只显示AI生成的关键词
+    if keywords and len(keywords) > 0:
+        # 过滤掉通用标签，只保留有意义的关键词
+        filtered_keywords = [kw for kw in keywords if kw.lower() not in ['ai', 'tech', 'tool', 'app', 'github'] and len(kw) > 1]
+        if filtered_keywords:
+            lines.append(f"  - 标签：{', '.join(filtered_keywords[:3])}")
+    
     lines.append(f"  - 获取：<{url}>")
     lines.append("")
     return lines
@@ -169,6 +188,13 @@ def main():
     args = parser.parse_args()
 
     body = render(date_str=args.date, dry_run=args.dry_run)
+    
+    # 输出标题和正文
+    today = args.date or datetime.now().strftime("%Y-%m-%d")
+    selected = _load_selected()
+    title = _get_title(today, selected)
+    
+    print(f"# {title}")
     print(body)
 
 

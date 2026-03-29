@@ -29,12 +29,14 @@
       "fish"
     ],
     "score": 70.6,
-    "summary": "junegunn/fzf，GitHub 上拥有 79,068 stars 的热门开源项目。",
-    "reason": "GitHub 高星项目，社区认可度高。",
+    "summary": "fzf 是一个高效的模糊查找命令行工具，支持多种 shell 环境。",
+    "reason": "提升命令行文件和历史命令搜索效率。",
     "audience": "开发者",
     "keywords": [
-      "junegunn",
-      "fzf"
+      "cli",
+      "bash",
+      "fish",
+      "模糊搜索"
     ],
     "stars": 79068
   },
@@ -49,12 +51,13 @@
       "chatgpt"
     ],
     "score": 69.01,
-    "summary": "OpenHands/OpenHands，GitHub 上拥有 70,057 stars 的热门开源项目。",
-    "reason": "GitHub 高星项目，社区认可度高。",
+    "summary": "OpenHands 是一个开源的 CLI 工具，让 AI 代理直接操作开发环境。",
+    "reason": "通过自然语言控制终端，提升开发自动化效率。",
     "audience": "开发者",
     "keywords": [
-      "OpenHands",
-      "OpenHands"
+      "cli",
+      "agent",
+      "artificial-intelligence"
     ],
     "stars": 70057
   }

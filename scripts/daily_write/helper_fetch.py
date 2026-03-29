@@ -51,9 +51,18 @@ RSS_FEEDS = [
     ("https://techcrunch.com/feed/", ["tech", "news"], 8),
     ("https://www.reddit.com/r/programming/.rss", ["programming"], 8),
     ("https://www.reddit.com/r/python/.rss", ["python"], 8),
+    ("https://www.reddit.com/r/javascript/.rss", ["javascript"], 8),
+    ("https://www.reddit.com/r/golang/.rss", ["go"], 8),
+    ("https://www.reddit.com/r/rust/.rss", ["rust"], 8),
+    ("https://www.reddit.com/r/webdev/.rss", ["webdev"], 8),
+    ("https://www.reddit.com/r/MachineLearning/.rss", ["ml", "ai"], 8),
     ("https://www.reddit.com/r/SCP/.rss", ["scp"], 6),
     ("https://scp-wiki.wikidot.com/rss", ["scp"], 6),
     ("https://scp-wiki-cn.wikidot.com/rss", ["scp", "chinese"], 6),
+    ("https://feeds.feedburner.com/oreilly/radar", ["tech", "oreilly"], 8),
+    ("https://martinfowler.com/feed.atom", ["architecture", "tech"], 6),
+    ("https://blog.cloudflare.com/rss/", ["cloud", "security"], 8),
+    ("https://netflixtechblog.com/feed", ["engineering", "tech"], 8),
 ]
 
 GITHUB_SEARCH_QUERIES = [
@@ -66,9 +75,19 @@ GITHUB_SEARCH_QUERIES = [
     ("stars:>30000 topic:python", ["python"], 8),
     ("stars:>30000 topic:go", ["go"], 8),
     ("stars:>20000 topic:rust", ["rust"], 8),
+    ("stars:>30000 topic:web-development", ["webdev"], 8),
+    ("stars:>25000 topic:security", ["security"], 8),
+    ("stars:>20000 topic:mobile", ["mobile"], 8),
+    ("stars:>20000 topic:blockchain", ["blockchain"], 6),
+    ("stars:>15000 topic:game-development", ["gamedev"], 6),
+    ("stars:>20000 topic:data-science", ["datascience"], 8),
+    ("stars:>30000 topic:kubernetes", ["k8s", "devops"], 6),
+    ("stars:>25000 topic:docker", ["docker", "devops"], 6),
+    ("stars:>20000 topic:react", ["react", "frontend"], 6),
+    ("stars:>20000 topic:vue", ["vue", "frontend"], 6),
 ]
 
-MAX_RESULTS = 60
+MAX_RESULTS = 100
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 _GH_HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}

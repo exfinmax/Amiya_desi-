@@ -44,17 +44,19 @@ DEFAULT_BASE_URL = "https://api-inference.modelscope.cn/v1"
 
 # 摘要回退链（从强到弱）
 DEFAULT_SUMMARY_MODELS = [
-    "Qwen/Qwen2.5-72B-Instruct",
-    "Qwen/Qwen2.5-32B-Instruct",
-    "Qwen/Qwen2.5-14B-Instruct",
-    "Qwen/Qwen2.5-7B-Instruct",
+    "Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "deepseek-ai/DeepSeek-V3.2",
+    "Qwen/Qwen3.5-397B-A17B",
+    "Qwen/Qwen3.5-35B-A3B",
+    "Qwen/Qwen3-30B-A3B",
 ]
 
 # 祝福语回退链
 DEFAULT_GREETING_MODELS = [
-    "Qwen/Qwen2.5-32B-Instruct",
-    "Qwen/Qwen2.5-14B-Instruct",
-    "Qwen/Qwen2.5-7B-Instruct",
+    "Qwen/Qwen3-32B",
+    "Qwen/Qwen3.5-27B", 
+    "Qwen/Qwen3-14B",
+    "Qwen/Qwen3-8B",
 ]
 
 DEFAULT_TIMEOUT = 30
@@ -273,16 +275,19 @@ def _build_summary_prompt(title: str, description: str, source: str,
 
 要求：
 - 输出严格 JSON，不要有任何额外文字
-- summary：一句话中文简介，18~45 字，精炼有信息量
-- reason：一句中文推荐理由，12~30 字
-- audience：目标受众，10 字以内
-- keywords：2~4 个关键词数组
-- 不要"本文介绍了""这篇文章主要讲了"
-- 不要营销腔，不要空泛鸡汤
-- 面向每日资源推荐场景
+- summary：一句话中文简介，20~50字，专业客观
+- reason：一句中文推荐理由，15~35字，突出实际价值和应用场景
+- audience：目标受众，10字以内
+- keywords：2~4个关键词数组
+- 不要使用颜文字或过于活泼的表达
+- 侧重技术优势和实际应用价值
 
 输出格式：
-{{"summary": "...", "reason": "...", "audience": "...", "keywords": ["..."]}}"""
+{{"summary": "...", "reason": "...", "audience": "...", "keywords": ["..."]}}
+
+示例风格：
+- summary: "高性能数据处理框架，支持实时流处理和复杂事件处理"
+- reason: "适合需要处理大规模实时数据的企业级应用场景"""
 
 
 def _build_greeting_prompt(context: dict) -> str:
@@ -294,19 +299,21 @@ def _build_greeting_prompt(context: dict) -> str:
     kw_str = "、".join(keywords[:5]) if keywords else "开源、工具、学习"
     day_type = "工作日" if is_workday else "休息日"
 
-    return f"""今天是 {date}（{weekday}，{day_type}），今日资源主题：{theme}，关键词：{kw_str}。
+    return f"""我是Akuma站娘，一个傲娇的技术少女~ (｡•̀ᴗ-)✧
+
+今天是 {date}（{weekday}，{day_type}），今日资源主题：{theme}，关键词：{kw_str}。
 
 请生成一句每日开场白，要求：
-- 中文，18~45 字
-- 温和、清醒、克制
-- 有技术社区气质的傲娇少女风格
-- 不鸡汤过头，不像公号营销号
-- 不要连续感叹号，不要过度抒情
+- 中文，18~45字
+- 傲娇技术少女风格，带点小恶魔气质
+- 偶尔使用颜文字，如 (｡•̀ᴗ-)✧、(๑•̀ㅂ•́)و✧、(¬‿¬)
+- 不鸡汤过头，有技术社区感
+- 不要连续感叹号，适度傲娇
 - 只输出这一句话，不要任何解释
 
 示例风格：
-- 周三别急着追热点，先把今天真正值得看的几条内容收好。
-- 今天也不必接收太多信息，挑几条有价值的慢慢看就很好。"""
+- 哼，今天这些技术资源也就一般般啦，不过看看也无妨~ (｡•̀ᴗ-)✧
+- 本站娘精心挑选的资源，不看可是你的损失哦~ (๑•̀ㅂ•́)و✧"""
 
 
 # ── 规则摘要 / 本地回退 ───────────────────────────────────────────────────────
@@ -348,14 +355,14 @@ def _extract_keywords(title: str) -> list:
 
 
 _GREETING_TEMPLATES = [
-    "今天也不必接收太多信息，挑几条有价值的慢慢看就很好。",
-    "别急着刷完所有内容，今天这几条值得你多停留一会儿。",
-    "周{weekday}了，把今天真正值得看的几条内容收好，其余的可以先放一放。",
-    "信息很多，但好内容不多。今天帮你筛了几条，慢慢看。",
-    "不用每条都点开，先看标题，有感觉的再深入，这样效率更高。",
-    "今天的资源不算多，但每条都经过筛选，应该不会让你失望。",
-    "技术圈每天都有新东西，但真正值得花时间的并不多，今天这几条算是。",
-    "周末也好，工作日也好，好内容随时都值得看一眼。",
+    "哼，今天的资源也就一般般啦，不过看看也无妨~ (｡•̀ᴗ-)✧",
+    "本站娘精心挑选的资源，不看可是你的损失哦~",
+    "今天的这些技术嘛...还算凑合吧，随便看看~",
+    "工作日也要摸鱼学习，这些资源本站娘帮你筛选好了~",
+    "周五了！这些资源够你周末装逼用了，快收好~ (๑•̀ㅂ•́)و✧",
+    "周末也别闲着，这些技术资源本站娘觉得还不错~",
+    "今天的资源嘛...也就这样吧，不过不看会后悔哦~",
+    "技术圈每天都有新东西，但本站娘只挑最好的给你~",
 ]
 
 _WEEKDAY_MAP = {0: "一", 1: "二", 2: "三", 3: "四", 4: "五", 5: "六", 6: "日"}
