@@ -1,63 +1,61 @@
 [
   {
-    "title": "x1xhlol/system-prompts-and-models-of-ai-tools",
-    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "title": "golang/go",
+    "url": "https://github.com/golang/go",
     "source": "github:search",
     "tags": [
-      "ai",
-      "ai",
-      "bolt",
-      "cluely"
+      "go",
+      "go",
+      "golang",
+      "language"
     ],
-    "score": 79.01,
-    "summary": "x1xhlol/system-prompts-and-models-of-ai-tools，GitHub 上拥有 133",
+    "score": 72.96,
+    "summary": "golang/go，GitHub 上拥有 133,185 stars 的热门开源项目。",
     "reason": "GitHub 高星项目，社区认可度高。",
     "audience": "开发者",
     "keywords": [
-      "x1xhlol",
-      "system-prompts-and-models-of-ai-tools"
+      "golang"
     ],
-    "stars": 133473
+    "stars": 133185
   },
   {
-    "title": "facebook/react",
-    "url": "https://github.com/facebook/react",
+    "title": "junegunn/fzf",
+    "url": "https://github.com/junegunn/fzf",
     "source": "github:search",
     "tags": [
-      "javascript",
-      "declarative",
-      "frontend",
-      "javascript"
+      "cli",
+      "bash",
+      "cli",
+      "fish"
     ],
-    "score": 72.23,
-    "summary": "facebook/react，GitHub 上拥有 244,227 stars 的热门开源项目。",
+    "score": 70.6,
+    "summary": "junegunn/fzf，GitHub 上拥有 79,068 stars 的热门开源项目。",
     "reason": "GitHub 高星项目，社区认可度高。",
     "audience": "开发者",
     "keywords": [
-      "facebook",
-      "react"
+      "junegunn",
+      "fzf"
     ],
-    "stars": 244227
+    "stars": 79068
   },
   {
-    "title": "microsoft/ML-For-Beginners",
-    "url": "https://github.com/microsoft/ML-For-Beginners",
+    "title": "OpenHands/OpenHands",
+    "url": "https://github.com/OpenHands/OpenHands",
     "source": "github:search",
     "tags": [
-      "ai",
-      "ml",
-      "data-science",
-      "education",
-      "machine-learning"
+      "cli",
+      "agent",
+      "artificial-intelligence",
+      "chatgpt"
     ],
-    "score": 71.49,
-    "summary": "microsoft/ML-For-Beginners，GitHub 上拥有 84,783 stars 的热门开源项目。",
+    "score": 69.01,
+    "summary": "OpenHands/OpenHands，GitHub 上拥有 70,057 stars 的热门开源项目。",
     "reason": "GitHub 高星项目，社区认可度高。",
     "audience": "开发者",
     "keywords": [
-      "microsoft",
-      "ML-For-Beginners"
+      "OpenHands",
+      "OpenHands"
     ],
-    "stars": 84783
+    "stars": 70057
   }
 ]
