@@ -1,23 +1,22 @@
-# SCP彩蛋时间！本站娘发现的有趣条目~ (｡•̀ᴗ-)✧
+#### 资源推荐
 
-> 哼，今天的SCP彩蛋也就一般般啦，不过看看也无妨~ (｡•̀ᴗ-)✧
+- **资源名称：** SCP-9089
+  - 简介： 来自 SCP Foundation 的最近创建条目（自动抓取测试）
+  - 获取： https://scp-wiki.wikidot.com/scp-9089
 
----
+- **资源名称：** openclaw/openclaw
+  - 简介： Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
+  - 获取： https://github.com/openclaw/openclaw
 
-[点击此处前往彩蛋](#easter)
+- **资源名称：** Significant-Gravitas/AutoGPT
+  - 简介： AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
+  - 获取： https://github.com/Significant-Gravitas/AutoGPT
 
-<a name="easter"></a>
+- **资源名称：** n8n-io/n8n
+  - 简介： Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
+  - 获取： https://github.com/n8n-io/n8n
 
-**彩蛋专场：本篇只包含 SCP 文章，祝你好运！**
-
-#### SCP 资源
-
-- **SCP-9089**
-  - 简介：来自 SCP Foundation 的最近创建条目，包含异常现象描述
-  - 推荐理由：适合SCP爱好者了解最新的异常物品档案
-  - 获取：<https://scp-wiki.wikidot.com/scp-9089>
-
-> 更多实用资源，敬请关注！
+> 测试: 包含一个 SCP 条目以验证罕见情况
 
 ---
 
