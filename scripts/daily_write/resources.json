@@ -1,32 +1,10 @@
 [
   {
-    "title": "SCP-266 - SCP Foundation",
-    "description": "",
-    "url": "https://scp-wiki.wikidot.com/scp-266",
+    "title": "SCP-813 - SCP Foundation",
+    "description": "A fragment of paper, believed to be a handwritten letter, was recovered from the convoy; the following is an excerpt of that letter:",
+    "url": "https://scp-wiki.wikidot.com/scp-813",
     "source": "scp-scrape",
-    "fetched_at": "2026-03-29T02:56:33.736685+00:00",
-    "score": 100,
-    "tags": [
-      "scp"
-    ]
-  },
-  {
-    "title": "SCP-798 - SCP Foundation",
-    "description": "",
-    "url": "https://scp-wiki.wikidot.com/scp-798",
-    "source": "scp-scrape",
-    "fetched_at": "2026-03-29T02:56:34.212482+00:00",
-    "score": 100,
-    "tags": [
-      "scp"
-    ]
-  },
-  {
-    "title": "SCP-391 - SCP Foundation",
-    "description": "SCP-391 Experiment Log",
-    "url": "https://scp-wiki.wikidot.com/scp-391",
-    "source": "scp-scrape",
-    "fetched_at": "2026-03-29T02:56:34.675735+00:00",
+    "fetched_at": "2026-03-30T03:18:01.732840+00:00",
     "score": 100,
     "tags": [
       "scp"
@@ -37,18 +15,40 @@
     "description": "SCP-725 in an agitated state",
     "url": "https://scp-wiki.wikidot.com/scp-725",
     "source": "scp-scrape",
-    "fetched_at": "2026-03-29T02:56:34.994715+00:00",
+    "fetched_at": "2026-03-30T03:18:02.032151+00:00",
     "score": 100,
     "tags": [
       "scp"
     ]
   },
   {
-    "title": "SCP-223 - SCP Foundation",
-    "description": "SCP-223 contains twenty-eight (28) photos, which chronicle an engaged couple’s vacation to ██████ Beach. The final two (2) pages of the album have been ripped out.",
-    "url": "https://scp-wiki.wikidot.com/scp-223",
+    "title": "SCP-423 - SCP Foundation",
+    "description": "At night, SCP-423 is to remain in a small, plain journal marked 423. Failure to remain in this journal at designated times will result in loss of reading material outside of scheduled experiments.",
+    "url": "https://scp-wiki.wikidot.com/scp-423",
     "source": "scp-scrape",
-    "fetched_at": "2026-03-29T02:56:35.422221+00:00",
+    "fetched_at": "2026-03-30T03:18:02.216992+00:00",
+    "score": 100,
+    "tags": [
+      "scp"
+    ]
+  },
+  {
+    "title": "SCP-446 - SCP Foundation",
+    "description": "A medical examination of SCP-446 revealed additional information. See Document 446-1-A for details.",
+    "url": "https://scp-wiki.wikidot.com/scp-446",
+    "source": "scp-scrape",
+    "fetched_at": "2026-03-30T03:18:02.555767+00:00",
+    "score": 100,
+    "tags": [
+      "scp"
+    ]
+  },
+  {
+    "title": "SCP-074 - SCP Foundation",
+    "description": "",
+    "url": "https://scp-wiki.wikidot.com/scp-074",
+    "source": "scp-scrape",
+    "fetched_at": "2026-03-30T03:18:02.899276+00:00",
     "score": 100,
     "tags": [
       "scp"
@@ -59,9 +59,9 @@
     "description": "Stable Diffusion web UI",
     "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:35.972876+00:00",
+    "fetched_at": "2026-03-30T03:18:03.375509+00:00",
     "published": "2026-03-02T07:00:53Z",
-    "stars": 161999,
+    "stars": 162016,
     "score": 20,
     "tags": [
       "ai",
@@ -75,9 +75,9 @@
     "description": "中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器、职业名称词库、同义词库、反义词库、否定词库、汽车品牌词库、汽车零件词库、连续英文切割、各种中文词向量、公司名字大全、古诗词库、IT词库、财经词库、成语词库、地名词库、历史名人词库、诗词词库、医学词库、饮食词库、法律词库、汽车词库、动物词库、中文聊天语料、中文谣言数据、百度中文问答数据集、句子相似度匹配算法集合、bert资源、文本生成&摘要相关工具、cocoNLP信息抽取工具、国内电话号码正则匹配、清华大学XLORE:中英文跨语言百科知识图谱、清华大学人工智能技术系列报告、自然语言生成、NLU太难了系列、自动对联数据及机器人、用户名黑名单列表、罪名法务名词及分类模型、微信公众号语料、cs224n深度学习自然语言处理课程、中文手写汉字识别、中文自然语言处理 语料/数据集、变量命名神器、分词语料库+代码、任务型对话英文数据集、ASR 语音数据集 + 基于深度学习的中文语音识别系统、笑声检测器、Microsoft多语言数字/单位/如日期时间识别包、中华新华字典数据库及api(包括常用歇后语、成语、词语和汉字)、文档图谱自动生成、SpaCy 中文模型、Common Voice语音识别数据集新版、神经网络关系抽取、基于bert的命名实体识别、关键词(Keyphrase)抽取包pke、基于医疗领域知识图谱的问答系统、基于依存句法与语义角色标注的事件三元组抽取、依存句法分析4万句高质量标注数据、cnocr：用来做中文OCR的Python3包、中文人物关系知识图谱项目、中文nlp竞赛项目及代码汇总、中文字符数据、speech-aligner: 从“人声语音”及其“语言文本”产生音素级别时间对齐标注的工具、AmpliGraph: 知识图谱表示学习(Python)库：知识图谱概念链接预测、Scattertext 文本可视化(python)、语言/知识表示工具：BERT & ERNIE、中文对比英文自然语言处理NLP的区别综述、Synonyms中文近义词工具包、HarvestText领域自适应文本挖掘工具（新词发现-情感分析-实体链接等）、word2word：(Python)方便易用的多语言词-词对集：62种语言/3,564个多语言对、语音识别语料生成工具：从具有音频/字幕的在线视频创建自动语音识别(ASR)语料库、构建医疗实体识别的模型（包含词典和语料标注）、单文档非监督的关键词抽取、Kashgari中使用gpt-2语言模型、开源的金融投资数据提取工具、文本自动摘要库TextTeaser: 仅支持英文、人民日报语料处理工具集、一些关于自然语言的基本模型、基于14W歌曲知识库的问答尝试--功能包括歌词接龙and已知歌词找歌曲以及歌曲歌手歌词三角关系的问答、基于Siamese bilstm模型的相似句子判定模型并提供训练数据集和测试数据集、用Transformer编解码模型实现的根据Hacker News文章标题自动生成评论、用BERT进行序列标记和文本分类的模板代码、LitBank：NLP数据集——支持自然语言处理和计算人文学科任务的100部带标记英文小说语料、百度开源的基准信息抽取系统、虚假新闻数据集、Facebook: LAMA语言模型分析，提供Transformer-XL/BERT/ELMo/GPT预训练语言模型的统一访问接口、CommonsenseQA：面向常识的英文QA挑战、中文知识图谱资料、数据及工具、各大公司内部里大牛分享的技术文档 PDF 或者 PPT、自然语言生成SQL语句（英文）、中文NLP数据增强（EDA）工具、英文NLP数据增强工具 、基于医药知识图谱的智能问答系统、京东商品知识图谱、基于mongodb存储的军事领域知识图谱问答项目、基于远监督的中文关系抽取、语音情感分析、中文ULMFiT-情感分析-文本分类-语料及模型、一个拍照做题程序、世界各国大规模人名库、一个利用有趣中文语料库 qingyun 训练出来的中文聊天机器人、中文聊天机器人seqGAN、省市区镇行政区划数据带拼音标注、教育行业新闻语料库包含自动文摘功能、开放了对话机器人-知识图谱-语义理解-自然语言处理工具及数据、中文知识图谱：基于百度百科中文页面-抽取三元组信息-构建中文知识图谱、masr: 中文语音识别-提供预训练模型-高识别率、Python音频数据增广库、中文全词覆盖BERT及两份阅读理解数据、ConvLab：开源多域端到端对话系统平台、中文自然语言处理数据集、基于最新版本rasa搭建的对话系统、基于TensorFlow和BERT的管道式实体及关系抽取、一个小型的证券知识图谱/知识库、复盘所有NLP比赛的TOP方案、OpenCLaP：多领域开源中文预训练语言模型仓库、UER：基于不同语料+编码器+目标任务的中文预训练模型仓库、中文自然语言处理向量合集、基于金融-司法领域(兼有闲聊性质)的聊天机器人、g2pC：基于上下文的汉语读音自动标记模块、Zincbase 知识图谱构建工具包、诗歌质量评价/细粒度情感诗歌语料库、快速转化「中文数字」和「阿拉伯数字」、百度知道问答语料库、基于知识图谱的问答系统、jieba_fast 加速版的jieba、正则表达式教程、中文阅读理解数据集、基于BERT等最新语言模型的抽取式摘要提取、Python利用深度学习进行文本摘要的综合指南、知识图谱深度学习相关资料整理、维基大规模平行文本语料、StanfordNLP 0.2.0：纯Python版自然语言处理包、NeuralNLP-NeuralClassifier：腾讯开源深度学习文本分类工具、端到端的封闭域对话系统、中文命名实体识别：NeuroNER vs. BertNER、新闻事件线索抽取、2019年百度的三元组抽取比赛：“科学空间队”源码、基于依存句法的开放域文本知识三元组抽取和知识库构建、中文的GPT2训练代码、ML-NLP - 机器学习(Machine Learning)NLP面试中常考到的知识点和代码实现、nlp4han:中文自然语言处理工具集(断句/分词/词性标注/组块/句法分析/语义分析/NER/N元语法/HMM/代词消解/情感分析/拼写检查、XLM：Facebook的跨语言预训练语言模型、用基于BERT的微调和特征提取方法来进行知识图谱百度百科人物词条属性抽取、中文自然语言处理相关的开放任务-数据集-当前最佳结果、CoupletAI - 基于CNN+Bi-LSTM+Attention 的自动对对联系统、抽象知识图谱、MiningZhiDaoQACorpus - 580万百度知道问答数据挖掘项目、brat rapid annotation tool: 序列标注工具、大规模中文知识图谱数据：1.4亿实体、数据增强在机器翻译及其他nlp任务中的应用及效果、allennlp阅读理解:支持多种数据和模型、PDF表格数据提取工具 、 Graphbrain：AI开源软件库和科研工具，目的是促进自动意义提取和文本理解以及知识的探索和推断、简历自动筛选系统、基于命名实体识别的简历自动摘要、中文语言理解测评基准，包括代表性的数据集&基准模型&语料库&排行榜、树洞 OCR 文字识别 、从包含表格的扫描图片中识别表格和文字、语声迁移、Python口语自然语言处理工具集(英文)、 similarity：相似度计算工具包，java编写、海量中文预训练ALBERT模型 、Transformers 2.0 、基于大规模音频数据集Audioset的音频增强 、Poplar：网页版自然语言标注工具、图片文字去除，可用于漫画翻译 、186种语言的数字叫法库、Amazon发布基于知识的人-人开放领域对话数据集 、中文文本纠错模块代码、繁简体转换 、 Python实现的多种文本可读性评价指标、类似于人名/地名/组织机构名的命名体识别数据集 、东南大学《知识图谱》研究生课程(资料)、. 英文拼写检查库 、 wwsearch是企业微信后台自研的全文检索引擎、CHAMELEON：深度学习新闻推荐系统元架构 、 8篇论文梳理BERT相关模型进展与反思、DocSearch：免费文档搜索引擎、 LIDA：轻量交互式对话标注工具 、aili - the fastest in-memory index in the East 东半球最快并发索引 、知识图谱车音工作项目、自然语言生成资源大全 、中日韩分词库mecab的Python接口库、中文文本摘要/关键词提取、汉字字符特征提取器 (featurizer)，提取汉字的特征（发音特征、字形特征）用做深度学习的特征、中文生成任务基准测评 、中文缩写数据集、中文任务基准测评 - 代表性的数据集-基准(预训练)模型-语料库-baseline-工具包-排行榜、PySS3：面向可解释AI的SS3文本分类器机器可视化工具 、中文NLP数据集列表、COPE - 格律诗编辑程序、doccano：基于网页的开源协同多语言文本标注工具 、PreNLP：自然语言预处理库、简单的简历解析器，用来从简历中提取关键信息、用于中文闲聊的GPT2模型：GPT2-chitchat、基于检索聊天机器人多轮响应选择相关资源列表(Leaderboards、Datasets、Papers)、(Colab)抽象文本摘要实现集锦(教程 、词语拼音数据、高效模糊搜索工具、NLP数据增广资源集、微软对话机器人框架 、 GitHub Typo Corpus：大规模GitHub多语言拼写错误/语法错误数据集、TextCluster：短文本聚类预处理模块 Short text cluster、面向语音识别的中文文本规范化、BLINK：最先进的实体链接库、BertPunc：基于BERT的最先进标点修复模型、Tokenizer：快速、可定制的文本词条化库、中文语言理解测评基准，包括代表性的数据集、基准(预训练)模型、语料库、排行榜、spaCy 医学文本挖掘与信息提取 、 NLP任务示例项目代码集、 python拼写检查库、chatbot-list - 行业内关于智能客服、聊天机器人的应用和架构、算法分享和介绍、语音质量评价指标(MOSNet, BSSEval, STOI, PESQ, SRMR)、 用138GB语料训练的法文RoBERTa预训练语言模型 、BERT-NER-Pytorch：三种不同模式的BERT中文NER实验、无道词典 - 有道词典的命令行版本，支持英汉互查和在线查询、2019年NLP亮点回顾、 Chinese medical dialogue data 中文医疗对话数据集 、最好的汉字数字(中文数字)-阿拉伯数字转换工具、 基于百科知识库的中文词语多词义/义项获取与特定句子词语语义消歧、awesome-nlp-sentiment-analysis - 情感分析、情绪原因识别、评价对象和评价词抽取、LineFlow：面向所有深度学习框架的NLP数据高效加载器、中文医学NLP公开资源整理 、MedQuAD：(英文)医学问答数据集、将自然语言数字串解析转换为整数和浮点数、Transfer Learning in Natural Language Processing (NLP) 、面向语音识别的中文/英文发音辞典、Tokenizers：注重性能与多功能性的最先进分词器、CLUENER 细粒度命名实体识别 Fine Grained Named Entity Recognition、 基于BERT的中文命名实体识别、中文谣言数据库、NLP数据集/基准任务大列表、nlp相关的一些论文及代码, 包括主题模型、词向量(Word Embedding)、命名实体识别(NER)、文本分类(Text Classificatin)、文本生成(Text Generation)、文本相似性(Text Similarity)计算等，涉及到各种与nlp相关的算法，基于keras和tensorflow 、Python文本挖掘/NLP实战示例、 Blackstone：面向非结构化法律文本的spaCy pipeline和NLP模型通过同义词替换实现文本“变脸” 、中文 预训练 ELECTREA 模型: 基于对抗学习 pretrain Chinese Model 、albert-chinese-ner - 用预训练语言模型ALBERT做中文NER 、基于GPT2的特定主题文本生成/文本增广、开源预训练语言模型合集、多语言句向量包、编码、标记和实现：一种可控高效的文本生成方法、 英文脏话大列表 、attnvis：GPT2、BERT等transformer语言模型注意力交互可视化、CoVoST：Facebook发布的多语种语音-文本翻译语料库，包括11种语言(法语、德语、荷兰语、俄语、西班牙语、意大利语、土耳其语、波斯语、瑞典语、蒙古语和中文)的语音、文字转录及英文译文、Jiagu自然语言处理工具 - 以BiLSTM等模型为基础，提供知识图谱关系抽取 中文分词 词性标注 命名实体识别 情感分析 新词发现 关键词 文本摘要 文本聚类等功能、用unet实现对文档表格的自动检测，表格重建、NLP事件提取文献资源列表 、 金融领域自然语言处理研究资源大列表、CLUEDatasetSearch - 中英文NLP数据集：搜索所有中文NLP数据集，附常用英文NLP数据集 、medical_NER - 中文医学知识图谱命名实体识别 、(哈佛)讲因果推理的免费书、知识图谱相关学习资料/数据集/工具资源大列表、Forte：灵活强大的自然语言处理pipeline工具集 、Python字符串相似性算法库、PyLaia：面向手写文档分析的深度学习工具包、TextFooler：针对文本分类/推理的对抗文本生成模块、Haystack：灵活、强大的可扩展问答(QA)框架、中文关键短语抽取工具",
     "url": "https://github.com/fighting41love/funNLP",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:37.446502+00:00",
+    "fetched_at": "2026-03-30T03:18:04.805000+00:00",
     "published": "2024-05-10T07:38:24Z",
-    "stars": 79660,
+    "stars": 79680,
     "score": 20,
     "tags": [
       "ai",
@@ -89,9 +89,9 @@
     "description": "A curated list of awesome Machine Learning frameworks, libraries and software.",
     "url": "https://github.com/josephmisiti/awesome-machine-learning",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:37.446504+00:00",
+    "fetched_at": "2026-03-30T03:18:04.805003+00:00",
     "published": "2026-03-15T15:16:19Z",
-    "stars": 72109,
+    "stars": 72116,
     "score": 20,
     "tags": [
       "ai",
@@ -103,9 +103,9 @@
     "description": "scikit-learn: machine learning in Python",
     "url": "https://github.com/scikit-learn/scikit-learn",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:37.446507+00:00",
+    "fetched_at": "2026-03-30T03:18:04.805005+00:00",
     "published": "2026-03-27T17:18:05Z",
-    "stars": 65536,
+    "stars": 65544,
     "score": 20,
     "tags": [
       "ai",
@@ -120,9 +120,9 @@
     "description": "Master programming by recreating your favorite technologies from scratch.",
     "url": "https://github.com/codecrafters-io/build-your-own-x",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:38.980102+00:00",
+    "fetched_at": "2026-03-30T03:18:06.303369+00:00",
     "published": "2026-02-21T09:34:54Z",
-    "stars": 484128,
+    "stars": 484438,
     "score": 20,
     "tags": [
       "awesome-list",
@@ -135,9 +135,9 @@
     "description": "😎 Awesome lists about all kinds of interesting topics",
     "url": "https://github.com/sindresorhus/awesome",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:38.980117+00:00",
+    "fetched_at": "2026-03-30T03:18:06.303383+00:00",
     "published": "2026-03-09T07:59:57Z",
-    "stars": 449675,
+    "stars": 449968,
     "score": 20,
     "tags": [
       "awesome",
@@ -150,9 +150,9 @@
     "description": "A collective list of free APIs",
     "url": "https://github.com/public-apis/public-apis",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:38.980124+00:00",
+    "fetched_at": "2026-03-30T03:18:06.303389+00:00",
     "published": "2026-03-18T16:28:22Z",
-    "stars": 417078,
+    "stars": 417326,
     "score": 20,
     "tags": [
       "api",
@@ -165,9 +165,9 @@
     "description": ":books: Freely available programming books",
     "url": "https://github.com/EbookFoundation/free-programming-books",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:38.980126+00:00",
+    "fetched_at": "2026-03-30T03:18:06.303392+00:00",
     "published": "2026-03-24T15:26:23Z",
-    "stars": 384670,
+    "stars": 384703,
     "score": 20,
     "tags": [
       "books",
@@ -180,9 +180,9 @@
     "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
     "url": "https://github.com/donnemartin/system-design-primer",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:38.980131+00:00",
+    "fetched_at": "2026-03-30T03:18:06.303399+00:00",
     "published": "2026-03-20T01:52:19Z",
-    "stars": 340508,
+    "stars": 340611,
     "score": 20,
     "tags": [
       "design",
@@ -195,9 +195,9 @@
     "description": "A complete computer science study plan to become a software engineer.",
     "url": "https://github.com/jwasham/coding-interview-university",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:38.980137+00:00",
+    "fetched_at": "2026-03-30T03:18:06.303402+00:00",
     "published": "2025-08-28T14:42:47Z",
-    "stars": 338291,
+    "stars": 338302,
     "score": 20,
     "tags": [
       "algorithm",
@@ -210,9 +210,9 @@
     "description": "Curated list of project-based tutorials",
     "url": "https://github.com/practical-tutorials/project-based-learning",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:40.514700+00:00",
+    "fetched_at": "2026-03-30T03:18:07.828933+00:00",
     "published": "2024-08-15T05:33:54Z",
-    "stars": 261909,
+    "stars": 261959,
     "score": 20,
     "tags": [
       "javascript",
@@ -226,9 +226,9 @@
     "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
     "url": "https://github.com/vuejs/vue",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:40.514707+00:00",
+    "fetched_at": "2026-03-30T03:18:07.828939+00:00",
     "published": "2024-10-10T07:24:15Z",
-    "stars": 209944,
+    "stars": 209946,
     "score": 20,
     "tags": [
       "javascript",
@@ -242,9 +242,9 @@
     "description": "📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
     "url": "https://github.com/trekhleb/javascript-algorithms",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:40.514710+00:00",
+    "fetched_at": "2026-03-30T03:18:07.828942+00:00",
     "published": "2026-02-18T09:20:06Z",
-    "stars": 195768,
+    "stars": 195758,
     "score": 20,
     "tags": [
       "javascript",
@@ -258,9 +258,9 @@
     "description": "A book series (2 published editions) on the JS language.",
     "url": "https://github.com/getify/You-Dont-Know-JS",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:40.514712+00:00",
+    "fetched_at": "2026-03-30T03:18:07.828945+00:00",
     "published": "2026-02-15T04:36:44Z",
-    "stars": 184546,
+    "stars": 184543,
     "score": 20,
     "tags": [
       "javascript",
@@ -274,9 +274,9 @@
     "description": "JavaScript Style Guide",
     "url": "https://github.com/airbnb/javascript",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:40.514717+00:00",
+    "fetched_at": "2026-03-30T03:18:07.828951+00:00",
     "published": "2026-02-24T14:05:16Z",
-    "stars": 148130,
+    "stars": 148116,
     "score": 20,
     "tags": [
       "javascript",
@@ -286,29 +286,13 @@
     ]
   },
   {
-    "title": "junegunn/fzf",
-    "description": ":cherry_blossom: A command-line fuzzy finder",
-    "url": "https://github.com/junegunn/fzf",
-    "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:42.093530+00:00",
-    "published": "2026-03-28T15:05:52Z",
-    "stars": 79068,
-    "score": 20,
-    "tags": [
-      "cli",
-      "bash",
-      "cli",
-      "fish"
-    ]
-  },
-  {
     "title": "jesseduffield/lazygit",
     "description": "simple terminal UI for git commands",
     "url": "https://github.com/jesseduffield/lazygit",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:42.093532+00:00",
+    "fetched_at": "2026-03-30T03:18:09.258261+00:00",
     "published": "2026-03-27T17:21:48Z",
-    "stars": 75158,
+    "stars": 75213,
     "score": 20,
     "tags": [
       "cli",
@@ -318,29 +302,13 @@
     ]
   },
   {
-    "title": "OpenHands/OpenHands",
-    "description": "🙌 OpenHands: AI-Driven Development",
-    "url": "https://github.com/OpenHands/OpenHands",
-    "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:42.093537+00:00",
-    "published": "2026-03-29T01:23:01Z",
-    "stars": 70057,
-    "score": 20,
-    "tags": [
-      "cli",
-      "agent",
-      "artificial-intelligence",
-      "chatgpt"
-    ]
-  },
-  {
     "title": "trimstray/the-book-of-secret-knowledge",
     "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
     "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:43.647671+00:00",
+    "fetched_at": "2026-03-30T03:18:10.772602+00:00",
     "published": "2024-11-19T14:00:38Z",
-    "stars": 212064,
+    "stars": 212321,
     "score": 20,
     "tags": [
       "devops",
@@ -354,9 +322,9 @@
     "description": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
     "url": "https://github.com/bregman-arie/devops-exercises",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:43.647687+00:00",
+    "fetched_at": "2026-03-30T03:18:10.772617+00:00",
     "published": "2025-12-27T14:22:30Z",
-    "stars": 81829,
+    "stars": 81835,
     "score": 20,
     "tags": [
       "devops",
@@ -370,9 +338,9 @@
     "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
     "url": "https://github.com/netdata/netdata",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:43.647691+00:00",
-    "published": "2026-03-29T00:25:15Z",
-    "stars": 78253,
+    "fetched_at": "2026-03-30T03:18:10.772620+00:00",
+    "published": "2026-03-30T00:27:27Z",
+    "stars": 78267,
     "score": 20,
     "tags": [
       "devops",
@@ -386,9 +354,9 @@
     "description": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
     "url": "https://github.com/binhnguyennus/awesome-scalability",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:43.647694+00:00",
+    "fetched_at": "2026-03-30T03:18:10.772623+00:00",
     "published": "2026-01-04T03:51:47Z",
-    "stars": 69927,
+    "stars": 70004,
     "score": 20,
     "tags": [
       "devops",
@@ -402,9 +370,9 @@
     "description": "Run your GitHub Actions locally 🚀",
     "url": "https://github.com/nektos/act",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:43.647696+00:00",
+    "fetched_at": "2026-03-30T03:18:10.772626+00:00",
     "published": "2026-03-26T21:03:13Z",
-    "stars": 69594,
+    "stars": 69613,
     "score": 20,
     "tags": [
       "devops",
@@ -418,9 +386,9 @@
     "description": "Developer-first error tracking and performance monitoring",
     "url": "https://github.com/getsentry/sentry",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:43.647701+00:00",
-    "published": "2026-03-29T02:28:08Z",
-    "stars": 43460,
+    "fetched_at": "2026-03-30T03:18:10.772632+00:00",
+    "published": "2026-03-30T03:06:00Z",
+    "stars": 43466,
     "score": 20,
     "tags": [
       "devops",
@@ -434,9 +402,9 @@
     "description": "🦍 The API and AI Gateway",
     "url": "https://github.com/Kong/kong",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:43.647704+00:00",
+    "fetched_at": "2026-03-30T03:18:10.772635+00:00",
     "published": "2026-03-27T17:42:51Z",
-    "stars": 43058,
+    "stars": 43066,
     "score": 20,
     "tags": [
       "devops",
@@ -450,9 +418,9 @@
     "description": ":books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计",
     "url": "https://github.com/CyC2018/CS-Notes",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:45.386896+00:00",
+    "fetched_at": "2026-03-30T03:18:12.311072+00:00",
     "published": "2024-08-21T09:40:10Z",
-    "stars": 184051,
+    "stars": 184059,
     "score": 20,
     "tags": [
       "python",
@@ -462,29 +430,13 @@
     ]
   },
   {
-    "title": "golang/go",
-    "description": "The Go programming language",
-    "url": "https://github.com/golang/go",
-    "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:46.927774+00:00",
-    "published": "2026-03-28T20:08:02Z",
-    "stars": 133185,
-    "score": 20,
-    "tags": [
-      "go",
-      "go",
-      "golang",
-      "language"
-    ]
-  },
-  {
     "title": "syncthing/syncthing",
     "description": "Open Source Continuous File Synchronization",
     "url": "https://github.com/syncthing/syncthing",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:46.927786+00:00",
-    "published": "2026-03-26T01:33:07Z",
-    "stars": 81235,
+    "fetched_at": "2026-03-30T03:18:13.750289+00:00",
+    "published": "2026-03-30T01:33:01Z",
+    "stars": 81247,
     "score": 20,
     "tags": [
       "go",
@@ -498,9 +450,9 @@
     "description": "The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.",
     "url": "https://github.com/unionlabs/union",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:48.571740+00:00",
+    "fetched_at": "2026-03-30T03:18:15.295543+00:00",
     "published": "2026-03-19T16:54:27Z",
-    "stars": 74195,
+    "stars": 74192,
     "score": 20,
     "tags": [
       "rust",
@@ -514,9 +466,9 @@
     "description": "A cross-platform, OpenGL terminal emulator.",
     "url": "https://github.com/alacritty/alacritty",
     "source": "github:search",
-    "fetched_at": "2026-03-29T02:56:48.571745+00:00",
+    "fetched_at": "2026-03-30T03:18:15.295548+00:00",
     "published": "2026-03-21T08:25:09Z",
-    "stars": 63148,
+    "stars": 63158,
     "score": 20,
     "tags": [
       "rust",
@@ -526,12 +478,809 @@
     ]
   },
   {
-    "title": "The US and Israel are making the Islamic republic stronger",
-    "description": "Article URL: https://www.aljazeera.com/opinions/2026/3/28/how-the-us-and-israel-are-making-the-islamic-republic\nComments URL: https://news.ycombinator.com/item?id=47559842\nPoints: 15\n# Comments: 0",
-    "url": "https://www.aljazeera.com/opinions/2026/3/28/how-the-us-and-israel-are-making-the-islamic-republic",
+    "title": "Developer-Y/cs-video-courses",
+    "description": "List of Computer Science courses with video lectures.",
+    "url": "https://github.com/Developer-Y/cs-video-courses",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:16.716651+00:00",
+    "published": "2026-03-27T17:43:39Z",
+    "stars": 77591,
+    "score": 20,
+    "tags": [
+      "webdev",
+      "algorithms",
+      "bioinformatics",
+      "computational-biology"
+    ]
+  },
+  {
+    "title": "thedaviddias/Front-End-Checklist",
+    "description": "🗂 The perfect Front-End Checklist for modern websites and meticulous developers",
+    "url": "https://github.com/thedaviddias/Front-End-Checklist",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:16.716664+00:00",
+    "published": "2026-03-16T22:54:03Z",
+    "stars": 72413,
+    "score": 20,
+    "tags": [
+      "webdev",
+      "checklist",
+      "css",
+      "front-end-developer-tool"
+    ]
+  },
+  {
+    "title": "yangshun/front-end-interview-handbook",
+    "description": "Front End interview preparation materials for busy engineers (updated for 2026)",
+    "url": "https://github.com/yangshun/front-end-interview-handbook",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:16.716671+00:00",
+    "published": "2026-03-22T08:09:10Z",
+    "stars": 43917,
+    "score": 20,
+    "tags": [
+      "webdev",
+      "css",
+      "css-questions",
+      "front-end"
+    ]
+  },
+  {
+    "title": "joshbuchea/HEAD",
+    "description": "A simple guide to HTML <head> elements",
+    "url": "https://github.com/joshbuchea/HEAD",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:16.716673+00:00",
+    "published": "2026-03-17T07:27:16Z",
+    "stars": 30253,
+    "score": 20,
+    "tags": [
+      "webdev",
+      "favicon",
+      "frontend-development",
+      "head"
+    ]
+  },
+  {
+    "title": "Hack-with-Github/Awesome-Hacking",
+    "description": "A collection of various awesome lists for hackers, pentesters and security researchers",
+    "url": "https://github.com/Hack-with-Github/Awesome-Hacking",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:18.198865+00:00",
+    "published": "2025-01-18T01:48:02Z",
+    "stars": 109306,
+    "score": 20,
+    "tags": [
+      "security",
+      "android",
+      "awesome",
+      "bug-bounty"
+    ]
+  },
+  {
+    "title": "swisskyrepo/PayloadsAllTheThings",
+    "description": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
+    "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:18.198872+00:00",
+    "published": "2026-03-16T13:58:05Z",
+    "stars": 76441,
+    "score": 20,
+    "tags": [
+      "security",
+      "bounty",
+      "bugbounty",
+      "bypass"
+    ]
+  },
+  {
+    "title": "caddyserver/caddy",
+    "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+    "url": "https://github.com/caddyserver/caddy",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:18.198874+00:00",
+    "published": "2026-03-28T19:08:37Z",
+    "stars": 71165,
+    "score": 20,
+    "tags": [
+      "security",
+      "acme",
+      "automatic-https",
+      "caddy"
+    ]
+  },
+  {
+    "title": "x64dbg/x64dbg",
+    "description": "An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis.",
+    "url": "https://github.com/x64dbg/x64dbg",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:18.198877+00:00",
+    "published": "2026-03-22T22:41:36Z",
+    "stars": 47995,
+    "score": 20,
+    "tags": [
+      "security",
+      "binary-analysis",
+      "ctf",
+      "cybersecurity"
+    ]
+  },
+  {
+    "title": "mitmproxy/mitmproxy",
+    "description": "An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.",
+    "url": "https://github.com/mitmproxy/mitmproxy",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:18.198879+00:00",
+    "published": "2026-03-24T06:18:51Z",
+    "stars": 42854,
+    "score": 20,
+    "tags": [
+      "security",
+      "debugging",
+      "http",
+      "http2"
+    ]
+  },
+  {
+    "title": "QuivrHQ/quivr",
+    "description": "Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want.",
+    "url": "https://github.com/QuivrHQ/quivr",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:18.198882+00:00",
+    "published": "2025-07-09T12:55:23Z",
+    "stars": 39073,
+    "score": 20,
+    "tags": [
+      "security",
+      "ai",
+      "api",
+      "chatbot"
+    ]
+  },
+  {
+    "title": "flutter/flutter",
+    "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+    "url": "https://github.com/flutter/flutter",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:19.675151+00:00",
+    "published": "2026-03-30T02:47:42Z",
+    "stars": 175765,
+    "score": 20,
+    "tags": [
+      "mobile",
+      "android",
+      "app-framework",
+      "cross-platform"
+    ]
+  },
+  {
+    "title": "facebook/react-native",
+    "description": "A framework for building native applications using React",
+    "url": "https://github.com/facebook/react-native",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:19.675164+00:00",
+    "published": "2026-03-30T01:51:17Z",
+    "stars": 125679,
+    "score": 20,
+    "tags": [
+      "mobile",
+      "android",
+      "app-framework",
+      "cross-platform"
+    ]
+  },
+  {
+    "title": "Solido/awesome-flutter",
+    "description": "An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.",
+    "url": "https://github.com/Solido/awesome-flutter",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:19.675168+00:00",
+    "published": "2026-02-11T17:28:05Z",
+    "stars": 59441,
+    "score": 20,
+    "tags": [
+      "mobile",
+      "android",
+      "awesome",
+      "awesome-list"
+    ]
+  },
+  {
+    "title": "ionic-team/ionic-framework",
+    "description": "A powerful cross-platform UI toolkit for building native-quality iOS, Android, and Progressive Web Apps with HTML, CSS, and JavaScript.",
+    "url": "https://github.com/ionic-team/ionic-framework",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:19.675171+00:00",
+    "published": "2026-03-30T01:31:21Z",
+    "stars": 52421,
+    "score": 20,
+    "tags": [
+      "mobile",
+      "angular",
+      "capacitor",
+      "framework"
+    ]
+  },
+  {
+    "title": "expo/expo",
+    "description": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web.",
+    "url": "https://github.com/expo/expo",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:19.675173+00:00",
+    "published": "2026-03-29T22:08:33Z",
+    "stars": 48332,
+    "score": 20,
+    "tags": [
+      "mobile",
+      "android",
+      "app-framework",
+      "expo"
+    ]
+  },
+  {
+    "title": "nolimits4web/swiper",
+    "description": "Most modern mobile touch slider with hardware accelerated transitions",
+    "url": "https://github.com/nolimits4web/swiper",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:19.675176+00:00",
+    "published": "2026-03-24T17:46:33Z",
+    "stars": 41824,
+    "score": 20,
+    "tags": [
+      "mobile",
+      "carousel",
+      "gallery",
+      "mobile"
+    ]
+  },
+  {
+    "title": "fastlane/fastlane",
+    "description": "🚀 The easiest way to automate building and releasing your iOS and Android apps",
+    "url": "https://github.com/fastlane/fastlane",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:19.675179+00:00",
+    "published": "2026-03-27T10:33:50Z",
+    "stars": 41278,
+    "score": 20,
+    "tags": [
+      "mobile",
+      "android",
+      "apps",
+      "automation"
+    ]
+  },
+  {
+    "title": "jondot/awesome-react-native",
+    "description": "Awesome React Native components, news, tools, and learning material!",
+    "url": "https://github.com/jondot/awesome-react-native",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:19.675182+00:00",
+    "published": "2024-07-05T13:12:41Z",
+    "stars": 35632,
+    "score": 20,
+    "tags": [
+      "mobile",
+      "awesome-list",
+      "mobile",
+      "react"
+    ]
+  },
+  {
+    "title": "FuelLabs/fuel-core",
+    "description": "Rust full node implementation of the Fuel v2 protocol.",
+    "url": "https://github.com/FuelLabs/fuel-core",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:21.164772+00:00",
+    "published": "2026-03-29T00:34:15Z",
+    "stars": 57238,
+    "score": 20,
+    "tags": [
+      "blockchain",
+      "blockchain",
+      "fuel"
+    ]
+  },
+  {
+    "title": "ethereum/go-ethereum",
+    "description": "Go implementation of the Ethereum protocol",
+    "url": "https://github.com/ethereum/go-ethereum",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:21.164775+00:00",
+    "published": "2026-03-28T10:46:10Z",
+    "stars": 50967,
+    "score": 20,
+    "tags": [
+      "blockchain",
+      "blockchain",
+      "ethereum",
+      "geth"
+    ]
+  },
+  {
+    "title": "anoma/anoma",
+    "description": "Reference implementation of Anoma",
+    "url": "https://github.com/anoma/anoma",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:21.164778+00:00",
+    "published": "2026-03-19T13:48:25Z",
+    "stars": 33953,
+    "score": 20,
+    "tags": [
+      "blockchain",
+      "blockchain",
+      "consensus",
+      "cryptography"
+    ]
+  },
+  {
+    "title": "linera-io/linera-protocol",
+    "description": "Main repository for the Linera protocol",
+    "url": "https://github.com/linera-io/linera-protocol",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:21.164781+00:00",
+    "published": "2026-03-30T02:56:52Z",
+    "stars": 32154,
+    "score": 20,
+    "tags": [
+      "blockchain",
+      "blockchain",
+      "rust",
+      "wasm"
+    ]
+  },
+  {
+    "title": "shardeum/shardeum",
+    "description": "Shardeum is an EVM based autoscaling blockchain",
+    "url": "https://github.com/shardeum/shardeum",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:21.164783+00:00",
+    "published": "2025-09-15T10:43:50Z",
+    "stars": 31531,
+    "score": 20,
+    "tags": [
+      "blockchain",
+      "blockchain",
+      "dapp",
+      "ethereum"
+    ]
+  },
+  {
+    "title": "godotengine/godot",
+    "description": "Godot Engine – Multi-platform 2D and 3D game engine",
+    "url": "https://github.com/godotengine/godot",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:22.556361+00:00",
+    "published": "2026-03-28T10:15:46Z",
+    "stars": 108679,
+    "score": 20,
+    "tags": [
+      "gamedev",
+      "game-development",
+      "game-engine",
+      "gamedev"
+    ]
+  },
+  {
+    "title": "ocornut/imgui",
+    "description": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies",
+    "url": "https://github.com/ocornut/imgui",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:22.556374+00:00",
+    "published": "2026-03-25T21:00:21Z",
+    "stars": 72268,
+    "score": 20,
+    "tags": [
+      "gamedev",
+      "api",
+      "cplusplus",
+      "framework"
+    ]
+  },
+  {
+    "title": "bevyengine/bevy",
+    "description": "A refreshingly simple data-driven game engine built in Rust",
+    "url": "https://github.com/bevyengine/bevy",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:22.556378+00:00",
+    "published": "2026-03-29T18:00:06Z",
+    "stars": 45333,
+    "score": 20,
+    "tags": [
+      "gamedev",
+      "bevy",
+      "game-development",
+      "game-engine"
+    ]
+  },
+  {
+    "title": "phaserjs/phaser",
+    "description": "Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering.",
+    "url": "https://github.com/phaserjs/phaser",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:22.556381+00:00",
+    "published": "2026-03-26T04:19:26Z",
+    "stars": 39253,
+    "score": 20,
+    "tags": [
+      "gamedev",
+      "canvas",
+      "discord-activities",
+      "facebook-instant-games"
+    ]
+  },
+  {
+    "title": "raysan5/raylib",
+    "description": "A simple and easy-to-use library to enjoy videogames programming",
+    "url": "https://github.com/raysan5/raylib",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:22.556383+00:00",
+    "published": "2026-03-29T19:40:44Z",
+    "stars": 31789,
+    "score": 20,
+    "tags": [
+      "gamedev",
+      "android",
+      "c",
+      "embedded"
+    ]
+  },
+  {
+    "title": "emilk/egui",
+    "description": "egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native",
+    "url": "https://github.com/emilk/egui",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:22.556386+00:00",
+    "published": "2026-03-29T08:02:25Z",
+    "stars": 28568,
+    "score": 20,
+    "tags": [
+      "gamedev",
+      "egui",
+      "game-development",
+      "gamedev"
+    ]
+  },
+  {
+    "title": "apache/superset",
+    "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
+    "url": "https://github.com/apache/superset",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:24.091533+00:00",
+    "published": "2026-03-29T20:50:31Z",
+    "stars": 71641,
+    "score": 20,
+    "tags": [
+      "datascience",
+      "analytics",
+      "apache",
+      "apache-superset"
+    ]
+  },
+  {
+    "title": "keras-team/keras",
+    "description": "Deep Learning for humans",
+    "url": "https://github.com/keras-team/keras",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:24.091540+00:00",
+    "published": "2026-03-29T17:05:31Z",
+    "stars": 63916,
+    "score": 20,
+    "tags": [
+      "datascience",
+      "data-science",
+      "deep-learning",
+      "jax"
+    ]
+  },
+  {
+    "title": "Asabeneh/30-Days-Of-Python",
+    "description": "The 30 Days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than 100 days. Follow your own pace. These videos may help too: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw",
+    "url": "https://github.com/Asabeneh/30-Days-Of-Python",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:24.091542+00:00",
+    "published": "2026-03-04T12:06:18Z",
+    "stars": 60216,
+    "score": 20,
+    "tags": [
+      "datascience",
+      "30-days-of-python",
+      "data",
+      "data-science"
+    ]
+  },
+  {
+    "title": "pandas-dev/pandas",
+    "description": "Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more",
+    "url": "https://github.com/pandas-dev/pandas",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:24.091545+00:00",
+    "published": "2026-03-29T18:18:19Z",
+    "stars": 48275,
+    "score": 20,
+    "tags": [
+      "datascience",
+      "alignment",
+      "data-analysis",
+      "data-science"
+    ]
+  },
+  {
+    "title": "GokuMohandas/Made-With-ML",
+    "description": "Learn how to develop, deploy and iterate on production-grade ML applications.",
+    "url": "https://github.com/GokuMohandas/Made-With-ML",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:24.091547+00:00",
+    "published": "2026-03-04T23:44:21Z",
+    "stars": 47011,
+    "score": 20,
+    "tags": [
+      "datascience",
+      "data-engineering",
+      "data-quality",
+      "data-science"
+    ]
+  },
+  {
+    "title": "apache/airflow",
+    "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
+    "url": "https://github.com/apache/airflow",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:24.091550+00:00",
+    "published": "2026-03-30T03:18:21Z",
+    "stars": 44820,
+    "score": 20,
+    "tags": [
+      "datascience",
+      "airflow",
+      "apache",
+      "apache-airflow"
+    ]
+  },
+  {
+    "title": "traefik/traefik",
+    "description": "The Cloud Native Application Proxy",
+    "url": "https://github.com/traefik/traefik",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:25.575462+00:00",
+    "published": "2026-03-27T13:42:06Z",
+    "stars": 62393,
+    "score": 20,
+    "tags": [
+      "k8s",
+      "devops",
+      "consul",
+      "docker",
+      "etcd"
+    ]
+  },
+  {
+    "title": "minio/minio",
+    "description": "MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.",
+    "url": "https://github.com/minio/minio",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:25.575464+00:00",
+    "published": "2026-02-12T20:18:51Z",
+    "stars": 60576,
+    "score": 20,
+    "tags": [
+      "k8s",
+      "devops",
+      "amazon-s3",
+      "cloud",
+      "cloudnative"
+    ]
+  },
+  {
+    "title": "etcd-io/etcd",
+    "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+    "url": "https://github.com/etcd-io/etcd",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:25.575467+00:00",
+    "published": "2026-03-29T19:57:29Z",
+    "stars": 51701,
+    "score": 20,
+    "tags": [
+      "k8s",
+      "devops",
+      "cncf",
+      "consensus",
+      "database"
+    ]
+  },
+  {
+    "title": "louislam/uptime-kuma",
+    "description": "A fancy self-hosted monitoring tool",
+    "url": "https://github.com/louislam/uptime-kuma",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:26.984064+00:00",
+    "published": "2026-03-30T00:10:22Z",
+    "stars": 84637,
+    "score": 20,
+    "tags": [
+      "docker",
+      "devops",
+      "docker",
+      "monitor",
+      "monitoring"
+    ]
+  },
+  {
+    "title": "macrozheng/mall",
+    "description": "mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于Spring Boot+MyBatis实现，采用Docker容器化部署。 前台商城系统包含首页门户、商品推荐、商品搜索、商品展示、购物车、订单流程、会员中心、客户服务、帮助中心等模块。 后台管理系统包含商品管理、订单管理、会员管理、促销管理、运营管理、内容管理、统计报表、财务管理、权限管理、设置等模块。",
+    "url": "https://github.com/macrozheng/mall",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:26.984079+00:00",
+    "published": "2026-03-06T07:30:02Z",
+    "stars": 83260,
+    "score": 20,
+    "tags": [
+      "docker",
+      "devops",
+      "docker",
+      "elasticsearch",
+      "elk"
+    ]
+  },
+  {
+    "title": "Stirling-Tools/Stirling-PDF",
+    "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
+    "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:26.984089+00:00",
+    "published": "2026-03-29T23:39:40Z",
+    "stars": 75917,
+    "score": 20,
+    "tags": [
+      "docker",
+      "devops",
+      "docker",
+      "hacktoberfest",
+      "java"
+    ]
+  },
+  {
+    "title": "moby/moby",
+    "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+    "url": "https://github.com/moby/moby",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:26.984092+00:00",
+    "published": "2026-03-29T17:51:01Z",
+    "stars": 71574,
+    "score": 20,
+    "tags": [
+      "docker",
+      "devops",
+      "containers",
+      "docker",
+      "go"
+    ]
+  },
+  {
+    "title": "vercel/next.js",
+    "description": "The React Framework",
+    "url": "https://github.com/vercel/next.js",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:28.536885+00:00",
+    "published": "2026-03-30T03:01:58Z",
+    "stars": 138525,
+    "score": 20,
+    "tags": [
+      "react",
+      "frontend",
+      "blog",
+      "browser",
+      "compiler"
+    ]
+  },
+  {
+    "title": "justjavac/free-programming-books-zh_CN",
+    "description": ":books: 免费的计算机编程类中文书籍，欢迎投稿",
+    "url": "https://github.com/justjavac/free-programming-books-zh_CN",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:28.536890+00:00",
+    "published": "2024-07-15T08:55:20Z",
+    "stars": 116515,
+    "score": 20,
+    "tags": [
+      "react",
+      "frontend",
+      "android",
+      "angular",
+      "books"
+    ]
+  },
+  {
+    "title": "shadcn-ui/ui",
+    "description": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
+    "url": "https://github.com/shadcn-ui/ui",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:28.536893+00:00",
+    "published": "2026-03-29T08:04:20Z",
+    "stars": 110995,
+    "score": 20,
+    "tags": [
+      "react",
+      "frontend",
+      "base-ui",
+      "components",
+      "laravel"
+    ]
+  },
+  {
+    "title": "PanJiaChen/vue-element-admin",
+    "description": ":tada: A magical vue admin                                                                https://panjiachen.github.io/vue-element-admin",
+    "url": "https://github.com/PanJiaChen/vue-element-admin",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:29.948452+00:00",
+    "published": "2024-10-24T11:25:46Z",
+    "stars": 90308,
+    "score": 20,
+    "tags": [
+      "vue",
+      "frontend",
+      "admin",
+      "admin-dashboard",
+      "admin-template"
+    ]
+  },
+  {
+    "title": "storybookjs/storybook",
+    "description": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation",
+    "url": "https://github.com/storybookjs/storybook",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:29.948455+00:00",
+    "published": "2026-03-29T16:31:33Z",
+    "stars": 89562,
+    "score": 20,
+    "tags": [
+      "vue",
+      "frontend",
+      "angular",
+      "components",
+      "design-systems"
+    ]
+  },
+  {
+    "title": "hoppscotch/hoppscotch",
+    "description": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
+    "url": "https://github.com/hoppscotch/hoppscotch",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:29.948458+00:00",
+    "published": "2026-03-28T03:07:03Z",
+    "stars": 78693,
+    "score": 20,
+    "tags": [
+      "vue",
+      "frontend",
+      "api",
+      "api-client",
+      "api-rest"
+    ]
+  },
+  {
+    "title": "nuxt/nuxt",
+    "description": "The Full-Stack Vue Framework.",
+    "url": "https://github.com/nuxt/nuxt",
+    "source": "github:search",
+    "fetched_at": "2026-03-30T03:18:29.948460+00:00",
+    "published": "2026-03-30T02:14:34Z",
+    "stars": 59919,
+    "score": 20,
+    "tags": [
+      "vue",
+      "frontend",
+      "csr",
+      "framework",
+      "full-stack"
+    ]
+  },
+  {
+    "title": "The Sudden Fall of OpenAI's Most Hyped Product Since ChatGPT",
+    "description": "Article URL: https://www.wsj.com/tech/ai/the-sudden-fall-of-openais-most-hyped-product-since-chatgpt-64c730c9\nComments URL: https://news.ycombinator.com/item?id=47569837\nPoints: 10\n# Comments: 3",
+    "url": "https://www.wsj.com/tech/ai/the-sudden-fall-of-openais-most-hyped-product-since-chatgpt-64c730c9",
     "source": "rss:https://hnrss.org/frontpage",
-    "fetched_at": "2026-03-29T02:56:31.155414+00:00",
-    "published": "Sun, 29 Mar 2026 02:07:07 +0000",
+    "fetched_at": "2026-03-30T03:17:56.555986+00:00",
+    "published": "Mon, 30 Mar 2026 02:43:17 +0000",
     "score": 10,
     "tags": [
       "tech",
@@ -539,12 +1288,12 @@
     ]
   },
   {
-    "title": "Show HN: PeriodicTableOfElements.org",
-    "description": "Article URL: https://periodictableofelements.org/?lang=en\nComments URL: https://news.ycombinator.com/item?id=47559509\nPoints: 4\n# Comments: 0",
-    "url": "https://periodictableofelements.org/?lang=en",
+    "title": "New Apple Silicon M4 and M5 HiDPI Limitation on 4K External Displays",
+    "description": "Article URL: https://smcleod.net/2026/03/new-apple-silicon-m4-m5-hidpi-limitation-on-4k-external-displays/\nComments URL: https://news.ycombinator.com/item?id=47569502\nPoints: 74\n# Comments: 11",
+    "url": "https://smcleod.net/2026/03/new-apple-silicon-m4-m5-hidpi-limitation-on-4k-external-displays/",
     "source": "rss:https://hnrss.org/frontpage",
-    "fetched_at": "2026-03-29T02:56:31.155438+00:00",
-    "published": "Sun, 29 Mar 2026 00:59:45 +0000",
+    "fetched_at": "2026-03-30T03:17:56.556007+00:00",
+    "published": "Mon, 30 Mar 2026 01:43:20 +0000",
     "score": 10,
     "tags": [
       "tech",
@@ -552,12 +1301,12 @@
     ]
   },
   {
-    "title": "Alzheimer's disease mortality among taxi and ambulance drivers (2024)",
-    "description": "Article URL: https://www.bmj.com/content/387/bmj-2024-082194\nComments URL: https://news.ycombinator.com/item?id=47559481\nPoints: 34\n# Comments: 15",
-    "url": "https://www.bmj.com/content/387/bmj-2024-082194",
+    "title": "Philly courts will ban all smart eyeglasses starting next week",
+    "description": "Article URL: https://www.inquirer.com/news/philadelphia/smart-glasses-ai-meta-courts-20260326.html\nComments URL: https://news.ycombinator.com/item?id=47569471\nPoints: 83\n# Comments: 31",
+    "url": "https://www.inquirer.com/news/philadelphia/smart-glasses-ai-meta-courts-20260326.html",
     "source": "rss:https://hnrss.org/frontpage",
-    "fetched_at": "2026-03-29T02:56:31.155448+00:00",
-    "published": "Sun, 29 Mar 2026 00:53:30 +0000",
+    "fetched_at": "2026-03-30T03:17:56.556017+00:00",
+    "published": "Mon, 30 Mar 2026 01:38:17 +0000",
     "score": 10,
     "tags": [
       "tech",
@@ -565,12 +1314,12 @@
     ]
   },
   {
-    "title": "Attie.ai",
-    "description": "Article URL: https://attie.ai/login\nComments URL: https://news.ycombinator.com/item?id=47559026\nPoints: 6\n# Comments: 0",
-    "url": "https://attie.ai/login",
+    "title": "DoesItAgeVerify: The age verification status of Open Source Operating Systems",
+    "description": "Article URL: https://github.com/BryanLunduke/DoesItAgeVerify\nComments URL: https://news.ycombinator.com/item?id=47569167\nPoints: 21\n# Comments: 20",
+    "url": "https://github.com/BryanLunduke/DoesItAgeVerify",
     "source": "rss:https://hnrss.org/frontpage",
-    "fetched_at": "2026-03-29T02:56:31.155458+00:00",
-    "published": "Sat, 28 Mar 2026 23:33:42 +0000",
+    "fetched_at": "2026-03-30T03:17:56.556027+00:00",
+    "published": "Mon, 30 Mar 2026 00:52:06 +0000",
     "score": 10,
     "tags": [
       "tech",
@@ -578,12 +1327,12 @@
     ]
   },
   {
-    "title": "South Korea Mandates Solar Panels for Public Parking Lots",
-    "description": "Article URL: https://www.reutersconnect.com/item/south-korea-mandates-solar-panels-for-public-parking-lots/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMU5VUlBITzAwMFZKRjFZQQ\nComments URL: https://news.ycombinator.com/item?id=47558997\nPoints: 203\n# Comments: 109",
-    "url": "https://www.reutersconnect.com/item/south-korea-mandates-solar-panels-for-public-parking-lots/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMU5VUlBITzAwMFZKRjFZQQ",
+    "title": "There is No Spoon. A software engineers primer for demystified ML",
+    "description": "Article URL: https://github.com/dreddnafious/thereisnospoon\nComments URL: https://news.ycombinator.com/item?id=47568080\nPoints: 67\n# Comments: 15",
+    "url": "https://github.com/dreddnafious/thereisnospoon",
     "source": "rss:https://hnrss.org/frontpage",
-    "fetched_at": "2026-03-29T02:56:31.155467+00:00",
-    "published": "Sat, 28 Mar 2026 23:29:04 +0000",
+    "fetched_at": "2026-03-30T03:17:56.556036+00:00",
+    "published": "Sun, 29 Mar 2026 22:28:11 +0000",
     "score": 10,
     "tags": [
       "tech",
@@ -591,12 +1340,12 @@
     ]
   },
   {
-    "title": "Sealing Paper Packaging Without Adhesives",
-    "description": "Article URL: https://www.fraunhofer.de/en/press/research-news/2026/march-2026/sealing-paper-packaging-without-adhesives.html\nComments URL: https://news.ycombinator.com/item?id=47558782\nPoints: 31\n# Comments: 4",
-    "url": "https://www.fraunhofer.de/en/press/research-news/2026/march-2026/sealing-paper-packaging-without-adhesives.html",
+    "title": "Coding Agents Could Make Free Software Matter Again",
+    "description": "Article URL: https://www.gjlondon.com/blog/ai-agents-could-make-free-software-matter-again/\nComments URL: https://news.ycombinator.com/item?id=47568028\nPoints: 118\n# Comments: 115",
+    "url": "https://www.gjlondon.com/blog/ai-agents-could-make-free-software-matter-again/",
     "source": "rss:https://hnrss.org/frontpage",
-    "fetched_at": "2026-03-29T02:56:31.155476+00:00",
-    "published": "Sat, 28 Mar 2026 22:50:49 +0000",
+    "fetched_at": "2026-03-30T03:17:56.556045+00:00",
+    "published": "Sun, 29 Mar 2026 22:21:34 +0000",
     "score": 10,
     "tags": [
       "tech",
@@ -604,12 +1353,12 @@
     ]
   },
   {
-    "title": "Stop picking my Go version for me",
-    "description": "Article URL: https://blog.howardjohn.info/posts/go-mod-version/\nComments URL: https://news.ycombinator.com/item?id=47558581\nPoints: 27\n# Comments: 18",
-    "url": "https://blog.howardjohn.info/posts/go-mod-version/",
+    "title": "Claude Code runs Git reset –hard origin/main against project repo every 10 mins",
+    "description": "Article URL: https://github.com/anthropics/claude-code/issues/40710\nComments URL: https://news.ycombinator.com/item?id=47567969\nPoints: 192\n# Comments: 124",
+    "url": "https://github.com/anthropics/claude-code/issues/40710",
     "source": "rss:https://hnrss.org/frontpage",
-    "fetched_at": "2026-03-29T02:56:31.155484+00:00",
-    "published": "Sat, 28 Mar 2026 22:15:31 +0000",
+    "fetched_at": "2026-03-30T03:17:56.556076+00:00",
+    "published": "Sun, 29 Mar 2026 22:15:06 +0000",
     "score": 10,
     "tags": [
       "tech",
@@ -617,12 +1366,12 @@
     ]
   },
   {
-    "title": "Private equity turned vulnerable elderly people into human ATMs",
-    "description": "Article URL: https://www.theguardian.com/society/2026/mar/28/the-great-care-home-cash-grab-how-private-equity-turned-vulnerable-elderly-people-into-human-atms\nComments URL: https://news.ycombinator.com/item?id=47558372\nPoints: 116\n# Comments: 66",
-    "url": "https://www.theguardian.com/society/2026/mar/28/the-great-care-home-cash-grab-how-private-equity-turned-vulnerable-elderly-people-into-human-atms",
+    "title": "Show HN: Crazierl – An Erlang Operating System",
+    "description": "Crazierl is an experimental/hobby operating system based around BEAM.I've linked the browser based demo; I don’t recommend using a phone; it does work, slowly, on the phones I tested, but it’s very awkward to use. You can share a link with a hashtag with your friends and click the consent checkbox, ",
+    "url": "https://crazierl.org/demo/",
     "source": "rss:https://hnrss.org/frontpage",
-    "fetched_at": "2026-03-29T02:56:31.155493+00:00",
-    "published": "Sat, 28 Mar 2026 21:43:00 +0000",
+    "fetched_at": "2026-03-30T03:17:56.556093+00:00",
+    "published": "Sun, 29 Mar 2026 20:38:26 +0000",
     "score": 10,
     "tags": [
       "tech",
@@ -630,12 +1379,12 @@
     ]
   },
   {
-    "title": "InpharmD (YC W21) Is Hiring – Senior Ruby on Rails Developer",
-    "description": "Article URL: https://inpharmd.com/jobs/senior-ruby-on-rails-engineer\nComments URL: https://news.ycombinator.com/item?id=47558305\nPoints: 0\n# Comments: 0",
-    "url": "https://inpharmd.com/jobs/senior-ruby-on-rails-engineer",
+    "title": "The road signs that teach travellers about France",
+    "description": "Article URL: https://www.bbc.com/travel/article/20260327-the-road-signs-that-teach-travellers-about-france\nComments URL: https://news.ycombinator.com/item?id=47566960\nPoints: 60\n# Comments: 19",
+    "url": "https://www.bbc.com/travel/article/20260327-the-road-signs-that-teach-travellers-about-france",
     "source": "rss:https://hnrss.org/frontpage",
-    "fetched_at": "2026-03-29T02:56:31.155505+00:00",
-    "published": "Sat, 28 Mar 2026 21:35:22 +0000",
+    "fetched_at": "2026-03-30T03:17:56.556102+00:00",
+    "published": "Sun, 29 Mar 2026 20:30:02 +0000",
     "score": 10,
     "tags": [
       "tech",
@@ -643,12 +1392,12 @@
     ]
   },
   {
-    "title": "CSS is DOOMed",
-    "description": "Article URL: https://nielsleenheer.com/articles/2026/css-is-doomed-rendering-doom-in-3d-with-css/\nComments URL: https://news.ycombinator.com/item?id=47557960\nPoints: 208\n# Comments: 50",
-    "url": "https://nielsleenheer.com/articles/2026/css-is-doomed-rendering-doom-in-3d-with-css/",
+    "title": "ChatGPT won't let you type until Cloudflare reads your React state",
+    "description": "Article URL: https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/\nComments URL: https://news.ycombinator.com/item?id=47566865\nPoints: 363\n# Comments: 277",
+    "url": "https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/",
     "source": "rss:https://hnrss.org/frontpage",
-    "fetched_at": "2026-03-29T02:56:31.155513+00:00",
-    "published": "Sat, 28 Mar 2026 20:39:01 +0000",
+    "fetched_at": "2026-03-30T03:17:56.556111+00:00",
+    "published": "Sun, 29 Mar 2026 20:21:05 +0000",
     "score": 10,
     "tags": [
       "tech",
@@ -656,12 +1405,12 @@
     ]
   },
   {
-    "title": "The first 40 months of the AI era",
-    "description": "Article URL: https://lzon.ca/posts/other/thoughts-ai-era/\nComments URL: https://news.ycombinator.com/item?id=47557185\nPoints: 127\n# Comments: 58",
-    "url": "https://lzon.ca/posts/other/thoughts-ai-era/",
+    "title": "The Cognitive Dark Forest",
+    "description": "Article URL: https://ryelang.org/blog/posts/cognitive-dark-forest/\nComments URL: https://news.ycombinator.com/item?id=47566442\nPoints: 291\n# Comments: 134",
+    "url": "https://ryelang.org/blog/posts/cognitive-dark-forest/",
     "source": "rss:https://hnrss.org/frontpage",
-    "fetched_at": "2026-03-29T02:56:31.155522+00:00",
-    "published": "Sat, 28 Mar 2026 18:42:08 +0000",
+    "fetched_at": "2026-03-30T03:17:56.556119+00:00",
+    "published": "Sun, 29 Mar 2026 19:36:21 +0000",
     "score": 10,
     "tags": [
       "tech",
@@ -669,12 +1418,12 @@
     ]
   },
   {
-    "title": "Further human + AI + proof assistant work on Knuth's \"Claude Cycles\" problem",
-    "description": "Knuth Claude's Cycles note update: problem now fully solved, by LLMs - https://news.ycombinator.com/item?id=47306926 - March 2026 (2 comments)https://chatgpt.com/share/69aaab4b-888c-8003-9a02-d1df80f9c7...Claude's Cycles [pdf] - https://news.ycombinator.com/item?id=47230710 - March 2026 (362 comment",
-    "url": "https://twitter.com/BoWang87/status/2037648937453232504",
+    "title": "More on Version Control",
+    "description": "Article URL: https://bramcohen.com/p/more-on-version-control\nComments URL: https://news.ycombinator.com/item?id=47566332\nPoints: 62\n# Comments: 11",
+    "url": "https://bramcohen.com/p/more-on-version-control",
     "source": "rss:https://hnrss.org/frontpage",
-    "fetched_at": "2026-03-29T02:56:31.155533+00:00",
-    "published": "Sat, 28 Mar 2026 18:38:59 +0000",
+    "fetched_at": "2026-03-30T03:17:56.556128+00:00",
+    "published": "Sun, 29 Mar 2026 19:26:14 +0000",
     "score": 10,
     "tags": [
       "tech",
@@ -682,12 +1431,12 @@
     ]
   },
   {
-    "title": "HumanExodus: Why I'm Building Measurement Infrastructure for the Largest Labour Transition in History",
-    "description": "In 2021, a young man showed me the DALL-E pilot. His parents are close friends. He'd just taken an internship at OpenAI.\nAfter the demo, I told him straight: based on what I just saw, CS students won't have anywhere to work. Their jobs will be done by this.\nHe didn't answer right away. Smiled a litt",
-    "url": "https://dev.to/shenbrian/humanexodus-why-im-building-measurement-infrastructure-for-the-largest-labour-transition-in-j0m",
+    "title": "Add auth to your AI agents in 5 minutes with KavachOS",
+    "description": "Auth libraries handle human sign-in. But what happens when your AI agent needs to read from GitHub, deploy to production, or call another agent's API? You end up building a custom permissions layer, rolling your own tokens, and hoping your audit trail holds up.\n\nI got tired of building that layer fr",
+    "url": "https://dev.to/thegdsks/add-auth-to-your-ai-agents-in-5-minutes-with-kavachos-5b9k",
     "source": "rss:https://dev.to/feed/tag/ai",
-    "fetched_at": "2026-03-29T02:56:31.399830+00:00",
-    "published": "Sun, 29 Mar 2026 02:47:57 +0000",
+    "fetched_at": "2026-03-30T03:17:56.851989+00:00",
+    "published": "Mon, 30 Mar 2026 03:08:30 +0000",
     "score": 10,
     "tags": [
       "ai",
@@ -695,12 +1444,12 @@
     ]
   },
   {
-    "title": "How Open-Source AI Skills Are Revolutionizing Affiliate Marketing",
-    "description": "\n  \n  \n  How Open-Source AI Skills Are Revolutionizing Affiliate Marketing\n\n\n45 MIT-licensed skills that automate your entire affiliate funnel—from research to revenue.\n\n\n\n\n\n  \n  \n  The Problem: Affiliate Marketing is Hard\n\n\nTraditional affiliate marketing requires:\n\n\n\nResearch: Finding profitable n",
-    "url": "https://dev.to/blake-donovan/how-open-source-ai-skills-are-revolutionizing-affiliate-marketing-48lc",
+    "title": "What a Reusable Listing-to-Social Pipeline Looks Like in Practice: Practical Notes for Builders",
+    "description": "\n  \n  \n  What a Reusable Listing-to-Social Pipeline Looks Like in Practice: Practical Notes for Builders\n\n\nMost content systems do not break at the draft step. They break one layer later, when a team still has to prove that the right version reached the right surface without losing the original job ",
+    "url": "https://dev.to/estatepass/what-a-reusable-listing-to-social-pipeline-looks-like-in-practice-practical-notes-for-builders-56b2",
     "source": "rss:https://dev.to/feed/tag/ai",
-    "fetched_at": "2026-03-29T02:56:31.399956+00:00",
-    "published": "Sun, 29 Mar 2026 02:40:44 +0000",
+    "fetched_at": "2026-03-30T03:17:56.852044+00:00",
+    "published": "Mon, 30 Mar 2026 03:06:54 +0000",
     "score": 10,
     "tags": [
       "ai",
@@ -708,12 +1457,12 @@
     ]
   },
   {
-    "title": "Can AI Exit Vim?",
-    "description": "Technical Analysis: Can AI Exit Vim?\n\nThe question of whether AI can exit Vim has sparked debate and curiosity among developers and AI enthusiasts alike. To address this, we'll dive into the technical aspects of the problem, exploring the challenges and possibilities of using AI to navigate and exit",
-    "url": "https://dev.to/minimal-architect/can-ai-exit-vim-16o6",
+    "title": "🚀 I Built a 3D Animated Portfolio Website in Under 1 Hour Using Gemini",
+    "description": "\nA quick experiment turned into a stunning 3D portfolio — here’s how I did it.\n\n\n\n\n\n\n  \n  \n  🌐 Live Demo\n\n\n👉 https://sripadh-sujith.github.io/portfolio/\n\n\n\n\n\n  \n  \n  💡 The Idea\n\n\nI wanted to create a modern, eye-catching portfolio with:\n\n\nSmooth 3D animations\n\nInteractive UI\n\nMinimal development tim",
+    "url": "https://dev.to/sripadh_sujith_1487e8db18/i-built-a-3d-animated-portfolio-website-in-under-1-hour-using-gemini-4n82",
     "source": "rss:https://dev.to/feed/tag/ai",
-    "fetched_at": "2026-03-29T02:56:31.399989+00:00",
-    "published": "Sun, 29 Mar 2026 02:39:12 +0000",
+    "fetched_at": "2026-03-30T03:17:56.852126+00:00",
+    "published": "Mon, 30 Mar 2026 03:05:54 +0000",
     "score": 10,
     "tags": [
       "ai",
@@ -721,12 +1470,12 @@
     ]
   },
   {
-    "title": "Your AI agent can't fetch behind logins. I built a <400kb fix in Zig.",
-    "description": "Claude Code has WebFetch. Every AI coding agent has some way to grab a webpage.\n\nThey all hit the same wall: auth.\n\nTry fetching a Medium article. A Facebook post. A private Substack. Anything behind Cloudflare. The agent gets a login page, a CAPTCHA, or nothing — and makes up the rest.\n\n\n  \n  \n  Wh",
-    "url": "https://dev.to/ancs21/your-ai-agent-cant-fetch-behind-logins-i-built-a-400kb-fix-in-zig-4d31",
+    "title": "We Are Starting an Open Source Project – Join Us!",
+    "description": "H\nello everyone,\n\nGit repo\nhttps://github.com/KERALACODERSCAFE/Keralacoderscafe.git\n\nWe are excited to announce that we are starting a new open source project as a community. This project is open to everyone — beginners, intermediate developers, and experienced developers.\nThe main goal of this proj",
+    "url": "https://dev.to/keralacoderscafe_1b6da641/we-are-starting-an-open-source-project-join-us-51d4",
     "source": "rss:https://dev.to/feed/tag/ai",
-    "fetched_at": "2026-03-29T02:56:31.400024+00:00",
-    "published": "Sun, 29 Mar 2026 02:34:36 +0000",
+    "fetched_at": "2026-03-30T03:17:56.852152+00:00",
+    "published": "Mon, 30 Mar 2026 03:03:49 +0000",
     "score": 10,
     "tags": [
       "ai",
@@ -734,12 +1483,12 @@
     ]
   },
   {
-    "title": "I’ve just launched my 5-year science migration protocol on-chain. I’m documenting the entire journey from scratch to becoming a Bio-Data Scientist.",
-    "description": "Support my research journey by collecting my content or holding my token $PROX3428\nhttps://paragraph.com/@0x3428a99343258cf7cac1d03e603397a7fefee223",
-    "url": "https://dev.to/vikbot69/ive-just-launched-my-5-year-science-migration-protocol-on-chain-im-documenting-the-entire-1k5b",
+    "title": "FormatPad + CaptureKit: Two New Free Tools from Thicket",
+    "description": "We shipped two new tools this week.\n\n\n  \n  \n  FormatPad\n\n\nPaste messy text, get clean Markdown/HTML/plain text. Runs in your browser — no upload, no account.\n\nsocial-text.thicket.sh\n\n\n  \n  \n  CaptureKit\n\n\nScreenshot any URL or upload an image, convert to PDF or PNG.\n\ncapture.thicket.sh\n\nBoth are fre",
+    "url": "https://dev.to/yonatan_naor_5642e43447ea/formatpad-capturekit-two-new-free-tools-from-thicket-4pia",
     "source": "rss:https://dev.to/feed/tag/ai",
-    "fetched_at": "2026-03-29T02:56:31.400036+00:00",
-    "published": "Sun, 29 Mar 2026 02:34:20 +0000",
+    "fetched_at": "2026-03-30T03:17:56.852168+00:00",
+    "published": "Mon, 30 Mar 2026 03:02:28 +0000",
     "score": 10,
     "tags": [
       "ai",
@@ -747,12 +1496,12 @@
     ]
   },
   {
-    "title": "Beyond the Hype: Building a Practical AI Memory System with Vector Databases",
-    "description": "\n  \n  \n  Your Agent Can Think. Let's Teach It to Remember.\n\n\nThe recent surge in AI agent development has revealed a critical bottleneck: memory. As one popular article this week poignantly stated, \"your agent can think. it can't remember.\" We're building remarkably intelligent systems that process ",
-    "url": "https://dev.to/midas126/beyond-the-hype-building-a-practical-ai-memory-system-with-vector-databases-5hba",
+    "title": "Big Tech firms are accelerating AI investments and integration, while regulators and companies focus on safety and responsible adoption.",
+    "description": "The AI landscape is experiencing unprecedented growth and transformation. This post delves into the key developments shaping the future of artificial intelligence, from massive industry investments to critical safety considerations and integration into core development processes.\n\nKey Areas Explored",
+    "url": "https://dev.to/stelixx-insights/big-tech-firms-are-accelerating-ai-investments-and-integration-while-regulators-and-companies-k99",
     "source": "rss:https://dev.to/feed/tag/ai",
-    "fetched_at": "2026-03-29T02:56:31.400402+00:00",
-    "published": "Sun, 29 Mar 2026 02:29:42 +0000",
+    "fetched_at": "2026-03-30T03:17:56.852181+00:00",
+    "published": "Mon, 30 Mar 2026 03:00:50 +0000",
     "score": 10,
     "tags": [
       "ai",
@@ -760,94 +1509,16 @@
     ]
   },
   {
-    "title": "How to Deploy an AI App in Production: The Complete 2026 Guide",
-    "description": "\n  \n  \n  Introduction\n\n\nDeploying applications shouldn’t be this hard.\n\nIf you’ve ever tried to deploy an app, you’ve probably dealt with:\n\nYAML configuration files\n\nCI/CD pipelines\n\nInfrastructure setup\n\nDebugging deployment failures\n\nWhat starts as “just a quick deploy” often turns into hours of f",
-    "url": "https://dev.to/sali_ac161a1b71406354896c/how-to-deploy-an-ai-app-in-production-the-complete-2026-guide-3i0g",
+    "title": "I built a PM operating system on Claude Code. Here's what it produced on two real projects.",
+    "description": "I've been building Shipwright, a PM toolkit that runs inside Claude Code. It's not a chatbot. Not a \"give me a PRD\" prompt. It's a structured system: 44 atomic skills, 7 specialist agents, 16 multi-step workflows, binary pass/fail quality gates, and deterministic recovery playbooks.                 ",
+    "url": "https://dev.to/edgecaser/i-built-a-pm-operating-system-on-claude-code-heres-what-it-produced-on-two-real-projects-hne",
     "source": "rss:https://dev.to/feed/tag/ai",
-    "fetched_at": "2026-03-29T02:56:31.400461+00:00",
-    "published": "Sun, 29 Mar 2026 02:25:42 +0000",
+    "fetched_at": "2026-03-30T03:17:56.852204+00:00",
+    "published": "Mon, 30 Mar 2026 02:56:18 +0000",
     "score": 10,
     "tags": [
       "ai",
       "dev"
-    ]
-  },
-  {
-    "title": "I Built 3 n8n Workflows That Replaced 6 Hours of Manual Work Per Week — Now You Can Have Them All for €59",
-    "description": "Last month, I automated three processes that were eating hours of my team's week:\n\n\n\nGitHub issue triage — manually reading, classifying, and routing every issue/PR\n\nDaily standups — everyone scrambling to remember what they did yesterday\n\nClient follow-ups — leads going cold because nobody sent the",
-    "url": "https://dev.to/automatewithai/i-built-3-n8n-workflows-that-replaced-6-hours-of-manual-work-per-week-now-you-can-have-them-all-4fho",
-    "source": "rss:https://dev.to/feed/tag/ai",
-    "fetched_at": "2026-03-29T02:56:31.400512+00:00",
-    "published": "Sun, 29 Mar 2026 02:24:42 +0000",
-    "score": 10,
-    "tags": [
-      "ai",
-      "dev"
-    ]
-  },
-  {
-    "title": "ChemBERTa-2: Towards Chemical Foundation Models",
-    "description": "{{ $json.postContent }}",
-    "url": "https://dev.to/paperium/chemberta-2-towards-chemical-foundation-models-3p3i",
-    "source": "rss:https://dev.to/feed/tag/ai",
-    "fetched_at": "2026-03-29T02:56:31.400520+00:00",
-    "published": "Sun, 29 Mar 2026 02:20:06 +0000",
-    "score": 10,
-    "tags": [
-      "ai",
-      "dev"
-    ]
-  },
-  {
-    "title": "What Is Multi-Agent Orchestration? A Technical Guide for 2026",
-    "description": "\n  \n  \n  What Is Multi-Agent Orchestration? A Technical Guide for 2026\n\n\nMulti-agent orchestration is the coordination and management of multiple AI agents working together as a unified system to achieve complex goals. Unlike single-agent systems, multi-agent architectures enable specialized agents ",
-    "url": "https://dev.to/aither_os/what-is-multi-agent-orchestration-a-technical-guide-for-2026-29ai",
-    "source": "rss:https://dev.to/feed/tag/ai",
-    "fetched_at": "2026-03-29T02:56:31.400855+00:00",
-    "published": "Sun, 29 Mar 2026 02:16:59 +0000",
-    "score": 10,
-    "tags": [
-      "ai",
-      "dev"
-    ]
-  },
-  {
-    "title": "I Decompiled the White House's New App",
-    "description": "Comments",
-    "url": "https://blog.thereallo.dev/blog/decompiling-the-white-house-app",
-    "source": "rss:https://lobste.rs/rss",
-    "fetched_at": "2026-03-29T02:56:31.875761+00:00",
-    "published": "Sat, 28 Mar 2026 15:25:19 -0500",
-    "score": 10,
-    "tags": [
-      "tech",
-      "programming"
-    ]
-  },
-  {
-    "title": "Linux, finally for everyone",
-    "description": "Comments",
-    "url": "https://yololinux.com",
-    "source": "rss:https://lobste.rs/rss",
-    "fetched_at": "2026-03-29T02:56:31.875777+00:00",
-    "published": "Sat, 28 Mar 2026 08:02:13 -0500",
-    "score": 10,
-    "tags": [
-      "tech",
-      "programming"
-    ]
-  },
-  {
-    "title": "BubbleWrap your dev env and agents",
-    "description": "Comments",
-    "url": "https://dpc.pw/posts/bubblewrap-your-dev-env-and-agents/",
-    "source": "rss:https://lobste.rs/rss",
-    "fetched_at": "2026-03-29T02:56:31.875786+00:00",
-    "published": "Sat, 28 Mar 2026 14:13:02 -0500",
-    "score": 10,
-    "tags": [
-      "tech",
-      "programming"
     ]
   }
 ]

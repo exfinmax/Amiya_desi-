@@ -1,26 +1,26 @@
-> 今天的资源嘛...也就这样吧，不过不看会后悔哦~ (¬‿¬)
+> 哼，今天的资源也就一般般啦，不过看看也无妨~ (｡•̀ᴗ-)✧
 
 ---
 
 #### 今日资源推荐
 
-- **golang/go** ⭐133,185
-  - 简介：golang/go，GitHub 上拥有 133,185 stars 的热门开源项目。
+- **etcd-io/etcd** ⭐51,701
+  - 简介：etcd-io/etcd，GitHub 上拥有 51,701 stars 的热门开源项目。
   - 推荐理由：GitHub 高星项目，社区认可度高。
-  - 标签：golang
-  - 获取：<https://github.com/golang/go>
+  - 标签：etcd-io, etcd
+  - 获取：<https://github.com/etcd-io/etcd>
 
-- **junegunn/fzf** ⭐79,068
-  - 简介：fzf 是一个高效的模糊查找命令行工具，支持多种 shell 环境。
-  - 推荐理由：提升命令行文件和历史命令搜索效率。
-  - 标签：cli, bash, fish
-  - 获取：<https://github.com/junegunn/fzf>
+- **shadcn-ui/ui** ⭐110,995
+  - 简介：shadcn-ui/ui，GitHub 上拥有 110,995 stars 的热门开源项目。
+  - 推荐理由：GitHub 高星项目，社区认可度高。
+  - 标签：shadcn-ui
+  - 获取：<https://github.com/shadcn-ui/ui>
 
-- **OpenHands/OpenHands** ⭐70,057
-  - 简介：OpenHands 是一个开源的 CLI 工具，让 AI 代理直接操作开发环境。
-  - 推荐理由：通过自然语言控制终端，提升开发自动化效率。
-  - 标签：cli, agent, artificial-intelligence
-  - 获取：<https://github.com/OpenHands/OpenHands>
+- **moby/moby** ⭐71,574
+  - 简介：moby/moby，GitHub 上拥有 71,574 stars 的热门开源项目。
+  - 推荐理由：GitHub 高星项目，社区认可度高。
+  - 标签：moby, moby
+  - 获取：<https://github.com/moby/moby>
 
 
 > 更多实用资源，敬请关注！

@@ -1,64 +1,64 @@
 [
   {
-    "title": "golang/go",
-    "url": "https://github.com/golang/go",
+    "title": "etcd-io/etcd",
+    "url": "https://github.com/etcd-io/etcd",
     "source": "github:search",
     "tags": [
-      "go",
-      "go",
-      "golang",
-      "language"
+      "k8s",
+      "devops",
+      "cncf",
+      "consensus",
+      "database"
     ],
-    "score": 72.96,
-    "summary": "golang/go，GitHub 上拥有 133,185 stars 的热门开源项目。",
+    "score": 74.03,
+    "summary": "etcd-io/etcd，GitHub 上拥有 51,701 stars 的热门开源项目。",
     "reason": "GitHub 高星项目，社区认可度高。",
     "audience": "开发者",
     "keywords": [
-      "golang"
+      "etcd-io",
+      "etcd"
     ],
-    "stars": 133185
+    "stars": 51701
   },
   {
-    "title": "junegunn/fzf",
-    "url": "https://github.com/junegunn/fzf",
+    "title": "shadcn-ui/ui",
+    "url": "https://github.com/shadcn-ui/ui",
     "source": "github:search",
     "tags": [
-      "cli",
-      "bash",
-      "cli",
-      "fish"
+      "react",
+      "frontend",
+      "base-ui",
+      "components",
+      "laravel"
     ],
-    "score": 70.6,
-    "summary": "fzf 是一个高效的模糊查找命令行工具，支持多种 shell 环境。",
-    "reason": "提升命令行文件和历史命令搜索效率。",
+    "score": 72.15,
+    "summary": "shadcn-ui/ui，GitHub 上拥有 110,995 stars 的热门开源项目。",
+    "reason": "GitHub 高星项目，社区认可度高。",
     "audience": "开发者",
     "keywords": [
-      "cli",
-      "bash",
-      "fish",
-      "模糊搜索"
+      "shadcn-ui"
     ],
-    "stars": 79068
+    "stars": 110995
   },
   {
-    "title": "OpenHands/OpenHands",
-    "url": "https://github.com/OpenHands/OpenHands",
+    "title": "moby/moby",
+    "url": "https://github.com/moby/moby",
     "source": "github:search",
     "tags": [
-      "cli",
-      "agent",
-      "artificial-intelligence",
-      "chatgpt"
+      "docker",
+      "devops",
+      "containers",
+      "docker",
+      "go"
     ],
-    "score": 69.01,
-    "summary": "OpenHands 是一个开源的 CLI 工具，让 AI 代理直接操作开发环境。",
-    "reason": "通过自然语言控制终端，提升开发自动化效率。",
+    "score": 71.98,
+    "summary": "moby/moby，GitHub 上拥有 71,574 stars 的热门开源项目。",
+    "reason": "GitHub 高星项目，社区认可度高。",
     "audience": "开发者",
     "keywords": [
-      "cli",
-      "agent",
-      "artificial-intelligence"
+      "moby",
+      "moby"
     ],
-    "stars": 70057
+    "stars": 71574
   }
 ]

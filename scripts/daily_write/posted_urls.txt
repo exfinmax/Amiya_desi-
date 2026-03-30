@@ -40,3 +40,6 @@ https://github.com/microsoft/ML-For-Beginners
 https://github.com/golang/go
 https://github.com/junegunn/fzf
 https://github.com/OpenHands/OpenHands
+https://github.com/etcd-io/etcd
+https://github.com/shadcn-ui/ui
+https://github.com/moby/moby
